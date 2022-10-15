@@ -2846,7 +2846,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#publicHousing>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#sashWindow> ;
     rico:identifier "ITDT201009"@it ;
-    rico:identifier.1 "1113/54"@it ;
+    rico:identifier "1113/54"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1954> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "9x14"@it ;
@@ -3205,7 +3205,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasDocumentaryFormType <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#photography> ;
     rico:hasInstantiation <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff112_1> ;
     rico:identifier "ITDT201106"@it ;
-    rico:identifier.1 "59-426/1"@it ;
+    rico:identifier "59-426/1"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1959> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "8x11"@it ;
@@ -3219,7 +3219,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasDocumentaryFormType <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#photography> ;
     rico:hasInstantiation <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff112_2> ;
     rico:identifier "ITDT201107"@it ;
-    rico:identifier.1 "59-426/2"@it ;
+    rico:identifier "59-426/2"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1959> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "8x11"@it ;
@@ -4360,7 +4360,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasOrHadSubject <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#archPhotography>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#publicHousing> ;
     rico:identifier "ITDT201001"@it ;
-    rico:identifier.1 "915/54"@it ;
+    rico:identifier "915/54"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1954> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "17x12"@it ;
@@ -4377,7 +4377,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasOrHadSubject <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#archDrawing>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#publicHousing> ;
     rico:identifier "ITDT201002"@it ;
-    rico:identifier.1 "114/53"@it ;
+    rico:identifier "114/53"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1953> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "9x14"@it ;
@@ -4394,7 +4394,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasOrHadSubject <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#archDrawing>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#publicHousing> ;
     rico:identifier "ITDT201003"@it ;
-    rico:identifier.1 "112/53"@it ;
+    rico:identifier "112/53"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1953> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "9x14"@it ;
@@ -4411,7 +4411,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasOrHadSubject <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#archDrawing>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#publicHousing> ;
     rico:identifier "ITDT201004"@it ;
-    rico:identifier.1 "972/52"@it ;
+    rico:identifier "972/52"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1952> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "9x14"@it ;
@@ -4428,7 +4428,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasOrHadSubject <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#archDrawing>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#publicHousing> ;
     rico:identifier "ITDT201005"@it ;
-    rico:identifier.1 "113/53"@it ;
+    rico:identifier "113/53"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1953> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "9x14"@it ;
@@ -4445,7 +4445,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasOrHadSubject <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#archDrawing>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#publicHousing> ;
     rico:identifier "ITDT201006"@it ;
-    rico:identifier.1 "116/53"@it ;
+    rico:identifier "116/53"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1953> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "9x14"@it ;
@@ -4462,7 +4462,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasOrHadSubject <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#archDrawing>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#publicHousing> ;
     rico:identifier "ITDT201007"@it ;
-    rico:identifier.1 "117/53"@it ;
+    rico:identifier "117/53"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1953> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "9x14"@it ;
@@ -4481,7 +4481,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#publicGarden>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#ribbonWindow> ;
     rico:identifier "ITDT201010"@it ;
-    rico:identifier.1 "1326/55"@it ;
+    rico:identifier "1326/55"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1955> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "18x23"@it ;
@@ -4500,7 +4500,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#publicGarden>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#ribbonWindow> ;
     rico:identifier "ITDT201011"@it ;
-    rico:identifier.1 "1334/55"@it ;
+    rico:identifier "1334/55"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1955> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "23x18"@it ;
@@ -4519,7 +4519,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#column>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#ticketOffice> ;
     rico:identifier "ITDT201012"@it ;
-    rico:identifier.1 "1325/55"@it ;
+    rico:identifier "1325/55"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1955> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "13x13"@it ;
@@ -4537,7 +4537,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#beach>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#column> ;
     rico:identifier "ITDT201013"@it ;
-    rico:identifier.1 "1328/55"@it ;
+    rico:identifier "1328/55"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1955> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "8x11"@it ;
@@ -4556,7 +4556,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#publicGarden>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#ribbonWindow> ;
     rico:identifier "ITDT201014"@it ;
-    rico:identifier.1 "1333/55"@it ;
+    rico:identifier "1333/55"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1955> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "11x8"@it ;
@@ -4573,7 +4573,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasOrHadSubject <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#archDrawing>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#church> ;
     rico:identifier "ITDT201023"@it ;
-    rico:identifier.1 "1312/55"@it ;
+    rico:identifier "1312/55"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1955> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "14x9"@it ;
@@ -4590,7 +4590,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasOrHadSubject <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#archDrawing>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#church> ;
     rico:identifier "ITDT201024"@it ;
-    rico:identifier.1 "1313/55"@it ;
+    rico:identifier "1313/55"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1955> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "9x14"@it ;
@@ -4766,7 +4766,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#church>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#vault> ;
     rico:identifier "ITDT201035"@it ;
-    rico:identifier.1 "59-156/1"@it ;
+    rico:identifier "59-156/1"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1959> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "23.4x17.3"@it ;
@@ -4784,7 +4784,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#church>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#vault> ;
     rico:identifier "ITDT201036"@it ;
-    rico:identifier.1 "59-156/10"@it ;
+    rico:identifier "59-156/10"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1959> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "17.3x23.4"@it ;
@@ -4802,7 +4802,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#church>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#nave> ;
     rico:identifier "ITDT201037"@it ;
-    rico:identifier.1 "59-156/7"@it ;
+    rico:identifier "59-156/7"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1959> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "17.3x23.4"@it ;
@@ -4823,7 +4823,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#nave>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#texture> ;
     rico:identifier "ITDT201038"@it ;
-    rico:identifier.1 "62-732/4"@it ;
+    rico:identifier "62-732/4"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1962> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "17.3x23.4"@it ;
@@ -4844,7 +4844,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#railing>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#vault> ;
     rico:identifier "ITDT201039"@it ;
-    rico:identifier.1 "62-732/10"@it ;
+    rico:identifier "62-732/10"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1962> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "17.3x23.4"@it ;
@@ -4864,7 +4864,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#crypt>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#railing> ;
     rico:identifier "ITDT201040"@it ;
-    rico:identifier.1 "62-732/6"@it ;
+    rico:identifier "62-732/6"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1962> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "23.4x17.3"@it ;
@@ -4884,7 +4884,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#church>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#railing> ;
     rico:identifier "ITDT201042"@it ;
-    rico:identifier.1 "62-732/7"@it ;
+    rico:identifier "62-732/7"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1962> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "23.4x17.3"@it ;
@@ -4902,7 +4902,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#bellTower>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#church> ;
     rico:identifier "ITDT201043"@it ;
-    rico:identifier.1 "59-156/3"@it ;
+    rico:identifier "59-156/3"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1959> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "17.3x23.4"@it ;
@@ -4922,7 +4922,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#nave>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#railing> ;
     rico:identifier "ITDT201044"@it ;
-    rico:identifier.1 "62-732/12"@it ;
+    rico:identifier "62-732/12"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1962> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:isRecordResourceAssociatedWithRecordResource <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201041> ;
@@ -4942,7 +4942,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#church>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#vault> ;
     rico:identifier "ITDT201045"@it ;
-    rico:identifier.1 "59-156/2"@it ;
+    rico:identifier "59-156/2"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1959> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "23.2x15.7"@it ;
@@ -4961,7 +4961,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#church>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#vault> ;
     rico:identifier "ITDT201046"@it ;
-    rico:identifier.1 "59-156/11"@it ;
+    rico:identifier "59-156/11"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1959> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "23.4x17.3"@it ;
@@ -4981,7 +4981,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#pew>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#vault> ;
     rico:identifier "ITDT201047"@it ;
-    rico:identifier.1 "62-732/1"@it ;
+    rico:identifier "62-732/1"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1962> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "17.3x23.4"@it ;
@@ -5001,7 +5001,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#railing>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#stairs> ;
     rico:identifier "ITDT201048"@it ;
-    rico:identifier.1 "62-732/9"@it ;
+    rico:identifier "62-732/9"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1962> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "17.3x23.4"@it ;
@@ -5019,7 +5019,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#church>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#nave> ;
     rico:identifier "ITDT201049"@it ;
-    rico:identifier.1 "59-156/6"@it ;
+    rico:identifier "59-156/6"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1959> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "17.3x23.4"@it ;
@@ -5038,7 +5038,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#church>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#railing> ;
     rico:identifier "ITDT201050"@it ;
-    rico:identifier.1 "59-156/8"@it ;
+    rico:identifier "59-156/8"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1959> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "17.3x23.4"@it ;
@@ -5055,7 +5055,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasOrHadSubject <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#archDrawing>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#church> ;
     rico:identifier "ITDT201054"@it ;
-    rico:identifier.1 "1311/55"@it ;
+    rico:identifier "1311/55"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1955> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "23.4x17.3"@it ;
@@ -5079,7 +5079,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasOrHadSubject <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#archModel>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#archPhotography> ;
     rico:identifier "ITDT201061"@it ;
-    rico:identifier.1 "61-284/4"@it ;
+    rico:identifier "61-284/4"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1961> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:scopeAndContent "Fotomontaggio per la presentazione del progetto Hotel Europa. Plastico grezzo e una fotografia idella costiera vicino alla localitÃ  Le Ginestre  con vista verso Ovest."@it ;
@@ -5093,7 +5093,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasInstantiation <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff187>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff188> ;
     rico:identifier "ITDT201062"@it ;
-    rico:identifier.1 "62-126/1"@it ;
+    rico:identifier "62-126/1"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1962> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:scopeAndContent "Foto del fotomontaggio - fotografia dell'incollaggio del plastico di studio su una foto della costiera prima della costruzione dell'Hotel Europa."@it .
@@ -5106,7 +5106,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasInstantiation <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff189>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff190> ;
     rico:identifier "ITDT201063"@it ;
-    rico:identifier.1 "61-284/5"@it ;
+    rico:identifier "61-284/5"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1961> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:scopeAndContent "Il luogo di costruzione dell'Hotel Europa, vistra verso l'Est"@it ;
@@ -5240,7 +5240,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasInstantiation <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff235>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff236> ;
     rico:identifier "ITDT201099"@it ;
-    rico:identifier.1 "64-186/13"@it ;
+    rico:identifier "64-186/13"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1964> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:scopeAndContent "L'ingresso della filiale nÂ° 6 della Cassa di Risparmio di Trieste in via Valmaura 10. Particolare dellla tettoia dell'ingresso."@it ;
@@ -5254,7 +5254,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasInstantiation <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff237>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff238> ;
     rico:identifier "ITDT201100"@it ;
-    rico:identifier.1 "64-186/2"@it ;
+    rico:identifier "64-186/2"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1964> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:scopeAndContent "Cassa di Risparmio di Trieste in via Valmaura 10. Particolare del quadrilatero sghembo del settore uffici, delimitato dai pilastri trapezoidali."@it ;
@@ -5268,7 +5268,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasInstantiation <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff241>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff242> ;
     rico:identifier "ITDT201103"@it ;
-    rico:identifier.1 "64-186/7"@it ;
+    rico:identifier "64-186/7"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1964> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:scopeAndContent "Interni della filiale nÂ° 6 della Cassa di Risparmio di Trieste in via Valmaura 10. Vista della zona clienti."@it ;
@@ -5282,7 +5282,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasInstantiation <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff243>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff244> ;
     rico:identifier "ITDT201104"@it ;
-    rico:identifier.1 "64-186/1"@it ;
+    rico:identifier "64-186/1"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1964> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:scopeAndContent "Interni della filiale nÂ° 6 della Cassa di Risparmio di Trieste in via Valmaura 10. Vista della zona uffici, al di lÃ  della parete trapezoidale."@it ;
@@ -5296,7 +5296,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasInstantiation <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff245>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff246> ;
     rico:identifier "ITDT201105"@it ;
-    rico:identifier.1 "64-186/5"@it ;
+    rico:identifier "64-186/5"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1964> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:scopeAndContent "Interni della filiale nÂ° 6 della Cassa di Risparmio di Trieste in via Valmaura 10. Vista dell'ingresso."@it ;
@@ -5312,7 +5312,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff181> ;
     rico:hasOrHadSubject <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#archPhotography> ;
     rico:identifier "ITDT205009"@it ;
-    rico:identifier.1 "63-76/16"@it ;
+    rico:identifier "63-76/16"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1963> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt205> ;
     rico:scopeAndContent "Fotomontaggio con il plastico dell'hotel Europa preparato per la presentazione del progetto"@it ;
@@ -5328,7 +5328,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff183> ;
     rico:hasOrHadSubject <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#archPhotography> ;
     rico:identifier "ITDT205010"@it ;
-    rico:identifier.1 "63-76/14"@it ;
+    rico:identifier "63-76/14"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1963> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt205> ;
     rico:scopeAndContent "Fotomontaggio con il plastico dell'hotel Europa preparato per la presentazione del progetto"@it ;
@@ -5358,7 +5358,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasInstantiation <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff155>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff156> ;
     rico:identifier "ITDT206014"@it ;
-    rico:identifier.1 "86-169/8"@it ;
+    rico:identifier "86-169/8"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1986> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt206> ;
     rico:recordResourceExtent "23x17"@it ;
@@ -5374,7 +5374,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
     rico:hasInstantiation <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff157>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff158> ;
     rico:identifier "ITDT206015"@it ;
-    rico:identifier.1 "86-169/12"@it ;
+    rico:identifier "86-169/12"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1986> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt206> ;
     rico:recordResourceExtent "23x17"@it ;
@@ -5393,7 +5393,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#archPhotography>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#renRevival> ;
     rico:identifier "ITDT206017"@it ;
-    rico:identifier.1 "86-169/9"@it ;
+    rico:identifier "86-169/9"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1986> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt206> ;
     rico:recordResourceExtent "23x17"@it ;
@@ -5410,7 +5410,7 @@ Altri documenti privati di Tamburini non sono distinguibili da quelli della sua 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#tiff166> ;
     rico:hasOrHadSubject <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#archPhotography> ;
     rico:identifier "ITDT206021"@it ;
-    rico:identifier.1 "737365"@it ;
+    rico:identifier "737365"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1988unct> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt206> ;
     rico:recordResourceExtent "23x17"@it ;
@@ -5641,7 +5641,7 @@ Inoltre contiene immagini di rendering stampati, una pianta con stato di fatto, 
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#railing>,
         <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#vault> ;
     rico:identifier "ITDT201041"@it ;
-    rico:identifier.1 "59-156/9"@it ;
+    rico:identifier "59-156/9"@it ;
     rico:isAssociatedWithDate <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1959> ;
     rico:isOrWasIncludedIn <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#itdt201> ;
     rico:recordResourceExtent "17.3x23.4"@it ;
@@ -6483,4 +6483,3 @@ Il materiale piÃ¹ corposo riguarda la Chiesa di San Luigi - con ritagli degli 
     rico:dateStandard "ISO8601"@it ;
     rico:expressedDate "2019-08-01"^^xsd:date ;
     rico:isOrWasPartOf <https://raw.githubusercontent.com/dmikhaylova/dt_archive/main/dtest.ttl#1910s> .
-
