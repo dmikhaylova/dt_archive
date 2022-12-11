@@ -1,5 +1,5 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix dta: <https://dmikhaylova.github.io/dt_archive#> .
+@prefix dta: <https://dinotamburini.it#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix itdt: <https://dmikhaylova.github.io/itdt_ontology#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -1205,7 +1205,7 @@ dta:itdt5005 a itdt:PhysicalModel ;
     rico:identifier "ITDT5005"@it ;
     rico:isAssociatedWithDate dta:1963 ;
     rico:isOrWasIncludedIn dta:itdt5 ;
-    rico:scopeAndContent "Plastico di massima dell'Albergo \"Europa\" e dell'annessa scuola alberghiera \"Le Ginestre\". Sono evidenti i due corpi di base. L'edificio dell'hotel con il blocco delle camere sulla sinistra e la parte dei servizi si collegano tra loro da un ponte panoramico con sala ristorante. Sotto il livello della strada costiera si posiziona l'edificio della scuola alberghiera. "@it ;
+    rico:scopeAndContent "Plastico di massima dell'Albergo \"Europa\" e dell'annessa scuola alberghiera \"Le Ginestre\". Sono evidenti i due corpi di base. L'edificio dell'hotel con il blocco delle camere sulla sinistra e la parte dei servizi a destra sono collegati tra loro da un ponte panoramico con annessa una sala ristorante. Più a monte, sotto il livello della strada costiera si posiziona l'edificio della scuola alberghiera."@it ;
     rico:title "Plastico dell'Albergo Europa"@it .
 
 dta:itdt5006 a itdt:PhysicalModel ;
@@ -1222,7 +1222,7 @@ dta:itdt5006 a itdt:PhysicalModel ;
     rico:identifier "ITDT5006"@it ;
     rico:isAssociatedWithDate dta:1961 ;
     rico:isOrWasIncludedIn dta:itdt5 ;
-    rico:scopeAndContent "Plastico di studio o grezzo, prima variante, dell'Hotel Europa. Si nota come la prima variante del progetto prevedeva che la scuola fosse più alta dell'albergo"@it ;
+    rico:scopeAndContent "Plastico di studio o grezzo, prima variante dell'Hotel Europa. Si noti come nella prima variante del progetto, la scuola alberghiera dovesse essere più alta dell'albergo."@it ;
     rico:title "Plastico di studio per l'Hotel Europa"@it .
 
 dta:itdtarch a rico:RecordSet ;
@@ -2310,8 +2310,9 @@ dta:itdt10101001 a itdt:WorkingDrawing ;
     rico:isAssociatedWithDate dta:1955 ;
     rico:isOrWasIncludedIn dta:itdt10101 ;
     rico:recordResourceExtent "29.7x42.0"@it ;
-    rico:scopeAndContent "Copia eliografica dal lucido che presenta due elaborati grafici per la chiesa: il prospetto ovest o principale della chiesa, la vista da sinistra verso destra: battistero, chiesa, portico con campanile e casa canonica sul retro e sull'estremo destro una palazzina per uffici a forma esagonale; la sezione trasversale a livello del presbiterio e sulla zona delle capelle laterali; sezione trasversale della palazzina per uffici a forma esagonale: particolare dell'ingresso."@it ;
-    rico:title "Un dettaglio del prospetto ovest e sezione sud della chiesa parrocchiale del quartiere San Luigi "@it .
+    rico:scopeAndContent """Copia eliografica - dal lucido che presenta due elaborati grafici per la chiesa: il prospetto Ovest o principale della chiesa - visto da sinistra verso destra: battistero, chiesa, portico con campanile e casa canonica sul retro e sull'estremità di destra una palazzina per uffici a forma esagonale.  
+ La sezione trasversale a livello del presbiterio e delle cappelle laterali; sezione trasversale della palazzina per uffici a forma esagonale: particolare dell'ingresso."""@it ;
+    rico:title "Un dettaglio del prospetto Ovest e della sezione Sud della chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:itdt10101002 a itdt:Elevation ;
     dc:language "it"^^xsd:language ;
@@ -2325,8 +2326,8 @@ dta:itdt10101002 a itdt:Elevation ;
     rico:isAssociatedWithDate dta:1955 ;
     rico:isOrWasIncludedIn dta:itdt10101 ;
     rico:recordResourceExtent "29.7x42.0"@it ;
-    rico:scopeAndContent "Copia elografica dal lucido con il prospetto sud della chiesa, una palazzina per uffici e la casa canonica, il campanile ed il lato destro della chiesa con il particolare sistema di copertura a volta parabolica. "@it ;
-    rico:title "Prospetto sud della chiesa parrocchiale del quartiere San Luigi "@it .
+    rico:scopeAndContent "Copia eliografica - dal lucido del prospetto Sud della chiesa - vista di una palazzina per uffici, della casa canonica, del campanile e del lato destro della chiesa con il particolare sistema di copertura a volta parabolica."@it ;
+    rico:title "Prospetto Sud della chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:itdt10101003 a itdt:Elevation ;
     dc:language "it"^^xsd:language ;
@@ -2340,8 +2341,8 @@ dta:itdt10101003 a itdt:Elevation ;
     rico:isAssociatedWithDate dta:1955 ;
     rico:isOrWasIncludedIn dta:itdt10101 ;
     rico:recordResourceExtent "29.7x42.0"@it ;
-    rico:scopeAndContent "Copia elografica dal lucido con il prospetto nord: vista dell'abiside laterale destro, del lato derstro della chiesa e del battistero a pianta centrale. Sullo sfondo il campanile. Da dietro l'abside, si osserva una parte della canonica. "@it ;
-    rico:title "Prospetto nord della chiesa parrocchiale del quartiere San Luigi "@it .
+    rico:scopeAndContent "Copia eliografica - dal lucido del prospetto Nord: vista dell'abside laterale destra, del lato destro della chiesa e del battistero a pianta centrale. Sullo sfondo il campanile. Sul retro l'abside, si staglia una parte della canonica."@it ;
+    rico:title "Prospetto Nord della chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:itdt10101004 a itdt:Elevation ;
     dc:language "it"^^xsd:language ;
@@ -2355,8 +2356,8 @@ dta:itdt10101004 a itdt:Elevation ;
     rico:isAssociatedWithDate dta:1955 ;
     rico:isOrWasIncludedIn dta:itdt10101 ;
     rico:recordResourceExtent "29.7x42.0"@it ;
-    rico:scopeAndContent "Copia elografica dal lucido con il prospetto ovest: il battistero, la chiesa, il portico, il campanile e la casa canonica sul retro e la palazzina per uffici a forma esagonale. "@it ;
-    rico:title "Prospetto ovest della chiesa parrocchiale del quartiere San Luigi "@it .
+    rico:scopeAndContent "Copia eliografica - dal lucido del prospetto Ovest: il battistero, la chiesa, il portico, il campanile e la casa canonica sul retro e la palazzina per uffici a forma esagonale."@it ;
+    rico:title "Prospetto Ovest della chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:itdt10101005 a itdt:Section ;
     dc:language "it"^^xsd:language ;
@@ -2370,8 +2371,9 @@ dta:itdt10101005 a itdt:Section ;
     rico:isAssociatedWithDate dta:1955 ;
     rico:isOrWasIncludedIn dta:itdt10101 ;
     rico:recordResourceExtent "29.7x42.0"@it ;
-    rico:scopeAndContent "Copia eliografica dal lucido con due sezioni della chiesa. Sezione longitudinale: la vista del battistero e del sistema di scalinate per accedere all'ingresso della chiesa. Vista della navata centrale con le particolari arcate a forma di un quarto di cerchio, dello sviluppo della copertura a volte e della volta absidale sulla destra. Sono visibili in sezione i tre diversi piani di caplestio: quello del piano terra, quello semi-interrato della cripta e quello soprelevato del presbiterio. A cui si aggiunge un livello interrato dei locali tecnici. Sezione trasversale: bussola dell'uscita della chiesa verso il battistero, la sezione della chiesa a tre navate con vista verso il presbiterio e le cappelle laterali, il sistema del portico con vista del campanile e di parte della casa canonica. Verso destra la sezione delle sale del piano terra e del primo piano della palazzina per uffici a forma esagonale. E' visisbile la varaiazione di quota del piano di calpestio nelle diverse strutture. "@it ;
-    rico:title "Sezioni della chiesa parrocchiale del quartiere San Luigi "@it .
+    rico:scopeAndContent """Copia eliografica - dal lucido con due sezioni della chiesa: longitudinale e trasversale.  
+ Sezione Longitudinale - con vista del battistero e del sistema di scalinate per accedere all'ingresso della chiesa. Vista della navata centrale con le particolari arcate a forma di un quarto di cerchio, dello sviluppo della copertura a volte e della volta absidale sulla destra. Sono visibili in sezione i tre diversi piani di calpestio: quello del piano terra, quello semi-interrato della cripta e quello soprelevato del presbiterio, a cui si aggiunge un livello interrato dei locali tecnici. Sezione trasversale: bussola dell'uscita della chiesa verso il battistero, sezione della chiesa a tre navate con vista verso il presbiterio e le cappelle laterali, il sistema del portico con vista del campanile e di parte della casa canonica. Verso destra la sezione delle sale del piano terra e del primo piano della palazzina per uffici a forma esagonale. E' visibile la variazione di quota del piano di calpestio nelle diverse strutture."""@it ;
+    rico:title "Sezioni della chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:itdt10101006 a itdt:FloorPlan ;
     dc:language "it"^^xsd:language ;
@@ -2385,8 +2387,8 @@ dta:itdt10101006 a itdt:FloorPlan ;
     rico:isAssociatedWithDate dta:1955 ;
     rico:isOrWasIncludedIn dta:itdt10101 ;
     rico:recordResourceExtent "29.7x42.0"@it ;
-    rico:scopeAndContent "Copia elografica dal lucido con la pianta del piano terra dei differenti componenti del complesso: battistero a pianta circolare a sei pilastri; chiesa a pianta a T trilobata, si allarga in corrispondenza del transetto su cui si innesta il sistema a piani sfalsati del presbiterio, della cripta e dei corridoi che costeggiano l'abside (deambulatori circumabsidali). Le tre navate sono separate da sei coppie di pilastri. Le pareti laterali della chiesa non sono continue ma spezzate in quattro setti lievemente convergenti verso il lato dell'altare e staccati tra loro dalla stessa feritoia in vetro che separa le volte paraboliche lievemente conoidali le une dalle altre. Sul lato destro si trova il cortile del sagrato, circondato da un porticato rettangolare che funge da cerniera tra la stessa chiesa, il campanile, la canonica e la palazzina per uffici. Il campanile a pianta trapezoidale incuneata tra chiesa e canonica. La casa canonica a pianta trapezoidale divisa in due dal sistema di distribuzione verticale: una scala interna che termina sull'esterno nel cortile accanto all'abside. La casa canonica è posta sul retro, mentre sul davanti, allineata al battistero, si trova la palazzina per uffici a pianta esagonale con una grande sala consigliare al piano terra. "@it ;
-    rico:title "Pianta del piano terra della chiesa parrocchiale del quartiere San Luigi "@it .
+    rico:scopeAndContent "Copia eliografica - dal lucido con pianta del Piano Terra con i differenti edifici del complesso: battistero a pianta circolare a sei pilastri; chiesa a pianta a T trilobata, che si allarga in corrispondenza del transetto su cui si innesta il sistema a piani sfalsati del presbiterio, della cripta e dei corridoi che costeggiano l'abside (deambulatori circumabsidali). Le tre navate sono separate da sei coppie di pilastri. Le pareti laterali della chiesa non sono continue, ma spezzate in quattro setti lievemente convergenti verso il lato dell'altare e staccate tra loro dalla stessa feritoia in vetro che separa le volte paraboliche, lievemente conoidali. Sul lato destro si trova il cortile del sagrato, circondato da un porticato rettangolare che funge da cerniera tra la stessa chiesa, il campanile, la canonica e la palazzina per uffici. Il campanile, a pianta trapezoidale, è incuneato tra chiesa e canonica. La casa canonica a pianta trapezoidale viene divisa in due dal sistema di distribuzione verticale: una scala interna, che termina sull'esterno nel cortile accanto all'abside. La casa canonica è posta sul retro, mentre sul davanti, allineata al battistero, si trova la palazzina per uffici a pianta esagonale con una grande sala consigliare al piano terra."@it ;
+    rico:title "Pianta del Piano Terra della chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:itdt10101007 a itdt:FloorPlan ;
     dc:language "it"^^xsd:language ;
@@ -2400,8 +2402,8 @@ dta:itdt10101007 a itdt:FloorPlan ;
     rico:isAssociatedWithDate dta:1955 ;
     rico:isOrWasIncludedIn dta:itdt10101 ;
     rico:recordResourceExtent "29.7x42.0"@it ;
-    rico:scopeAndContent "Copia elografica dal lucido con la pianta dei seminterrati: Il battistero a pianta circolare a sei pilastri; la chiesa a pianta a T trilobata, sul lato destra si trovano: la casa canonica ed il campanile, entrambi a pianta trapezoidale e la palazzina per uffici a pianta esagonale. "@it ;
-    rico:title "Pianta dei seminterrati della chiesa parrocchiale del quartiere San Luigi "@it .
+    rico:scopeAndContent "Copia eliografica - dal lucido con la Pianta del Seminterrato: Il battistero a pianta circolare a sei pilastri; la chiesa a pianta a T trilobata, più a destra la casa canonica ed il campanile, entrambi a pianta trapezoidale e la palazzina per uffici a pianta esagonale."@it ;
+    rico:title "Pianta dei seminterrati della chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:itdt10101008 a itdt:FloorPlan ;
     dc:language "it"^^xsd:language ;
@@ -2415,8 +2417,8 @@ dta:itdt10101008 a itdt:FloorPlan ;
     rico:isAssociatedWithDate dta:1955 ;
     rico:isOrWasIncludedIn dta:itdt10101 ;
     rico:recordResourceExtent "29.7x42.0"@it ;
-    rico:scopeAndContent "Copia elografica dal lucido con la pianta del piano delle aule e delle abitazioni: vista della copertura del battistero a pianta circolare e di quella della chiesa a volte paraboliche. Pianta del piano tipo della casa canonica, del campanile a pianta trapezoidale e della palazzina per uffici a pianta esagonale, che si riduce ad un esagono di dimensioni minori rispetto allla pianta del piano terra. "@it ;
-    rico:title "Pianta del piano aule e abitazioni della chiesa parrocchiale del quartiere San Luigi "@it .
+    rico:scopeAndContent "Copia eliografica - dal lucido con la Pianta del Piano delle aule e delle abitazioni: vista della copertura del battistero a pianta circolare e di quella della chiesa a volte paraboliche. Pianta del Piano Tipo della casa canonica, del campanile a pianta trapezoidale e della palazzina per uffici a pianta esagonale, che si riduce ad un esagono di dimensioni minori rispetto alla pianta del piano terra."@it ;
+    rico:title "Pianta del Piano aule e abitazioni della chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:itdt10101009 a itdt:GeneralPlan ;
     dc:language "it"^^xsd:language ;
@@ -2430,8 +2432,8 @@ dta:itdt10101009 a itdt:GeneralPlan ;
     rico:isAssociatedWithDate dta:1955 ;
     rico:isOrWasIncludedIn dta:itdt10101 ;
     rico:recordResourceExtent "29.7x42.0"@it ;
-    rico:scopeAndContent "Copia elografica dal lucido con la planimetria che contestualizza il progetto del complesso della chiesa, battistero, campanile, portico, casa canonica e palazzina per uffici. L'area si attesta tra via Chiadino, proseguimento di via dei Porta, via Mauroner e piazza e via Gonzaga."@it ;
-    rico:title "Planimetria del luogo della costruzione edella chiesa parrocchiale del quartiere San Luigi "@it .
+    rico:scopeAndContent "Copia eliografica - dal lucido con la planimetria che contestualizza il progetto del complesso – costituito da chiesa, battistero, campanile, portico, casa canonica e palazzina per uffici. L'area si attesta tra via Chiadino, proseguimento di via dei Porta, via Mauroner e piazza e via Gonzaga."@it ;
+    rico:title "Planimetria del luogo della costruzione della chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:itdt11501 a rico:RecordSet ;
     rico:conditionsOfAccess "I documenti possono essere consultati liberamente. "@it ;
@@ -2468,7 +2470,7 @@ dta:itdt11502002 a itdt:Rendering ;
     rico:identifier "ITDT11502002"@it ;
     rico:isOrWasIncludedIn dta:itdt11502 ;
     rico:recordResourceExtent "40.4x28.8"@it ;
-    rico:scopeAndContent "Fotomontaggio per il restauro del Teatro Verdi. In evidenza la sostanziale modifica del tetto. Il tetto, sul lato Rive, viene rettificato per rendere più capiente il sistema delle scene e dello stoccaggio scene. "@it ;
+    rico:scopeAndContent "Fotomontaggio per il restauro del Teatro Verdi. In evidenza la sostanziale modifica del tetto. Il tetto, sul lato Rive, viene rettificato per rendere più capiente il sistema delle scene e dello stoccaggio scene."@it ;
     rico:title "Fotomontaggio per il restauro del Teatro Verdi"@it .
 
 dta:itdt11502003 a itdt:ContextPhotograph ;
@@ -2511,7 +2513,7 @@ dta:itdt11502005 a itdt:ExteriorPhotograph ;
     rico:isOrWasIncludedIn dta:itdt11502 ;
     rico:recordResourceExtent "30x20"@it ;
     rico:scopeAndContent "Fotografia del Teatro Verdi, prima del restauro e del suo contesto - le Rive. Ripresa dal balcone dell'Idroscalo."@it ;
-    rico:title "Teatro Verdi dal balcone dell'Idroscalo"@it .
+    rico:title "Teatro Verdi – vista dal balcone dell'Idroscalo"@it .
 
 dta:itdt11502006 a itdt:ExteriorPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -2525,7 +2527,7 @@ dta:itdt11502006 a itdt:ExteriorPhotograph ;
     rico:isOrWasIncludedIn dta:itdt11502 ;
     rico:recordResourceExtent "30x20"@it ;
     rico:scopeAndContent "Facciata principale del Teatro Verdi prima del restauro dalla piazza Tergesteo. Ripresa dalla Galleria Tergesteo."@it ;
-    rico:title "Facciata del Teatro Verdi dalla piazza Tergesteo"@it .
+    rico:title "Facciata del Teatro Verdi dalla Piazza Tergesteo"@it .
 
 dta:itdt11502007 a itdt:ExteriorPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -2538,14 +2540,14 @@ dta:itdt11502007 a itdt:ExteriorPhotograph ;
     rico:identifier "ITDT11502007"@it ;
     rico:isOrWasIncludedIn dta:itdt11502 ;
     rico:recordResourceExtent "21x15"@it ;
-    rico:scopeAndContent "Facciata sulle Rive di Trieste del Teatro Verdi - dopo l'intervento di ristrutturazione. Sul lato mare la forma del tetto è stata rettificata per ampliare il deposito scene e meglio alloggiare i macchinari del palcoscenico. Ripresa dal molo Audace. "@it ;
+    rico:scopeAndContent "Facciata sulle Rive di Trieste del Teatro Verdi - dopo l'intervento di ristrutturazione. Sul lato mare. la forma del tetto è stata rettificata per ampliare il deposito scene e meglio alloggiare i macchinari del palcoscenico. Ripresa dal molo Audace."@it ;
     rico:title "Facciata del Teatro Verdi dalle Rive, dopo il restauro"@it .
 
 dta:itdt11504001 a itdt:Section ;
     dc:language "it"^^xsd:language ;
     rico:documents dta:verdiAnalysis ;
     rico:hasAuthor dta:studioTamburini ;
-    rico:hasDocumentaryFormType dta:transparancyFilm ;
+    rico:hasDocumentaryFormType dta:transparencyFilm ;
     rico:hasInstantiation dta:foto21 ;
     rico:hasOrHadSubject dta:archDrawing,
         dta:operaHouse ;
@@ -2553,13 +2555,13 @@ dta:itdt11504001 a itdt:Section ;
     rico:isAssociatedWithDate dta:1996unct ;
     rico:isOrWasIncludedIn dta:itdt11504 ;
     rico:recordResourceExtent "21.0x29.7"@it ;
-    rico:scopeAndContent "Sezione longitudinale prima dell'intervento di restauro. Ingresso su piazza Tergesteo, foyer, teatro con vista dei palchi, palcoscenico, uscita sulle Rive. Si nota il tetto a falda da entrambi i lati con una forma triangolare."@it ;
-    rico:title "Sezione longitudinale del stato di fatto del Teatro Verdi"@it .
+    rico:scopeAndContent "Sezione Longitudinale prima dell'intervento di restauro. Ingresso su piazza Tergesteo, foyer, teatro con vista dei palchi, palcoscenico, uscita sulle Rive. Si nota il tetto a falda da entrambi i lati con una forma triangolare."@it ;
+    rico:title "Sezione Longitudinale dello stato di fatto del Teatro Verdi"@it .
 
 dta:itdt11504002 a itdt:Section ;
     rico:documents dta:verdiPermit ;
     rico:hasAuthor dta:studioTamburini ;
-    rico:hasDocumentaryFormType dta:transparancyFilm ;
+    rico:hasDocumentaryFormType dta:transparencyFilm ;
     rico:hasInstantiation dta:foto22 ;
     rico:hasOrHadSubject dta:archDrawing,
         dta:operaHouse ;
@@ -2567,14 +2569,14 @@ dta:itdt11504002 a itdt:Section ;
     rico:isAssociatedWithDate dta:1996unct ;
     rico:isOrWasIncludedIn dta:itdt11504 ;
     rico:recordResourceExtent "21.0x29.7"@it ;
-    rico:scopeAndContent "Sezione longitudinale, proposta del restauro. Il tetto sul lato delle Rive è stato rettificato e viene concluso con una breve curvatura."@it ;
-    rico:title "Sezione longitudinale per il restauro del Teatro Verdi"@it .
+    rico:scopeAndContent "Sezione Longitudinale, proposta del restauro. Il tetto sul lato delle Rive viene rettificato e concluso con una breve curvatura."@it ;
+    rico:title "Sezione Longitudinale per il restauro del Teatro Verdi"@it .
 
 dta:itdt11504003 a itdt:FloorPlan ;
     dc:language "it"^^xsd:language ;
     rico:documents dta:verdiPermit ;
     rico:hasAuthor dta:studioTamburini ;
-    rico:hasDocumentaryFormType dta:transparancyFilm ;
+    rico:hasDocumentaryFormType dta:transparencyFilm ;
     rico:hasInstantiation dta:foto23 ;
     rico:hasOrHadSubject dta:archDrawing,
         dta:operaHouse,
@@ -2583,14 +2585,14 @@ dta:itdt11504003 a itdt:FloorPlan ;
     rico:isAssociatedWithDate dta:1996unct ;
     rico:isOrWasIncludedIn dta:itdt11504 ;
     rico:recordResourceExtent "21.0x29.7"@it ;
-    rico:scopeAndContent "Pianta del piano del palcoscenico per il restauro."@it ;
-    rico:title "Pianta del palcoscenico del Teatro Verdi"@it .
+    rico:scopeAndContent "Pianta del Piano del Palcoscenico per il restauro."@it ;
+    rico:title "Pianta del Palcoscenico del Teatro Verdi"@it .
 
 dta:itdt11504004 a itdt:FloorPlan ;
     dc:language "it"^^xsd:language ;
     rico:documents dta:verdiAnalysis ;
     rico:hasAuthor dta:studioTamburini ;
-    rico:hasDocumentaryFormType dta:transparancyFilm ;
+    rico:hasDocumentaryFormType dta:transparencyFilm ;
     rico:hasInstantiation dta:foto24 ;
     rico:hasOrHadSubject dta:archDrawing,
         dta:operaHouse,
@@ -2599,14 +2601,14 @@ dta:itdt11504004 a itdt:FloorPlan ;
     rico:isAssociatedWithDate dta:1996unct ;
     rico:isOrWasIncludedIn dta:itdt11504 ;
     rico:recordResourceExtent "21.0x29.7"@it ;
-    rico:scopeAndContent "Pianta dei palchi del primo ordine prima dell'intervento di restauro"@it ;
-    rico:title "Pianta dei palchi del Teatro Verdi"@it .
+    rico:scopeAndContent "Pianta dei Palchi del Primo Ordine, prima dell'intervento di restauro"@it ;
+    rico:title "Pianta dei Palchi del Teatro Verdi"@it .
 
 dta:itdt11504005 a itdt:FloorPlan ;
     dc:language "it"^^xsd:language ;
     rico:documents dta:verdiPermit ;
     rico:hasAuthor dta:studioTamburini ;
-    rico:hasDocumentaryFormType dta:transparancyFilm ;
+    rico:hasDocumentaryFormType dta:transparencyFilm ;
     rico:hasInstantiation dta:foto25 ;
     rico:hasOrHadSubject dta:archDrawing,
         dta:operaHouse ;
@@ -2614,14 +2616,14 @@ dta:itdt11504005 a itdt:FloorPlan ;
     rico:isAssociatedWithDate dta:1996unct ;
     rico:isOrWasIncludedIn dta:itdt11504 ;
     rico:recordResourceExtent "21.0x29.7"@it ;
-    rico:scopeAndContent "Pianta del sottoplaco dopo l'intervento di restauro al livello del Piano Terra e della platea senza includere la parte rialzata in cui si trovano l'accessi ai palchi del primo ordine. "@it ;
-    rico:title "Pianta del sottopalco del Teatro Verdi"@it .
+    rico:scopeAndContent "Pianta del Sottopalco, dopo l'intervento di restauro al livello del Piano Terra e della Platea; non è inclusa la parte rialzata in cui si trovano gli accessi ai palchi del Primo Ordine."@it ;
+    rico:title "Pianta del Sottopalco del Teatro Verdi"@it .
 
 dta:itdt11504006 a itdt:FloorPlan ;
     dc:language "it"^^xsd:language ;
     rico:documents dta:verdiPermit ;
     rico:hasAuthor dta:studioTamburini ;
-    rico:hasDocumentaryFormType dta:transparancyFilm ;
+    rico:hasDocumentaryFormType dta:transparencyFilm ;
     rico:hasInstantiation dta:foto26 ;
     rico:hasOrHadSubject dta:archDrawing,
         dta:operaHouse,
@@ -2630,14 +2632,14 @@ dta:itdt11504006 a itdt:FloorPlan ;
     rico:isAssociatedWithDate dta:1996unct ;
     rico:isOrWasIncludedIn dta:itdt11504 ;
     rico:recordResourceExtent "21.0x29.7"@it ;
-    rico:scopeAndContent "Pianta dell'attico della sala prove. Si osserva la sezione delle travi che dai lati vanno verso il colmo. Al centro si ricavano degli spazi destinati alle prove degli artisti. Verso le Rive sulla destra si intravede il vuoto del palcoscenico, sulla sinistra quello del deposito scene."@it ;
-    rico:title "Pianta dell'attico e della sala prove del Teatro Verdi"@it .
+    rico:scopeAndContent "Pianta dell'Attico della sala prove. Si osserva la sezione delle travi che, dai lati, vanno verso il colmo. Al centro si ricavano degli spazi destinati alle prove degli artisti. Verso le Rive sulla destra si intravede il vuoto del palcoscenico, sulla sinistra quello del deposito scene."@it ;
+    rico:title "Pianta dell'Attico e della sala prove del Teatro Verdi"@it .
 
 dta:itdt11504007 a itdt:FloorPlan ;
     dc:language "it"^^xsd:language ;
     rico:documents dta:verdiPermit ;
     rico:hasAuthor dta:studioTamburini ;
-    rico:hasDocumentaryFormType dta:transparancyFilm ;
+    rico:hasDocumentaryFormType dta:transparencyFilm ;
     rico:hasInstantiation dta:foto27 ;
     rico:hasOrHadSubject dta:archDrawing,
         dta:operaHouse ;
@@ -2645,14 +2647,14 @@ dta:itdt11504007 a itdt:FloorPlan ;
     rico:isAssociatedWithDate dta:1996unct ;
     rico:isOrWasIncludedIn dta:itdt11504 ;
     rico:recordResourceExtent "21.0x29.7"@it ;
-    rico:scopeAndContent "Pianta del soffitto della sala prova. Sii osserva la sezione delle travi che dai lati vanno verso il colmo. Al centro il soffitto degli spazi destinati alle prove degli artisti. Sul prospetto delle Rive si osservano dei vani-finestra e sulla destra si intravede ancora il vuoto del palcoscenico, mentre sulla sinistra si osserva la travatura del deposito scene."@it ;
-    rico:title "Pianta del soffitto della sala prova del Teatro Verdi"@it .
+    rico:scopeAndContent "Pianta del Soffitto della sala prove. Si osserva la sezione delle travi che, dai lati, vanno verso il colmo. Al centro il soffitto degli spazi destinati alle prove degli artisti. Sul prospetto delle Rive si osservano dei vani-finestra e si intravede ancora il vuoto del palcoscenico sulla destra, mentre sulla sinistra si osserva la travatura del deposito scene."@it ;
+    rico:title "Pianta del Soffitto della sala prove del Teatro Verdi"@it .
 
 dta:itdt11504008 a itdt:FloorPlan ;
     dc:language "it"^^xsd:language ;
     rico:documents dta:verdiPermit ;
     rico:hasAuthor dta:studioTamburini ;
-    rico:hasDocumentaryFormType dta:transparancyFilm ;
+    rico:hasDocumentaryFormType dta:transparencyFilm ;
     rico:hasInstantiation dta:foto28 ;
     rico:hasOrHadSubject dta:archDrawing,
         dta:operaHouse ;
@@ -2660,14 +2662,14 @@ dta:itdt11504008 a itdt:FloorPlan ;
     rico:isAssociatedWithDate dta:1996unct ;
     rico:isOrWasIncludedIn dta:itdt11504 ;
     rico:recordResourceExtent "21.0x29.7"@it ;
-    rico:scopeAndContent "Pianta della seconda galleria. Si osserva il piano delle seconde galleria nella grande sala. Sulla sinistra si nota il secondo livello del Ridotto, quello del ballatoio che corre intorno alla sala."@it ;
-    rico:title "Pianta della seconda galleria del Teatro Verdi"@it .
+    rico:scopeAndContent "Pianta della Seconda Galleria. Si osserva il piano delle Seconde Galleria nella grande sala. Sulla sinistra si nota il secondo livello del Ridotto, quello del ballatoio che corre intorno alla sala."@it ;
+    rico:title "Pianta della Seconda Galleria del Teatro Verdi"@it .
 
 dta:itdt11504009 a itdt:FloorPlan ;
     dc:language "it"^^xsd:language ;
     rico:documents dta:verdiPermit ;
     rico:hasAuthor dta:studioTamburini ;
-    rico:hasDocumentaryFormType dta:transparancyFilm ;
+    rico:hasDocumentaryFormType dta:transparencyFilm ;
     rico:hasInstantiation dta:foto29 ;
     rico:hasOrHadSubject dta:archDrawing,
         dta:operaHouse ;
@@ -2675,14 +2677,14 @@ dta:itdt11504009 a itdt:FloorPlan ;
     rico:isAssociatedWithDate dta:1996unct ;
     rico:isOrWasIncludedIn dta:itdt11504 ;
     rico:recordResourceExtent "21.0x29.7"@it ;
-    rico:scopeAndContent "Pianta del loggione e cameroni. Si osservano le ripide scalinate del loggione nella grande sala. Sulla sinistra si osserva l'assenza delle finestre nella sala del Ridotto. La sezione orizzontale è quasi a livello del soffitto."@it ;
-    rico:title "Pianta del loggione del Teatro Verdi"@it .
+    rico:scopeAndContent "Pianta del Loggione e cameroni. Si osservano le ripide scalinate del loggione nella grande sala. Sulla sinistra si osserva l'assenza delle finestre nella sala del Ridotto. La sezione orizzontale è quasi a livello del soffitto."@it ;
+    rico:title "Pianta del Loggione del Teatro Verdi"@it .
 
 dta:itdt11504010 a itdt:FloorPlan ;
     dc:language "it"^^xsd:language ;
     rico:documents dta:verdiAnalysis ;
     rico:hasAuthor dta:studioTamburini ;
-    rico:hasDocumentaryFormType dta:transparancyFilm ;
+    rico:hasDocumentaryFormType dta:transparencyFilm ;
     rico:hasInstantiation dta:foto30 ;
     rico:hasOrHadSubject dta:archDrawing,
         dta:operaHouse ;
@@ -2690,14 +2692,14 @@ dta:itdt11504010 a itdt:FloorPlan ;
     rico:isAssociatedWithDate dta:1996unct ;
     rico:isOrWasIncludedIn dta:itdt11504 ;
     rico:recordResourceExtent "21.0x29.7"@it ;
-    rico:scopeAndContent "Pianta dei palchi del primo ordine prima del restauro. Si intravede ancora il vuoto del foyer con le due colonne, verso Piazza Tergesteo. "@it ;
-    rico:title "Pianta dei palchi del Teatro Verdi, prima del restauro"@it .
+    rico:scopeAndContent "Pianta dei Palchi del primo ordine prima del restauro. Si intravede ancora il vuoto del foyer con le due colonne, verso Piazza Tergesteo."@it ;
+    rico:title "Pianta dei Palchi del Teatro Verdi, prima del restauro"@it .
 
 dta:itdt11504011 a itdt:FloorPlan ;
     dc:language "it"^^xsd:language ;
     rico:documents dta:verdiPermit ;
     rico:hasAuthor dta:studioTamburini ;
-    rico:hasDocumentaryFormType dta:transparancyFilm ;
+    rico:hasDocumentaryFormType dta:transparencyFilm ;
     rico:hasInstantiation dta:foto31 ;
     rico:hasOrHadSubject dta:archDrawing,
         dta:operaHouse ;
@@ -2705,14 +2707,14 @@ dta:itdt11504011 a itdt:FloorPlan ;
     rico:isAssociatedWithDate dta:1996unct ;
     rico:isOrWasIncludedIn dta:itdt11504 ;
     rico:recordResourceExtent "21.0x29.7"@it ;
-    rico:scopeAndContent "Pianta della prima galleria. A questo livello le celle dei palchi sono state sostituite dalle poltrone. Sulla sinistra si vede il primo livello della Sala del Ridotto con il suo colonnato neoclassico che sorregge il ballatoio del livello sucessivo."@it ;
-    rico:title "Pianta della prima galleria del Teatro Verdi, prima del restauro"@it .
+    rico:scopeAndContent "Pianta della Prima Galleria. A questo livello le celle dei palchi sono state sostituite dalle poltrone. Sulla sinistra si vede il primo livello della Sala del Ridotto con il suo colonnato neoclassico che sorregge il ballatoio del livello successivo."@it ;
+    rico:title "Pianta della Prima Galleria del Teatro Verdi, prima del restauro"@it .
 
 dta:itdt11504012 a itdt:FloorPlan ;
     dc:language "it"^^xsd:language ;
     rico:documents dta:verdiAnalysis ;
     rico:hasAuthor dta:studioTamburini ;
-    rico:hasDocumentaryFormType dta:transparancyFilm ;
+    rico:hasDocumentaryFormType dta:transparencyFilm ;
     rico:hasInstantiation dta:foto32 ;
     rico:hasOrHadSubject dta:archDrawing,
         dta:operaHouse ;
@@ -2720,14 +2722,14 @@ dta:itdt11504012 a itdt:FloorPlan ;
     rico:isAssociatedWithDate dta:1996unct ;
     rico:isOrWasIncludedIn dta:itdt11504 ;
     rico:recordResourceExtent "21.0x29.7"@it ;
-    rico:scopeAndContent "Pianta del loggione prima del restauro. Si osservano le ripide scalinate del loggione nella grande sala, che occupano tutto questo livello fino alla boccascena, a differenza del nuovo progetto che si interrompe prima."@it ;
-    rico:title "Pianta del loggione del Teatro Verdi, prima del restauro"@it .
+    rico:scopeAndContent "Pianta del loggione, prima del restauro. Si osservano le ripide scalinate del loggione nella grande sala, che occupano tutto questo livello fino alla boccascena, a differenza del nuovo progetto che si interrompe prima."@it ;
+    rico:title "Pianta del Loggione del Teatro Verdi, prima del restauro"@it .
 
 dta:itdt11504013 a itdt:FloorPlan ;
     dc:language "it"^^xsd:language ;
     rico:documents dta:verdiAnalysis ;
     rico:hasAuthor dta:studioTamburini ;
-    rico:hasDocumentaryFormType dta:transparancyFilm ;
+    rico:hasDocumentaryFormType dta:transparencyFilm ;
     rico:hasInstantiation dta:foto33 ;
     rico:hasOrHadSubject dta:archDrawing,
         dta:operaHouse ;
@@ -2735,14 +2737,14 @@ dta:itdt11504013 a itdt:FloorPlan ;
     rico:isAssociatedWithDate dta:1996unct ;
     rico:isOrWasIncludedIn dta:itdt11504 ;
     rico:recordResourceExtent "21.0x29.7"@it ;
-    rico:scopeAndContent "Pianta della prima galleria prima dell'intervento. Si leggono le scale di accesso alle prime gallerie."@it ;
-    rico:title "Pianta della prima galleria del Teatro Verdi, prima del restauro"@it .
+    rico:scopeAndContent "Pianta della Prima Galleria prima dell'intervento. Si leggono le scale di accesso alle prime gallerie."@it ;
+    rico:title "Pianta della Prima Galleria del Teatro Verdi, prima del restauro"@it .
 
 dta:itdt11504014 a itdt:FloorPlan ;
     dc:language "it"^^xsd:language ;
     rico:documents dta:verdiAnalysis ;
     rico:hasAuthor dta:studioTamburini ;
-    rico:hasDocumentaryFormType dta:transparancyFilm ;
+    rico:hasDocumentaryFormType dta:transparencyFilm ;
     rico:hasInstantiation dta:foto34 ;
     rico:hasOrHadSubject dta:archDrawing,
         dta:operaHouse ;
@@ -2750,8 +2752,8 @@ dta:itdt11504014 a itdt:FloorPlan ;
     rico:isAssociatedWithDate dta:1996unct ;
     rico:isOrWasIncludedIn dta:itdt11504 ;
     rico:recordResourceExtent "21.0x29.7"@it ;
-    rico:scopeAndContent "Pianta della seconda galleria prima del restauro. Si osserva il piano delle seconde galleria nella grande sala."@it ;
-    rico:title "Pianta della seconda galleria del Teatro Verdi, prima del restauro"@it .
+    rico:scopeAndContent "Pianta della Seconda Galleria prima del restauro. Si osserva il piano delle seconde galleria nella grande sala."@it ;
+    rico:title "Pianta della Seconda Galleria del Teatro Verdi, prima del restauro"@it .
 
 dta:itdt11504015 a itdt:InteriorDesignPlan ;
     dc:language "it"^^xsd:language ;
@@ -2764,7 +2766,7 @@ dta:itdt11504015 a itdt:InteriorDesignPlan ;
     rico:identifier "ITDT11504015"@it ;
     rico:isOrWasIncludedIn dta:itdt11504 ;
     rico:recordResourceExtent "21.0x29.7"@it ;
-    rico:scopeAndContent "Studio della pavimentazione del complesso della hall, delle biglietterie, del Foyer e del Bar della Platea. Il Repen è reso con un retinatura verde chiara maculata (nelle copie eliografiche il verde chiaro corrisponde ad un grigio chiaro), il marmo rosso Verzegnis é reso con una retinatura verde (nelle copie eliografiche il verde scuro corrisponde ad un grigio scuro), il marmo nero Marquinia è reso con una retinatura rossa (nelle copie eliografiche il rosso fa ottenere l'effetto del nero). Il motivo è basato sul gioco del quadrato e del rettangolo. Il piccolo quadrato grigio chiaro - che definisce il centro di tutta la composizione geometrica, viene inscritto in uno nero ruotato di 45°. Lo stesso motivo è ripreso da una quadrato grigio grande, inglobato in un rettangolo nero."@it ;
+    rico:scopeAndContent "Studio della pavimentazione del complesso della hall, delle biglietterie, del Foyer e del Bar della Platea. Il Repen, grigio chiaro, è reso con un retinatura verde chiara maculata, il marmo rosso Verzegnis é reso con una retinatura, mentre il marmo nero Marquinia è reso con una retinatura rossa. ll motivo è basato sul gioco del quadrato e del rettangolo. Il piccolo quadrato grigio chiaro - che definisce il centro di tutta la composizione geometrica, viene inscritto in uno nero ruotato di 45°. Lo stesso motivo è ripreso da una quadrato grigio grande, inglobato in un rettangolo nero."@it ;
     rico:title "Pavimentazione del Teatro Verdi: hall, biglietteria, foyer, bar, platea"@it .
 
 dta:itdt11504016 a itdt:InteriorDesignPlan ;
@@ -2778,7 +2780,7 @@ dta:itdt11504016 a itdt:InteriorDesignPlan ;
     rico:identifier "ITDT11504016"@it ;
     rico:isOrWasIncludedIn dta:itdt11504 ;
     rico:recordResourceExtent "21.0x29.7"@it ;
-    rico:scopeAndContent "Studio pavimentazione del complesso dell'atrio e della saletta delle conferenze, sulla sinistra della Biglietteria. Il motivo del quadrato, inscritto in una serie di quadrati ruotati di 45° gradi rispetto ai precedenti, viene ripeso.   Il Repen è reso con un retinatura verde chiara maculata (nelle copie eliografiche il verde chiaro corrisponde ad un grigio chiaro), il marmo rosso Verzegnis é reso con una retinatura verde (nelle copie eliografiche il verde scuro corrisponde ad un grigio scuro), il marmo nero Marquinia è reso con una retinatura rossa (nelle copie eliografiche il rosso fa ottenere l'effetto del nero)."@it ;
+    rico:scopeAndContent "Studio pavimentazione del complesso dell'atrio e della saletta delle conferenze, sulla sinistra della Biglietteria. Il motivo del quadrato, inscritto in una serie di quadrati ruotati di 45° gradi rispetto ai precedenti, viene ripeso. Il marmo Repen grigio chiaro è reso con un retinatura verde chiara maculata, il marmo rosso Verzegnis é reso con una retinatura verde, il marmo grigio scuro è reso con una retinatura verde scuro, mentre quello nero di Marquinia è reso con una retinatura rossa (nelle copie eliografiche il rosso fa ottenere l'effetto del nero)."@it ;
     rico:title "Pavimentazione del Teatro Verdi: atrio e saletta conferenze"@it .
 
 dta:itdt11504017 a itdt:InteriorDesignPlan ;
@@ -2792,8 +2794,8 @@ dta:itdt11504017 a itdt:InteriorDesignPlan ;
     rico:identifier "ITDT11504017"@it ;
     rico:isOrWasIncludedIn dta:itdt11504 ;
     rico:recordResourceExtent "21.0x29.7"@it ;
-    rico:scopeAndContent "Studio pavimentazione del complesso del foyer e dell'ingresso della galleria della Sala del Ridotto al primo piano. Il Repen è reso con un retinatura verde chiara maculata (nelle copie eliografiche il verde chiaro corrisponde ad un grigio chiaro), il marmo rosso Verzegnis é reso con una retinatura verde (nelle copie eliografiche il verde scuro corrisponde ad un grigio scuro), il marmo nero Marquinia è reso con una retinatura rossa (nelle copie eliografiche il rosso fa ottenere l'effetto del nero)."@it ;
-    rico:title "Pavimentazione del Teatro Verdi: foyer e prima galleria della Sala del Ridotto"@it .
+    rico:scopeAndContent "Studio pavimentazione del complesso del foyer e dell'ingresso della Galleria della Sala del Ridotto al Primo Piano. Il Repen, grigio chiaro, è reso con un retinatura verde chiara maculata, il marmo rosso Verzegnis é reso con una retinatura, mentre il marmo nero Marquinia è reso con una retinatura rossa."@it ;
+    rico:title "Pavimentazione del Teatro Verdi: Foyer e Prima Galleria della Sala del Ridotto"@it .
 
 dta:itdt11504018 a itdt:InteriorDesignPlan ;
     dc:language "it"^^xsd:language ;
@@ -2806,7 +2808,7 @@ dta:itdt11504018 a itdt:InteriorDesignPlan ;
     rico:identifier "ITDT11504018"@it ;
     rico:isOrWasIncludedIn dta:itdt11504 ;
     rico:recordResourceExtent "21.0x29.7"@it ;
-    rico:scopeAndContent "Studio pavimentazione del complesso della Hall o Foyer della Platea (Ingresso principale). Il motivo dei due pilastrini a pianta quadrata offre lo spunto per costruire una composizione organizzata sul quadrato e sul triangolo corrispondente ad un quarto di quadrato. Al di qua dei pilastrini  (verso la Piazza Tergesteo) un piccolo quadrato di marmo rosso viene inscritto in quadrato ruotato di 45° in repen grigio chairo. Ai lati del quadrato, il gioco viene frammentato in una serie di 4 triangoli (quarti di quadrato) in Marquisia nero seppia.  Il Repen è reso con un retinatura verde chiara maculata (nelle copie eliografiche il verde chiaro corrisponde ad un grigio chiaro), il marmo rosso Verzegnis é reso con una retinatura verde (nelle copie eliografiche il verde scuro corrisponde ad un grigio scuro), il marmo nero Marquinia è reso con una retinatura rossa (nelle copie eliografiche il rosso fa ottenere l'effetto del nero)."@it ;
+    rico:scopeAndContent "Studio pavimentazione del complesso della Hall o Foyer della Platea (Ingresso principale). Il motivo dei due pilastrini a pianta quadrata offre lo spunto per costruire una composizione organizzata sul quadrato e sul triangolo corrispondente ad un quarto di quadrato. Al di qua dei pilastrini (verso la Piazza Tergesteo) un piccolo quadrato di marmo rosso viene inscritto in quadrato ruotato di 45° in Repen grigio chiaro. Ai lati del quadrato, il gioco viene frammentato in una serie di 4 triangoli (quarti di quadrato) in Marquisia nero seppia. Il Repen, grigio chiaro, è reso con un retinatura verde chiara maculata, il marmo rosso Verzegnis é reso con una retinatura, mentre il marmo nero Marquinia è reso con una retinatura rossa."@it ;
     rico:title "Pavimentazione del Teatro Verdi: foyer e platea"@it .
 
 dta:itdt201008 a itdt:ExteriorPhotograph ;
@@ -2869,7 +2871,7 @@ dta:itdt201027 a itdt:Article ;
     rico:identifier "ITDT201027"@it ;
     rico:isAssociatedWithDate dta:1955 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Ritaglio dell'articolo che annunicia l'inizio lavori per la Chiesa parocchiale di San Luigi Gonzaga e presenta il progetto vincitore."@it ;
+    rico:scopeAndContent "Ritaglio dell'articolo che annuncia l'inizio lavori per la Chiesa parrocchiale di San Luigi Gonzaga e presenta il progetto vincitore."@it ;
     rico:title "Ritaglio dell'articolo del Piccolo \"Presto San Luigi avrà la sua chiesa\""@it .
 
 dta:itdt201055 a itdt:DetailsPhotograph ;
@@ -2911,7 +2913,7 @@ dta:itdt201058 a itdt:Article ;
         dta:church ;
     rico:identifier "ITDT201058"@it ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "L'articolo pubblicato in occasione alla consacrazione della chiesa parrocchiale del quartiere San Luigi "@it ;
+    rico:scopeAndContent "L'articolo pubblicato in occasione alla consacrazione della chiesa parrocchiale del quartiere San Luigi"@it ;
     rico:title "Ritaglio dell'articolo \"Si è aperta a San Luigi una porta del cielo\""@it .
 
 dta:itdt201059 a itdt:Article ;
@@ -2927,7 +2929,7 @@ dta:itdt201059 a itdt:Article ;
     rico:identifier "ITDT201059"@it ;
     rico:isAssociatedWithDate dta:1958 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "L'articolo pubblicato in occasione dell'inizio dei lavori di costruzione della chiesa parrocchiale del quartiere San Luigi "@it ;
+    rico:scopeAndContent "L'articolo pubblicato in occasione dell'inizio dei lavori di costruzione della chiesa parrocchiale del quartiere San Luigi"@it ;
     rico:title "Ritaglio dell'articolo \"I lavori per la costruzione della Nuova chiesa di San Luigi\""@it .
 
 dta:itdt201072 a itdt:ContextPhotograph ;
@@ -2939,8 +2941,8 @@ dta:itdt201072 a itdt:ContextPhotograph ;
     rico:identifier "ITDT201072"@it ;
     rico:isAssociatedWithDate dta:1968unct ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Hotel Europa appena costruito. Si intravede la facciata curvilinea e  angolata del raccordo che congiunge il corpo dell'albergo a quello della scuola alberghiera. Campo lungo, vista dall'alto"@it ;
-    rico:title "Hotel Europa dopo la conclusione dei lavori"@it .
+    rico:scopeAndContent "L’Hotel Europa appena costruito. Si intravede la facciata curvilinea ed angolata del blocco di raccordo o passerella di servizio che congiunge il corpo dell'albergo a quello della scuola alberghiera. Campo lungo, vista dall'alto."@it ;
+    rico:title "L’Hotel Europa dopo la conclusione dei lavori"@it .
 
 dta:itdt201073 a itdt:DetailsPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -2951,8 +2953,8 @@ dta:itdt201073 a itdt:DetailsPhotograph ;
     rico:identifier "ITDT201073"@it ;
     rico:isAssociatedWithDate dta:1966 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Costruzione dell'Hotel Europa. Particolare in calcestruzzo grezzo di un vano finestra al cui esterno si osserva una struttura aggettante. Sullo sfondo la punto di Duino e la costa verso Monfalcone. "@it ;
-    rico:title "Vista dall'Hotel Europa in fase di costruzione"@it .
+    rico:scopeAndContent "Costruzione dell'Hotel Europa. Particolare in calcestruzzo grezzo di un vano finestra al cui esterno si osserva una struttura aggettante. Sullo sfondo la punta di Duino e la costa verso Monfalcone."@it ;
+    rico:title "Vista dell'Hotel Europa in fase di costruzione"@it .
 
 dta:itdt201074 a itdt:DetailsPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -2963,7 +2965,7 @@ dta:itdt201074 a itdt:DetailsPhotograph ;
     rico:identifier "ITDT201074"@it ;
     rico:isAssociatedWithDate dta:1966 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Costruzione dell'Hotel Europa. Particolare in calcestruzzo grezzo della struttura aggettante. Sullo sfondo la punto di Duino e la costa verso Monfalcone. "@it ;
+    rico:scopeAndContent "Costruzione dell'Hotel Europa. Particolare in calcestruzzo grezzo della struttura aggettante. Sullo sfondo la punta di Duino e la costa verso Monfalcone."@it ;
     rico:title "Costruzione dell'Hotel Europa"@it .
 
 dta:itdt201075 a itdt:ProcessPhotograph ;
@@ -2975,8 +2977,8 @@ dta:itdt201075 a itdt:ProcessPhotograph ;
     rico:identifier "ITDT201075"@it ;
     rico:isAssociatedWithDate dta:1966 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Costruzione dell'Hotel Europa. Particolare ripresa dalla copertura dell'ultima parte del blocco camere - più basso e staccato dal resto - verso il centro del corpo dell'albergo. In primo piano si osserva la flessione del prospetto verso la scuola, in secondo il bowindow aggettante agganciato al resto della facciata tramite una porzione di cilindro. "@it ;
-    rico:title "Vista dell'Hotel Europa verso ultimazione dei lavori"@it .
+    rico:scopeAndContent "Costruzione dell'Hotel Europa. Particolare ripresa dalla copertura dell'ultima parte del blocco camere - più basso e staccato dal resto - verso il centro del corpo dell'albergo. In primo piano si osserva la flessione del prospetto verso la scuola, in secondo piano il bow window aggettante agganciato al resto della facciata, tramite una porzione di cilindro."@it ;
+    rico:title "Vista dell'Hotel Europa nella fase di ultimazione dei lavori"@it .
 
 dta:itdt201076 a itdt:ExteriorPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -2987,7 +2989,7 @@ dta:itdt201076 a itdt:ExteriorPhotograph ;
     rico:identifier "ITDT201076"@it ;
     rico:isAssociatedWithDate dta:1968unct ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Visione d'insieme della parte occidentale del complesso dell'Hotel Europa, ripreso dall'alto in direzione della città. In primo piano il blocco camere, più basso, che si innesta nel corpo più articolato e più altro. La vista dell'edificio completo simile a ITDT201075"@it ;
+    rico:scopeAndContent "Visione d'insieme della parte occidentale del complesso dell'Hotel Europa, ripreso dall'alto in direzione della città. In primo piano il blocco camere, più basso, che si innesta nel corpo più articolato e più alto. La vista dell'edificio completo è simile alla foto ITDT201075."@it ;
     rico:title "Hotel Europa dopo la conclusione dei lavori, lato albergo"@it .
 
 dta:itdt201077 a itdt:InteriorPhotograph ;
@@ -2999,7 +3001,7 @@ dta:itdt201077 a itdt:InteriorPhotograph ;
     rico:identifier "ITDT201077"@it ;
     rico:isAssociatedWithDate dta:1968unct ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Sala del ristorante dell'Hotel Europa, il piano di mezzo del ponte. Da questo punto di vista si osserva la curvatura del ponte che segue l'andamento della riva. Le poltrone disegnate appositamente per l'albergo da Dino Tamburini. "@it ;
+    rico:scopeAndContent "Sala del ristorante dell'Hotel Europa, il piano di mezzo del ponte. Da questo punto di vista si osserva la curvatura del ponte che segue l'andamento della riva. Le poltrone e tutto l’arredo dell’albergo erano state disegnati appositamente da Dino Tamburini."@it ;
     rico:title "Sala ristorante dell'Hotel Europa"@it .
 
 dta:itdt201078 a itdt:DetailsPhotograph ;
@@ -3023,9 +3025,9 @@ dta:itdt201082 a itdt:GraphicalRecord ;
     rico:hasInstantiation dta:tiff220_1 ;
     rico:identifier "ITDT201082"@it ;
     rico:isAssociatedWithDate dta:1999 ;
-    rico:isOrWasIncludedIn dta:itdt205 ;
+    rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "10x15"@it ;
-    rico:scopeAndContent "Dino Tamburini davanti alla parete dell'Hotel Europa"@it ;
+    rico:scopeAndContent "Dino Tamburini davanti ad un muro dell'Hotel Europa."@it ;
     rico:title "Dino Tamburini vicino all'Hotel Europa durante il sopralluogo"@it .
 
 dta:itdt201083 a itdt:DetailsPhotograph ;
@@ -3036,7 +3038,7 @@ dta:itdt201083 a itdt:DetailsPhotograph ;
     rico:hasInstantiation dta:tiff220_2 ;
     rico:identifier "ITDT201083"@it ;
     rico:isAssociatedWithDate dta:1999 ;
-    rico:isOrWasIncludedIn dta:itdt205 ;
+    rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "10x15"@it ;
     rico:scopeAndContent "Hotel Europa nel 1999 durante il sopralluogo. Ampie finestrature in legno protette all'esterno da una struttura tubolare metallica, installata probabilmente per motivi di sicurezza e di manutenzione."@it ;
     rico:title "Struttura tubolare per la manutenzione nell'Hotel Europa"@it .
@@ -3062,7 +3064,7 @@ dta:itdt201085 a itdt:InteriorPhotograph ;
     rico:identifier "ITDT201085"@it ;
     rico:isAssociatedWithDate dta:1967-02-04 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Interno dell'Areostazione di Ronchi dei Legionari. Una struttura modulare a pilastri sorregge la copertura \"a shed \" per illuminare dall'alto con luce naturale e definisce un ritmo nella disposizione degli arredi. Si vedono i banchi per la registrazione, le file delle poltrone e dei tapis roulant per l'imbarco dei bagagli. Un lambada a nastro, dal profilato rettangolare, abbraccia un quartetto di piasatri per definire un area di servizio riservata gli adetti alle compagnie aeree."@it ;
+    rico:scopeAndContent "Interno dell'Areostazione di Ronchi dei Legionari. Una struttura modulare a pilastri, che sorregge la copertura \"a shed \" per illuminare dall'alto con luce naturale, definisce un ritmo nella disposizione degli arredi. Si vedono i banchi per la registrazione, le file delle poltrone e dei tapis roulant per l'imbarco dei bagagli. Un lampada a nastro, dal profilato rettangolare, abbraccia un quartetto di pilastri per definire un area di servizio riservata agli addetti alle compagnie aeree."@it ;
     rico:title "Interno dell'Aerostazione di Ronchi"@it .
 
 dta:itdt201089 a itdt:ExteriorPhotograph ;
@@ -3074,7 +3076,7 @@ dta:itdt201089 a itdt:ExteriorPhotograph ;
     rico:identifier "ITDT201089"@it ;
     rico:isAssociatedWithDate dta:1967-02-04 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Areostazione di Ronchi. Vista panoramica del prospetto sinistro e di scorcio della facciata principale con le due scalinate. Il prospetto del lato sinistro è interrotto nel centro da una rientranza che segnala l'ingresso di una zona di servizio. Il motivo del cornicione segue questo arretramento senza soluzione di continuità. Si osserva la differenza con ITDT201085 che riporta la stessa facciata da un altro punto di vista e con l'installazione della rete di protezione completata, la serie di lampade appena installate ed il marcipaiede appena costruito. "@it ;
+    rico:scopeAndContent "L’Areostazione di Ronchi. Vista panoramica del prospetto sinistro e di scorcio della facciata principale con le due scalinate. Il prospetto del lato sinistro è interrotto nel centro da una rientranza che segnala l'ingresso di una zona di servizio. Il motivo del cornicione segue questo arretramento senza soluzione di continuità. Si osserva la differenza con ITDT201085 che riporta la stessa facciata da un altro punto di vista e con l'installazione della rete di protezione completata, la serie di lampade appena installate ed il marciapiede appena costruito."@it ;
     rico:title "Il prospetto sinistro dell'Aerostazione di Ronchi"@it .
 
 dta:itdt201090 a itdt:InteriorPhotograph ;
@@ -3086,7 +3088,7 @@ dta:itdt201090 a itdt:InteriorPhotograph ;
     rico:identifier "ITDT201090"@it ;
     rico:isAssociatedWithDate dta:1967-08-05 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Ufficio del Lloyd Triestino. In primo piano un telefono stile anni Trenta, in bachelite ed una lampada ad ombrello: dallo stelo in legno che sostiene una struttura orizzontale quadrangolare in cui sono montate quattro sfere di vetro. Tutto l'arredo, che già risente dello stile degli anni '70, è caratterizzato da stondature e dallo smussamento degli angoli e delle profilature. "@it ;
+    rico:scopeAndContent "Ufficio del Lloyd Triestino. In primo piano un telefono stile anni Trenta, in bachelite ed una lampada ad ombrello: dallo stelo in legno che sostiene una struttura orizzontale quadrangolare in cui sono montate quattro sfere di vetro. Tutto l'arredo, che già risente dello stile degli anni '70, è caratterizzato da stondature e dallo smussamento degli angoli e delle profilature."@it ;
     rico:title "Tavolo e lampada negli uffici del Lloyd Triestino"@it .
 
 dta:itdt201091 a itdt:InteriorPhotograph ;
@@ -3099,7 +3101,7 @@ dta:itdt201091 a itdt:InteriorPhotograph ;
     rico:identifier "ITDT201091"@it ;
     rico:isAssociatedWithDate dta:1967-08-05 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Sala Riunioni o Sala d'attesa di prima classe degli uffici del Lloyd Triestino. Pavimento a mosaico (progetto di Livio Schiozzi) con intrecci ondulati tricromati - in marmo rosso, nero e bianco. Pilastri a fascio con inserti longitudinali in legno, banconi stondati in legno, il cui specchio esterno è ricoperto da fogli di pelle goffrata la cui decorazioni riportano un qadrato stondato composto da quattro elissi uaguali a due a due. Questo motivo compare anche nella decorazione dei soffitti, realizzata in gesso. "@it ;
+    rico:scopeAndContent "Sala Riunioni o Sala d'attesa di prima classe degli uffici del Lloyd Triestino. Pavimento a mosaico (progetto di Livio Schiozzi) con intrecci ondulati tricromati - in marmo rosso, nero e bianco. Pilastri a fascio con inserti longitudinali in legno, banconi stondati in legno, il cui specchio esterno è ricoperto da fogli di pelle goffrata la cui decorazioni riportano un quadrato stondato composto da quattro elissi uguali a due a due. Questo motivo compare anche nella decorazione dei soffitti, realizzata in gesso."@it ;
     rico:title "Sala d'attesa degli uffici del Lloyd Triestino"@it .
 
 dta:itdt201092 a itdt:InteriorPhotograph ;
@@ -3112,7 +3114,7 @@ dta:itdt201092 a itdt:InteriorPhotograph ;
     rico:identifier "ITDT201092"@it ;
     rico:isAssociatedWithDate dta:1967-08-05 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Sala passegeri di terza classe al piano terra(?) degli uffici del Lloyd Triestino. Pavimento a mosaico (progetto di Livio Schiozzi) con intrecci ondulati tricromati - in marmo rosso, nero e bianco. "@it ;
+    rico:scopeAndContent "Sala passeggeri di terza classe al piano terra degli uffici del Lloyd Triestino. Pavimento a mosaico (progetto di Livio Schiozzi) con intrecci ondulati tricromati - in marmo rosso, nero e bianco."@it ;
     rico:title "Sala passeggeri degli uffici del Lloyd Triestino"@it .
 
 dta:itdt201094 a itdt:InteriorPhotograph ;
@@ -3136,7 +3138,7 @@ dta:itdt201096 a itdt:InteriorPhotograph ;
     rico:identifier "ITDT201096"@it ;
     rico:isAssociatedWithDate dta:1967-08-05 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Banconi in legno del Lloyd Triestino, stondati con la caratteristiche goffrature in pelle, in rilievo, dal motivo quadrilobato - incastrati tra le campate dei pilastri e particolare del pavimento a mosaico in marmo (progetto di L.Schiozzi). In alto le lamapade ad ombrello a 4 sfere. "@it ;
+    rico:scopeAndContent "Banconi in legno del Lloyd Triestino, stondati con la caratteristiche goffrature in pelle, in rilievo, dal motivo quadrilobato - incastrati tra le campate dei pilastri e particolare del pavimento a mosaico in marmo (progetto di L.Schiozzi). In alto le lampade ad ombrello a 4 sfere."@it ;
     rico:title "Banconi degli uffici del Lloyd Triestino"@it .
 
 dta:itdt201097 a itdt:InteriorPhotograph ;
@@ -3148,7 +3150,7 @@ dta:itdt201097 a itdt:InteriorPhotograph ;
     rico:identifier "ITDT201097"@it ;
     rico:isAssociatedWithDate dta:1964 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Interni della filiale n° 6 della Cassa di Risparmio di Trieste in via Valmaura 10.  Al centro un quadrilatero sghembo delimitato da pilastri e racchiuso da banconi per il settore uffici, riconoscibile anche per una piastra metallica di colore scuro che la ricopre parzialmente, rispetto a quello chiaro che la circonda. Il nero delle putrelle e dei ripiani di banconi degli uffici, il grigio chiaro, probabilmente di un marmo locale, del rivestimento di pilastri dalla forma trapezoidale, delle specchiature verticali dei banconi e del pavimento ed il bianco del soffitto della zona clienti sono i tre colori classici accostati al mosaico verde della parete staccata.                     "@it ;
+    rico:scopeAndContent "Interni della filiale n° 6 della Cassa di Risparmio di Trieste in via Valmaura 10. Al centro un quadrilatero sghembo delimitato da pilastri e racchiuso da banconi per il settore uffici, riconoscibile anche per una piastra metallica di colore scuro che la ricopre parzialmente, rispetto a quello chiaro che la circonda. Il nero delle putrelle e dei ripiani di banconi degli uffici, il grigio chiaro, probabilmente di un marmo locale, del rivestimento di pilastri dalla forma trapezoidale, delle specchiature verticali dei banconi e del pavimento ed il bianco del soffitto della zona clienti sono i tre colori classici accostati al mosaico verde della parete staccata."@it ;
     rico:title "Interni della filiale 6 della Cassa di Risparmio di Trieste"@it .
 
 dta:itdt201098 a itdt:InteriorPhotograph ;
@@ -3160,7 +3162,7 @@ dta:itdt201098 a itdt:InteriorPhotograph ;
     rico:identifier "ITDT201098"@it ;
     rico:isAssociatedWithDate dta:1964 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Interni della filiale n° 6 della Cassa di Risparmio di Trieste in via Valmaura 10. Spazio per i clienti"@it ;
+    rico:scopeAndContent "Interni della filiale n° 6 della Cassa di Risparmio di Trieste in via Valmaura 10. Spazio per i clienti."@it ;
     rico:title "Interni della filiale 6 della Cassa di Risparmio di Trieste. Zona clienti"@it .
 
 dta:itdt201101 a itdt:ExteriorPhotograph ;
@@ -3184,7 +3186,7 @@ dta:itdt201102 a itdt:ExteriorPhotograph ;
     rico:identifier "ITDT201102"@it ;
     rico:isAssociatedWithDate dta:1964 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Entrata della filiale n° 6 della Cassa di Risparmio di Trieste in via Valmaura 10. Vista da via Valmaura. "@it ;
+    rico:scopeAndContent "Entrata della filiale n° 6 della Cassa di Risparmio di Trieste in via Valmaura 10. Vista da via Valmaura."@it ;
     rico:title "Filiale 6 della Cassa di Risparmio di Trieste, entrata"@it .
 
 dta:itdt201106 a itdt:ExteriorPhotograph ;
@@ -3225,7 +3227,7 @@ dta:itdt205003 a itdt:ProcessPhotograph ;
     rico:identifier "ITDT205003"@it ;
     rico:isAssociatedWithDate dta:1966-10 ;
     rico:isOrWasIncludedIn dta:itdt205 ;
-    rico:scopeAndContent "Cantiere del complesso dell'Hotel Europa - particolare costruttivo della capsula aggettante del corpo dell'hotel. Tutto in cemento grezzo. In primo piano l'andamento concavo dei due marcapiani dei piani bassi che si staccano lievemente dal corpo verticale. Subito sopra, molto sporgente, la parte sottostante della capsula aggettante. In evidenza la trama dei tavolacci di legno, dei casseri contenenti la gettata, paralleli all'edificio."@it ;
+    rico:scopeAndContent "Cantiere del complesso dell'Hotel Europa - particolare costruttivo della capsula aggettante del corpo dell'hotel. Tutto in cemento grezzo. In primo piano l'andamento concavo dei due marcapiani dei piani bassi che si staccano lievemente dal corpo verticale. Subito sopra, molto sporgente, la parte sottostante della capsula aggettante. In evidenza la trama dei tavolacci di legno dei casseri contenenti la gettata, paralleli all'edificio."@it ;
     rico:title "Particolare della capsula aggettante dell'hotel Europa"@it .
 
 dta:itdt205005 a itdt:ProcessPhotograph ;
@@ -3238,7 +3240,7 @@ dta:itdt205005 a itdt:ProcessPhotograph ;
     rico:identifier "ITDT205005"@it ;
     rico:isAssociatedWithDate dta:1966-10 ;
     rico:isOrWasIncludedIn dta:itdt205 ;
-    rico:scopeAndContent "Cantiere del complesso dell'Hotel Europa. Particolare costruttivo dell'angolo del corpo di destra, ancora in cemento grezzo, costituito da 5 piani. In evidenza il motivo dei due marcapiani convessi del primo piano, appoggiato alla roccia, lievemente staccato e non perfettamente parallelo ai due piani soprastanti e quello della capsula aggettante di una parte del quarto piano che sporge con forza, creando un contrasto, anche rispetto al quinto un pò arretrato rispetto al precedente. In secondo piano, verso Ovest, si osserva il particolare dell'angolo smussato del quarto piano che rende questa sua fuorisuscita più morbida."@it ;
+    rico:scopeAndContent "Cantiere del complesso dell'Hotel Europa. Particolare costruttivo dell'angolo del corpo di destra, ancora in cemento grezzo, costituito da 5 piani. In evidenza il motivo dei due marcapiani convessi del primo piano, appoggiato alla roccia, lievemente staccato e non perfettamente parallelo ai due piani soprastanti, a cui si aggiunge quello della capsula aggettante di una parte del quarto piano che sporge con forza, creando un contrasto, con il quinto un po’ arretrato rispetto al piano precedente. In secondo piano, verso Ovest, si osserva il particolare dell'angolo smussato della capsula del quarto piano che la rende più morbida."@it ;
     rico:title "Cantiere dell'hotel Europa"@it .
 
 dta:itdt205011 a itdt:ProcessPhotograph ;
@@ -3251,7 +3253,7 @@ dta:itdt205011 a itdt:ProcessPhotograph ;
     rico:identifier "ITDT205011"@it ;
     rico:isAssociatedWithDate dta:1966 ;
     rico:isOrWasIncludedIn dta:itdt205 ;
-    rico:scopeAndContent "Cantiere dell'Hotel Europa. Vista del cassero di un plinto di fondazione, tra le rocce, di un pilastro del ponte sospeso, costruttori."@it ;
+    rico:scopeAndContent "Cantiere dell'Hotel Europa. Vista del cassero di un plinto di fondazione, tra le rocce, di un pilastro del ponte sospeso."@it ;
     rico:title "Cassero della fondazione dell'Hotel Europa"@it .
 
 dta:itdt205012 a itdt:ProcessPhotograph ;
@@ -3277,7 +3279,7 @@ dta:itdt205013 a itdt:ProcessPhotograph ;
     rico:identifier "ITDT205013"@it ;
     rico:isAssociatedWithDate dta:1966 ;
     rico:isOrWasIncludedIn dta:itdt205 ;
-    rico:scopeAndContent "Cantiere dell'Hotel Europa. Reticolato di tubi innocenti necessario per sostenere la gettata della struttura orizzontale del ponte sospeso"@it ;
+    rico:scopeAndContent "Cantiere dell'Hotel Europa. Reticolato di tubi innocenti necessario per sostenere la gettata della struttura orizzontale del ponte sospeso."@it ;
     rico:title "Lavori di costruzione dell'Hotel Europa"@it .
 
 dta:itdt205014 a itdt:ProcessPhotograph ;
@@ -3290,7 +3292,7 @@ dta:itdt205014 a itdt:ProcessPhotograph ;
     rico:identifier "ITDT205014"@it ;
     rico:isAssociatedWithDate dta:1966 ;
     rico:isOrWasIncludedIn dta:itdt205 ;
-    rico:scopeAndContent "Cantiere dell'Hotel Europa. Reticolato di tubi innocenti necessario per sostenere la gettata della struttura orizzontale del ponte sospeso, vista dal basso"@it ;
+    rico:scopeAndContent "Cantiere dell'Hotel Europa. Reticolato di tubi innocenti necessario per sostenere la gettata della struttura orizzontale del ponte sospeso, vista dal basso."@it ;
     rico:title "Lavori di costruzione dell'Hotel Europa"@it .
 
 dta:itdt205015 a itdt:ProcessPhotograph ;
@@ -3303,7 +3305,7 @@ dta:itdt205015 a itdt:ProcessPhotograph ;
     rico:identifier "ITDT205015"@it ;
     rico:isAssociatedWithDate dta:1966 ;
     rico:isOrWasIncludedIn dta:itdt205 ;
-    rico:scopeAndContent "Cantiere dell'Hotel Europa. Soluzione d'angolo del blocco di destra con il marcapiano del primo piano concavo rispetto ai due piani superiori."@it ;
+    rico:scopeAndContent "Cantiere dell'Hotel Europa. Soluzione d'angolo del blocco di destra con il marcapiano del primo piano concavo, rispetto ai due piani superiori."@it ;
     rico:title "Lavori di costruzione dell'Hotel Europa"@it .
 
 dta:itdt206001 a itdt:ExteriorPhotograph ;
@@ -3319,8 +3321,8 @@ dta:itdt206001 a itdt:ExteriorPhotograph ;
     rico:isAssociatedWithDate dta:1990unct ;
     rico:isOrWasIncludedIn dta:itdt206 ;
     rico:recordResourceExtent "35mm"@it ;
-    rico:scopeAndContent "Ultimi quattro livelli della Casa Cassab, la facciata di via Battisti, appena ristrutturata. In primo piano il motivo floreale bianco su fondo scuro del quinto piano, appoggiato al marcapiano rosato che stacca dalla grande fasciatura in bugnato liscio che include i quattro piani inferiori, interrotta solo dal nastro dei balconi del terzo piano - l'unica pausa orrizzontale. Al sesto ed ultimo piano l'intonaco richiama lo stesso rosa del marcapiano del quinto. Una serie di dieci colonnine - lievemente aggettanti rispetto al piano della facciata - che sembrano sorreggere l'ampia falda del tetto. Ripresa dall'edificio di fronte. Campo lungo, prospettiva frontale, vista in asse."@it ;
-    rico:title "Facciata di Casa Casab, ultimi quattro livelli"@it .
+    rico:scopeAndContent "Ultimi quattro livelli della Casa Cassab, la facciata di via Battisti, appena ristrutturata. In primo piano il motivo floreale bianco su fondo scuro del quinto piano, appoggiato al marcapiano rosato che si stacca dalla grande fasciatura in bugnato liscio che include i quattro piani inferiori, interrotta solo dal nastro dei balconi del terzo piano - l'unica pausa orizzontale. Al sesto ed ultimo piano l'intonaco richiama lo stesso rosa del marcapiano del quinto. Una serie di dieci colonnine - lievemente aggettanti rispetto al piano della facciata - sembrano sorreggere l'ampia falda del tetto. Ripresa dall'edificio di fronte. Campo lungo, prospettiva frontale, vista in asse."@it ;
+    rico:title "Facciata di Casa Cassab, ultimi quattro livelli"@it .
 
 dta:itdt206002 a itdt:ExteriorPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -3335,7 +3337,7 @@ dta:itdt206002 a itdt:ExteriorPhotograph ;
     rico:isAssociatedWithDate dta:1990unct ;
     rico:isOrWasIncludedIn dta:itdt206 ;
     rico:recordResourceExtent "35mm"@it ;
-    rico:scopeAndContent "Casa Cassab e l'angolo tra via Battisti e Largo Bonifacio. Si può osservare il lungo prospetto affacciato su via Battisti e contemporaneamente quello cortissimo su Largo Bonifacio, in cui si trova l'ingresso agli uffici dell'Assicurazione Fondiaria di Firenze. Campo lungo, prospettiva accidentale, ripresa dall'alto."@it ;
+    rico:scopeAndContent "Casa Cassab – vista dall'angolo tra via Battisti e Largo Bonifacio. Si può osservare il lungo prospetto affacciato su via Battisti e contemporaneamente quello cortissimo su Largo Bonifacio, in cui si trova l'ingresso agli uffici dell'Assicurazione Fondiaria di Firenze. Campo lungo, prospettiva accidentale, ripresa dall'alto."@it ;
     rico:title "Casa Cassab tra via Battisti e Largo Bonifacio"@it .
 
 dta:itdt206003 a itdt:ExteriorPhotograph ;
@@ -3351,8 +3353,8 @@ dta:itdt206003 a itdt:ExteriorPhotograph ;
     rico:isAssociatedWithDate dta:1990unct ;
     rico:isOrWasIncludedIn dta:itdt206 ;
     rico:recordResourceExtent "35mm"@it ;
-    rico:scopeAndContent "Casa Cassab - particolare delle due facciate viste dall'angolo tra Largo Bonifacio e via XX Settembre, il motivo floreale, chiaro su fondo scuro, del quinto piano e le logge degli ultimi due piani del fronte corto affacciato su Largo Bonifacio. Campo medio, prospettiva accidentale, vista in asse."@it ;
-    rico:title "Livelli residenziali della Casa Casab, l'angolo via XX Settembre e Largo Bonifacio"@it .
+    rico:scopeAndContent "Casa Cassab - particolare delle due facciate, viste dall'angolo tra Largo Bonifacio e via XX Settembre; si osservano il motivo floreale, chiaro su fondo scuro, del quinto piano e le logge degli ultimi due piani del fronte corto affacciato su Largo Bonifacio. Campo medio, prospettiva accidentale, vista in asse."@it ;
+    rico:title "Livelli residenziali della Casa Cassab, l'angolo via XX Settembre e Largo Bonifacio"@it .
 
 dta:itdt206005 a itdt:ExteriorPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -3365,7 +3367,7 @@ dta:itdt206005 a itdt:ExteriorPhotograph ;
     rico:isAssociatedWithDate dta:1990unct ;
     rico:isOrWasIncludedIn dta:itdt206 ;
     rico:recordResourceExtent "35mm"@it ;
-    rico:scopeAndContent "Prospetto minore della Casa Casb del Largo Bonifacio. Le logge del quinto e sesto piano. Campo medio, prospettiva frontale, vista in asse."@it ;
+    rico:scopeAndContent "Prospetto minore della Casa Cassab, sul lato di Largo Bonifacio. Si osserva il particolare delle logge del quinto e sesto piano. Campo medio, prospettiva frontale, vista in asse."@it ;
     rico:title "Casa Cassab, facciata di Largo Bonifacio"@it .
 
 dta:itdt206009 a itdt:ExteriorPhotograph ;
@@ -3379,7 +3381,7 @@ dta:itdt206009 a itdt:ExteriorPhotograph ;
     rico:isAssociatedWithDate dta:1990unct ;
     rico:isOrWasIncludedIn dta:itdt206 ;
     rico:recordResourceExtent "35mm"@it ;
-    rico:scopeAndContent "Vista d'insieme del prospetto corto su largo Bonifacio e del prospetto lungo su via XX Settembre della Casa Cassab ripresi dall'inizio di via Muratti. Campo lungo, prospettiva accidentale, vista in asse"@it ;
+    rico:scopeAndContent "Vista d'insieme del prospetto corto su largo Bonifacio e del prospetto lungo su via XX Settembre della Casa Cassab, ripresi dall'inizio di via Muratti. Campo lungo, prospettiva accidentale, vista in asse"@it ;
     rico:title "Casa Cassab da via Muratti"@it .
 
 dta:itdt206010 a itdt:DetailsPhotograph ;
@@ -3393,7 +3395,7 @@ dta:itdt206010 a itdt:DetailsPhotograph ;
     rico:isAssociatedWithDate dta:1990unct ;
     rico:isOrWasIncludedIn dta:itdt206 ;
     rico:recordResourceExtent "35mm"@it ;
-    rico:scopeAndContent "Facciata della Casa Cassab di via Battisti. In primo piano le decorazioni floreali del quinto piano e il sistema dei balconi del terzo piano. Si osservano degli inserti, dei medaglioni in terracotta, posti sopra le finestre architravate prive di balcone al terzo piano. Queste finestre si alternano a delle bifore dalla forma ad arco che invece sono servite dai balconi. Campo medio, prospettiva accidentale, vista in asse."@it ;
+    rico:scopeAndContent "Facciata della Casa Cassab di via Battisti. In primo piano le decorazioni floreali del quinto piano e il sistema dei balconi del terzo piano. Si osservano degli inserti - medaglioni in terracotta, posti sopra le finestre architravate prive di balcone al terzo piano. Queste finestre si alternano a delle bifore dalla forma ad arco, servite da balconi. Campo medio, prospettiva accidentale, vista in asse."@it ;
     rico:title "Casa Cassab da via Battisti"@it .
 
 dta:itdt206012 a itdt:DetailsPhotograph ;
@@ -3421,7 +3423,7 @@ dta:itdt206016 a itdt:Elevation ;
         dta:1986 ;
     rico:isOrWasIncludedIn dta:itdt206 ;
     rico:recordResourceExtent "29.7x42.0"@it ;
-    rico:scopeAndContent "Copia eliografica del elaborato grafico, prospetto su via dell'Aquedotto (via XX Settembre) della Casa Cassab. Il disegno riporta il timbro e la firma di Giovanni Pucalovich e la data del 5 maggio 1911. La facciata è suddivisa verticalmente in tre parti. Le due laterali sono evidenziate da una coppia di lesene, rivestite in modo differente e cioè dallo stesso bugnato rustico utilizzato per i due piani inferiori. Le lesene per questa ragione diventano molto leggibili."@it ;
+    rico:scopeAndContent "Copia eliografica del elaborato grafico, prospetto su via dell'Aquedotto (via XX Settembre) della Casa Cassab. Il disegno riporta il timbro e la firma di Giovanni Pucalovich e la data del 5 maggio 1911. La facciata è suddivisa verticalmente in tre parti. Le due parti laterali dei piani superiori sono incorniciate da una coppia di lesene, rivestite in modo differente rispetto a quella centrale - cioè dallo stesso bugnato rustico utilizzato per i due piani inferiori. Le lesene per questa ragione diventano molto leggibili."@it ;
     rico:title "Prospetto della Casa Cassab su via dell'Aquedotto, 1911"@it .
 
 dta:itdt206018 a itdt:ExteriorPhotograph ;
@@ -3438,7 +3440,7 @@ dta:itdt206018 a itdt:ExteriorPhotograph ;
     rico:isAssociatedWithDate dta:1990unct ;
     rico:isOrWasIncludedIn dta:itdt206 ;
     rico:recordResourceExtent "13x19"@it ;
-    rico:scopeAndContent "Particolare dell'angolo tra via Battisti e Largo Bonifacio, dell'edificio di proprietà della Fondiaria Assicurazioni. Si rileva la presenza della coppia di lesene, del balcone e dell'arcata del terzo piano, della trifora del quarto piano che contribuiscono tuti insieme a dare un carattere da piccolo torrione medievale."@it ;
+    rico:scopeAndContent "Particolare dell'angolo tra via Battisti e Largo Bonifacio, dell'edificio di proprietà della Fondiaria Assicurazioni. Si rileva la presenza di un motivo architettonico costituito da una coppia di lesene del balcone e dell'arcata del terzo piano e da una trifora del quarto piano, che contribuiscono tutte insieme a dare un carattere da piccolo torrione medievale."@it ;
     rico:title "Cassa Cassab, vista dall'angolo via Battisti-Largo Bonifacio"@it .
 
 dta:itdt206020 a itdt:ExteriorPhotograph ;
@@ -3455,7 +3457,7 @@ dta:itdt206020 a itdt:ExteriorPhotograph ;
     rico:isAssociatedWithDate dta:1990unct ;
     rico:isOrWasIncludedIn dta:itdt206 ;
     rico:recordResourceExtent "21x28"@it ;
-    rico:scopeAndContent "Particolare della Casa Cassab, l'angolo tra via Battisti e largo Bonifacio. Si osserva come il motivo del torrione medievale sia evidente. Lievemente sporgente nei due piani inferiori, dopo il balcone del terzo piano che lega insieme (l'ultima porzione su via Battisti, tutto il fronte di Largo Bonifacio e la prima porzione su via XX Settembre)  il torrione viene sottolineato dalla coppia di lesene che proseguono fino al tetto. "@it ;
+    rico:scopeAndContent "Particolare della Casa Cassab, l'angolo tra via Battisti e largo Bonifacio. Si osserva come il motivo del torrione medievale sia evidente. Lievemente sporgente nei due piani inferiori, al livello dell balcone del terzo piano - che lega insieme l'ultima porzione su via Battisti, tutto il fronte di Largo Bonifacio e la prima porzione su via XX Settembre - il torrione viene sottolineato dalla coppia di lesene che proseguono fino al tetto."@it ;
     rico:title "Casa Cassab, l'angolo via Battisti"@it .
 
 dta:itdt5004 a itdt:PhysicalModel ;
@@ -3469,7 +3471,7 @@ dta:itdt5004 a itdt:PhysicalModel ;
     rico:identifier "ITDT5004"@it ;
     rico:isAssociatedWithDate dta:1955unct ;
     rico:isOrWasIncludedIn dta:itdt5 ;
-    rico:scopeAndContent "La facciata è divisa in due parti orizzontalmente da un grande marcapiano. La parte sottostante, alta tanto quanto il portone d'ingresso, è in bugnato rustico. La parte, soprastante, è liscia e riporta come motivo decorativo delle piccole feritoie e due grandi bassorilievi. Le feritoie, sia orizzontali che verticali, illuminano la parte superiore delle tre navate e sono collocate in ordine sparso. I due bassorilievi sono collocati in corrispondenza della navata centrale, in asse rispetto al portone d'ingresso, uno sopra l'altro. Quello superiore è un'Assunzione, mentre quella inferiore un'Annunciazione. Due grandi doccioni - alla maniera delle chiese romaniche – vengono inseriti tra i due interstizi della facciata trilobata in corrispondenza dei punti di raccordo tra le tre navate."@it ;
+    rico:scopeAndContent "La facciata è divisa in due parti orizzontalmente da un grande marcapiano. La parte sottostante, alta tanto quanto il portone d'ingresso, in bugnato rustico. La parte, soprastante, liscia. La parte superiore è decorata da piccole feritoie e da due grandi bassorilievi. Le feritoie, sia orizzontali che verticali, illuminano la parte superiore delle tre navate e sono collocate in ordine sparso. I due bassorilievi sono collocati in corrispondenza della navata centrale, in asse rispetto al portone d'ingresso, uno sopra l'altro. Quello superiore è un'Assunzione, mentre quella inferiore un'Annunciazione. Due grandi doccioni - alla maniera delle chiese romaniche – vengono inseriti tra i due interstizi della facciata trilobata in corrispondenza dei punti di raccordo tra le tre navate."@it ;
     rico:title "Bozzetto di studio per la facciata della chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:marchelloMascherini a rico:Person ;
@@ -4353,7 +4355,7 @@ dta:itdt201001 a itdt:ExteriorPhotograph ;
     rico:isAssociatedWithDate dta:1954 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "17x12"@it ;
-    rico:scopeAndContent "Due case in via Conti appena costruite e ancora non abitate. La vista è dal basso da Via Conti verso il cortile comune. "@it ;
+    rico:scopeAndContent "Due case in via Conti appena costruite e ancora non abitate. La vista è dal basso da Via Conti verso il cortile comune."@it ;
     rico:title "Due case in via Conti"@it .
 
 dta:itdt201002 a itdt:Elevation ;
@@ -4475,7 +4477,7 @@ dta:itdt201010 a itdt:ExteriorPhotograph ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "18x23"@it ;
     rico:scopeAndContent "Palazzina degli uffici, parte del complesso architettonico degli ingressi alla spiaggia di Grado, progettato da Dino Tamburini, fotografata poco dopo la costruzione dal giardino vicino al mare. Piano medio, prospettiva accidentale con unico punto di fuga"@it ;
-    rico:title "Palazzina degli uffici - ingresso alla spiagga di Grado"@it .
+    rico:title "Palazzina degli uffici - ingresso alla spiaggia di Grado"@it .
 
 dta:itdt201011 a itdt:ExteriorPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -4549,7 +4551,7 @@ dta:itdt201014 a itdt:ExteriorPhotograph ;
     rico:isAssociatedWithDate dta:1955 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "11x8"@it ;
-    rico:scopeAndContent "Ingresso e biglietteria della spiaggia principale di Grado progettati da Dino Tamburini nel 1955, poco dopo la costruzione. Inquadratura del ingresso dalla spiaggia, verso la pineta. Particolare della pensilina sovrastante l'avancorpo della biglietteria."@it ;
+    rico:scopeAndContent "Ingresso e biglietteria della spiaggia principale di Grado progettati da Dino Tamburini nel 1955, poco dopo la costruzione. Inquadratura dell’ingresso dalla spiaggia, verso la pineta. Particolare della pensilina sovrastante l'avancorpo della biglietteria."@it ;
     rico:title "L'ingresso alla spiaggia principale di Grado, 1955"@it .
 
 dta:itdt201023 a itdt:Rendering ;
@@ -4566,7 +4568,7 @@ dta:itdt201023 a itdt:Rendering ;
     rico:isAssociatedWithDate dta:1955 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "14x9"@it ;
-    rico:scopeAndContent "Disegno per il concorso nazionale per la costruzione della Chiesa Parocchiale dedicata a Cristo Lavoratore (Chiesa di Gesù Divino Operaio) nel quartiere Piani di Sant'Anna a Trieste. Prospettiva frontale degli interni."@it ;
+    rico:scopeAndContent "Disegno per il concorso nazionale per la costruzione della Chiesa Parrocchiale dedicata a Cristo Lavoratore (Chiesa di Gesù Divino Operaio) nel quartiere Piani di Sant'Anna a Trieste. Prospettiva frontale degli interni."@it ;
     rico:title "Chiesa di Gesù Divino Operaio a Trieste, disegno degli interni per il concorso nazionale, 1955"@it .
 
 dta:itdt201024 a itdt:Rendering ;
@@ -4583,7 +4585,7 @@ dta:itdt201024 a itdt:Rendering ;
     rico:isAssociatedWithDate dta:1955 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "9x14"@it ;
-    rico:scopeAndContent "Disegno per il concorso nazionale per la costruzione della Chiesa parocchiale dedicata a Cristo Lavoratore nel quartiere Piani di Sant'Anna: Prospettiva accidentale dell'esterno."@it ;
+    rico:scopeAndContent "Disegno per il concorso nazionale per la costruzione della Chiesa parrocchiale dedicata a Cristo Lavoratore nel quartiere Piani di Sant'Anna: Prospettiva accidentale dell'esterno."@it ;
     rico:title "Chiesa di Gesù Divino Operaio a Trieste, disegno dell'esterno per il concorso nazionale, 1955"@it .
 
 dta:itdt201026 a itdt:Invitation ;
@@ -4599,7 +4601,7 @@ dta:itdt201026 a itdt:Invitation ;
     rico:isAssociatedWithDate dta:1960-04-16 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "14.5x11.6"@it ;
-    rico:scopeAndContent "Invito per la Consacrazione della Chiesa parocchiale di San Luigi Gonzaga, 25 aprile 1960, una coppia non utilizzata conservata nell'archivio"@it ;
+    rico:scopeAndContent "Invito per la Consacrazione della Chiesa parrocchiale di San Luigi Gonzaga, 25 aprile 1960, una copia non utilizzata conservata nell'archivio."@it ;
     rico:title "Invito per la consacrazione della Chiesa di San Luigi Gonzaga"@it .
 
 dta:itdt201028 a itdt:ProcessPhotograph ;
@@ -4621,8 +4623,8 @@ dta:itdt201028 a itdt:ProcessPhotograph ;
     rico:isAssociatedWithDate dta:1958 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "6.7x9.7"@it ;
-    rico:scopeAndContent "Lavori della costruzione della Chiesa di San Luigi Gonzaga a Trieste: Intelaiatura e centinatura a forma parabolica della volta della navata centrale, prima del getto. In trasparenza la sagoma della gru del cantiere. "@it ;
-    rico:title "Costruzione di Chiesa parrocchiale del quartiere San Luigi, intelaiatura e centinatura della navata"@it .
+    rico:scopeAndContent "Lavori di costruzione della Chiesa di San Luigi Gonzaga a Trieste: Intelaiatura e centinatura a forma parabolica della volta della navata centrale, prima del getto. In trasparenza la sagoma della gru del cantiere."@it ;
+    rico:title "Costruzione della Chiesa parrocchiale del quartiere San Luigi, intelaiatura e centinatura della navata"@it .
 
 dta:itdt201029 a itdt:ProcessPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -4640,8 +4642,8 @@ dta:itdt201029 a itdt:ProcessPhotograph ;
     rico:isAssociatedWithDate dta:1958 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "6.7x9.7"@it ;
-    rico:scopeAndContent "Lavori della costruzione della Chiesa di San Luigi Gonzaga a Trieste: Particolare di due elementi delle volte paraboliche in costruzione della navata destra e centrale. Sono visibili anche le intelaiature centinate a forma parabolica."@it ;
-    rico:title "Costruzione di Chiesa parrocchiale del quartiere San Luigi, navate destra e centrale, particolare"@it .
+    rico:scopeAndContent "Lavori di costruzione della Chiesa di San Luigi Gonzaga a Trieste: Particolare di due elementi delle volte paraboliche in costruzione della navata destra e centrale. Sono visibili anche le intelaiature centinate a forma parabolica."@it ;
+    rico:title "Costruzione della Chiesa parrocchiale del quartiere San Luigi, navate destra e centrale, particolare"@it .
 
 dta:itdt201030 a itdt:ProcessPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -4659,8 +4661,8 @@ dta:itdt201030 a itdt:ProcessPhotograph ;
     rico:isAssociatedWithDate dta:1958 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "6.7x9.7"@it ;
-    rico:scopeAndContent "Lavori della costruzione della Chiesa di San Luigi Gonzaga a Trieste: Particolare dei casseri centinati in legno per la gettata delle volte paraboliche della copertura. Sono visibili quelli della navata centrale e laterale destra. In primo piano il cordolo del marcapiano che separa il complesso sistema del tetto dalla facciata laterale destra e che, creando un continnum, raccorda il corpo di fabbrica della chiesa all'ingresso laterale destra "@it ;
-    rico:title "Costruzione di Chiesa parrocchiale del quartiere San Luigi, casseri per la gettata della volte"@it .
+    rico:scopeAndContent "Lavori di costruzione della Chiesa di San Luigi Gonzaga a Trieste: Particolare dei casseri centinati in legno per la gettata delle volte paraboliche della copertura. Sono visibili quelli della navata centrale e laterale destra. In primo piano il cordolo del marcapiano che separa il complesso sistema del tetto dalla facciata laterale destra e che, creando un continuum, raccorda il corpo di fabbrica della chiesa all'ingresso laterale destro."@it ;
+    rico:title "Costruzione della Chiesa parrocchiale del quartiere San Luigi, casseri per la gettata della volte"@it .
 
 dta:itdt201031 a itdt:ProcessPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -4679,8 +4681,8 @@ dta:itdt201031 a itdt:ProcessPhotograph ;
     rico:isAssociatedWithDate dta:1958 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "6.7x9.7"@it ;
-    rico:scopeAndContent "Lavori della costruzione della Chiesa di San Luigi Gonzaga a Trieste: Implacature intorno al campanile e ai sottostanti vani-finestra della casa canonica, spostata a sinistra della chiesa, in fase di progetto."@it ;
-    rico:title "Costruzione di Chiesa parrocchiale del quartiere San Luigi, impalcatura intorno al campanile"@it .
+    rico:scopeAndContent "Lavori di costruzione della Chiesa di San Luigi Gonzaga a Trieste: Impalcature intorno al campanile e ai sottostanti vani-finestra della casa canonica, spostata a sinistra della chiesa, in fase di progetto."@it ;
+    rico:title "Costruzione della Chiesa parrocchiale del quartiere San Luigi, impalcatura intorno al campanile"@it .
 
 dta:itdt201032 a itdt:ProcessPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -4700,8 +4702,8 @@ dta:itdt201032 a itdt:ProcessPhotograph ;
     rico:isAssociatedWithDate dta:1958 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "6.7x9.7"@it ;
-    rico:scopeAndContent "Lavori della costruzione della Chiesa di San Luigi Gonzaga a Trieste: Particolare delle impalcature (ancora in legno) dell'abside laterale destro e dell'innesto del successivo modulo parabolico in calcestruzzo armato lasciato a vista. Due costruttori al primo piano. Prospettiva accidentale, punto di vista in asse"@it ;
-    rico:title "Costruzione di Chiesa parrocchiale del quartiere San Luigi, particolari delle impalcature, l'abside laterale e i costruttori al lavoro"@it .
+    rico:scopeAndContent "Lavori di costruzione della Chiesa di San Luigi Gonzaga a Trieste: Particolare delle impalcature (ancora in legno) dell'abside laterale destro e dell'innesto del successivo modulo parabolico in calcestruzzo armato lasciato a vista. Due carpentieri in primo piano. Prospettiva accidentale, punto di vista in asse."@it ;
+    rico:title "Costruzione della Chiesa parrocchiale del quartiere San Luigi, particolari delle impalcature, l'abside laterale e i costruttori al lavoro"@it .
 
 dta:itdt201033 a itdt:ProcessPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -4720,8 +4722,8 @@ dta:itdt201033 a itdt:ProcessPhotograph ;
     rico:isAssociatedWithDate dta:1958 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "9.7x6.7"@it ;
-    rico:scopeAndContent "Lavori della costruzione della Chiesa di San Luigi Gonzaga a Trieste: Vista del tetto della navata sinistra e centrale, costituito da una successione di volte paraboliche leggeremente coniche. In primo piano, particolare della centina in legno della volta della navata centrale. Prospettiva obliqua, vista dall'alto"@it ;
-    rico:title "Costruzione di Chiesa parrocchiale del quartiere San Luigi, vista del tetto delle navate centrale e sinistra dall'alto"@it .
+    rico:scopeAndContent "Lavori della costruzione della Chiesa di San Luigi Gonzaga a Trieste: Vista del tetto della navata sinistra e centrale, costituito da una successione di volte paraboliche leggermente coniche. In primo piano, particolare della centina in legno della volta della navata centrale. Prospettiva obliqua, vista dall'alto."@it ;
+    rico:title "Costruzione della Chiesa parrocchiale del quartiere San Luigi, vista del tetto delle navate centrale e sinistra dall'alto"@it .
 
 dta:itdt201034 a itdt:ProcessPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -4740,8 +4742,8 @@ dta:itdt201034 a itdt:ProcessPhotograph ;
     rico:isAssociatedWithDate dta:1958 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "9.7x6.7"@it ;
-    rico:scopeAndContent "Lavori della costruzione della Chiesa di San Luigi Gonzaga a Trieste: Vista del tetto della navata destra e centrale, costituito da una successione di volte paraboliche leggeremente coniche. In primo piano, particolare delle centine in legno delle volte della navate centrale e destra. Prospettiva obliqua, vista dall'alto"@it ;
-    rico:title "Costruzione di Chiesa parrocchiale del quartiere San Luigi, vista del tetto delle navate centrale e destra dall'alto"@it .
+    rico:scopeAndContent "Lavori della costruzione della Chiesa di San Luigi Gonzaga a Trieste: Vista del tetto della navata destra e centrale, costituito da una successione di volte paraboliche leggermente coniche. In primo piano, particolare delle centine in legno delle volte della navate centrale e destra. Prospettiva obliqua, vista dall'alto."@it ;
+    rico:title "Costruzione della Chiesa parrocchiale del quartiere San Luigi, vista del tetto delle navate centrale e destra dall'alto"@it .
 
 dta:itdt201035 a itdt:ExteriorPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -4759,8 +4761,8 @@ dta:itdt201035 a itdt:ExteriorPhotograph ;
     rico:isAssociatedWithDate dta:1959 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "23.4x17.3"@it ;
-    rico:scopeAndContent "Vista del campanile e della chiesa di San Luigi Gonzaga a Trieste. La copertura del campanile costituita da un setto parabolico è in pendant con quello a volte paraboliche, lievemente conoidali, innnestate una dentro nell'altra. E' visibile il marcapiano che separa orizzontalmente il tetto dalla parete laterale, senza, però, interrompere gli interstizi, determinati dagli stacchi tra i diversi setti delle pareti laterali e delle volte, che creano delle lunghe e strette finestre a forma di feritoia. Prospettiva obliqua, vista dal basso."@it ;
-    rico:title "Campanile e la Chiesa parrocchiale del quartiere San Luigi"@it .
+    rico:scopeAndContent "Vista del campanile e della chiesa di San Luigi Gonzaga a Trieste. La copertura del campanile, costituita da un setto parabolico, è in pendant con quella della chiesa, costituita da una serie di volte paraboliche, lievemente conoidali, innestate una dentro l'altra. E' visibile il marcapiano che separa orizzontalmente il tetto dalla parete laterale, senza, però, interrompere gli interstizi, determinati dagli stacchi tra i diversi setti delle pareti laterali e delle volte, che creano delle lunghe e strette finestre a forma di feritoia. Prospettiva obliqua, vista dal basso."@it ;
+    rico:title "Campanile e Chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:itdt201036 a itdt:InteriorPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -4777,7 +4779,7 @@ dta:itdt201036 a itdt:InteriorPhotograph ;
     rico:isAssociatedWithDate dta:1959 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "17.3x23.4"@it ;
-    rico:scopeAndContent "Interno della Chiesa parrocchiale del quartiere San Luigi. Scorcio della navata laterale sinistra ripresa in direzione dell'ingresso. Particolare delle arcate - la cui forma corrisponde alla metà di un'arcata a tutto tondo (quarto di cerchio). Su ciascuna arcata si innesta il lembo inferiore, a forma triangolare, del setto della volta parabolica che si rastrema verso il basso. Ciascun setto parabolico della copertura si inserisce nel sucessivo lasciando una feritoia di luce che crea una particolare illuminazione naturale ad arco. E' visibile la texture dei casseri del cemento armato lasciato a vista. Prospettiva obliqua, vista dal basso"@it ;
+    rico:scopeAndContent "Interno della Chiesa parrocchiale del quartiere San Luigi. Scorcio della navata laterale sinistra ripresa in direzione dell'ingresso. Particolare delle arcate - la cui forma corrisponde alla metà di un'arcata a tutto tondo (quarto di cerchio). Su ciascuna arcata si innesta il lembo inferiore, a forma triangolare, del setto della volta parabolica che si rastrema verso il basso. Ciascun setto parabolico della copertura si inserisce nel successivo lasciando una feritoia di luce che crea una particolare illuminazione naturale ad arco. E' visibile la texture dei casseri del cemento armato lasciato a vista. Prospettiva obliqua, vista dal basso."@it ;
     rico:title "Navata laterale della Chiesa parrocchiale del quartiere San Luigi vista dall'interno"@it .
 
 dta:itdt201037 a itdt:DetailsPhotograph ;
@@ -4795,7 +4797,7 @@ dta:itdt201037 a itdt:DetailsPhotograph ;
     rico:isAssociatedWithDate dta:1959 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "17.3x23.4"@it ;
-    rico:scopeAndContent "Interno della Chiesa parrocchiale del quartiere San Luigi. La navata centrale ripresa in direzione dell'altare. Orientata lievemente verso destra. E' visibile la texture dei casseri delle volte in cemento armato faccia a vista. Si osservano, riflesse sulle volte delle feritorie di luce create dalle strette finestre a forma di arco, generate dalle volte paraboliche, lievemente coniche, che inserendosi una dentro nell'altra, creano degli interstizi che seguono il profilo delle volte. Prospettiva accidentale, vista dal basso, piano medio."@it ;
+    rico:scopeAndContent "Interno della Chiesa parrocchiale del quartiere San Luigi. La navata centrale ripresa in direzione dell'altare. Orientata lievemente verso destra. E' visibile la texture dei casseri delle volte in cemento armato faccia a vista. Si osservano, riflesse sulle volte delle feritoie di luce create dalle strette finestre a forma di arco, generate dalle volte paraboliche, lievemente coniche, che inserendosi una dentro nell'altra, creano degli interstizi che seguono il profilo delle volte. Prospettiva accidentale, vista dal basso, piano medio."@it ;
     rico:title "Navata centrale della Chiesa parrocchiale del quartiere San Luigi, vista dall'interno"@it .
 
 dta:itdt201038 a itdt:InteriorPhotograph ;
@@ -4816,7 +4818,7 @@ dta:itdt201038 a itdt:InteriorPhotograph ;
     rico:isAssociatedWithDate dta:1962 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "17.3x23.4"@it ;
-    rico:scopeAndContent "Interno della Chiesa parrocchiale del quartiere San Luigi. La navata centrale, vista verso l'altare e presbiterio. Ad entrambi i suoi lati si trovano i pilastri e le arcate che separano questo spazio più ampio da quello delle due navate laterali. In alto il sistema delle volte paraboliche, interrotto da fessure di luce, proveniente da delle finestre-feritoia a forma di arco, che, pur non essendo visibili, rendono leggibile la texture creata dai casseri in legno del cemento faccia a vista, differentemente orientata. La texture si sviluppa in orizzontale nei lembi inferiori dei setti a volta, a forma triangolare, che si innestano sui pilastri delle arcate, mentre su tutte le altre parti delle volte, la texture è in verticale. In fondo la texture della vela absidale, quasi una quinta per il presbiterio e l'altare, è orientata verticalmente fino al momento in cui si inclina per diventare volta di chiusura della copertura, dove si sviluppa radialmente rispetto al piccolo lobo del nucleo centrale del soffitto, che invece continua a rimanere orientato in verticale. "@it ;
+    rico:scopeAndContent "Interno della Chiesa parrocchiale del quartiere San Luigi. La navata centrale, vista verso l'altare e presbiterio. Ad entrambi i suoi lati si trovano i pilastri e le arcate che separano questo spazio più ampio da quello delle due navate laterali. In alto il sistema delle volte paraboliche, interrotto da fessure di luce, proveniente da delle finestre-feritoia a forma di arco, che, pur non essendo visibili, rendono leggibile la texture creata dai casseri in legno del cemento faccia a vista, differentemente orientata. La texture si sviluppa in orizzontale nei lembi inferiori dei setti a volta, a forma triangolare, che si innestano sui pilastri delle arcate, mentre su tutte le altre parti delle volte, la texture è in verticale. In fondo la texture della vela absidale, quasi una quinta per il presbiterio e l'altare, è orientata verticalmente fino al momento in cui si inclina per diventare volta di chiusura della copertura, dove si sviluppa radialmente rispetto al piccolo lobo del nucleo centrale del soffitto, che invece continua a rimanere orientato in verticale."@it ;
     rico:title "Navata centrale verso l'altare della Chiesa parrocchiale del quartiere San Luigi, particolari della texture, vista dall'interno"@it .
 
 dta:itdt201039 a itdt:DetailsPhotograph ;
@@ -4837,8 +4839,8 @@ dta:itdt201039 a itdt:DetailsPhotograph ;
     rico:isAssociatedWithDate dta:1962 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "17.3x23.4"@it ;
-    rico:scopeAndContent "Interno della Chiesa parrocchiale del quartiere San Luigi. Vista delle volte paraboliche con feritoia dal livello della cripta collegata con una scalinata al piano terra. In primo piano particolare del pilastro a fungo che sostiene la soletta del presbiterio corredata di ringhiera in ferro battuto con il motivo di un arco oblungo sormontato da tre vele. Il livello del presbiterio che ospita l'altare è interamente staccato dall'abside ed è sostenuto da due pilastri a fungo. In secondo piano la scalinata che collega il livello seminterrato della cripta al livello zero. Sullo sfondo la copertura a volte paraboliche lievemente coniche che pur inserendosi le une nelle altre, creano una serie di finestra-feritoia a forma di arco che ne seguono il profilo e si intervallano ad esse, creando un contrappunto di fasce piene e scure (le volte) ad altre chiare e trasparenti (le finestre-feritoia)."@it ;
-    rico:title "Scalinta tra la cripta e il presbiterio della Chiesa parrocchiale del quartiere San Luigi"@it .
+    rico:scopeAndContent "Interno della Chiesa parrocchiale del quartiere San Luigi. Vista delle volte paraboliche con feritoia dal livello della cripta collegata con una scalinata al piano terra. In primo piano particolare del pilastro a fungo che sostiene la soletta del presbiterio corredata da ringhiera in ferro battuto con il motivo di un arco oblungo sormontato da tre vele. Il livello del presbiterio che ospita l'altare è interamente staccato dall'abside ed è sostenuto da due pilastri a fungo. In secondo piano la scalinata che collega il livello seminterrato della cripta al livello zero. Sullo sfondo la copertura a volte paraboliche lievemente coniche che pur inserendosi le une nelle altre, creano una serie di finestra-feritoia a forma di arco che ne seguono il profilo e si intervallano ad esse, creando un contrappunto di fasce piene e scure (le volte) ad altre chiare e trasparenti (le finestre-feritoia)."@it ;
+    rico:title "Scalinata tra la cripta e il presbiterio della Chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:itdt201040 a itdt:DetailsPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -4857,7 +4859,7 @@ dta:itdt201040 a itdt:DetailsPhotograph ;
     rico:isAssociatedWithDate dta:1962 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "23.4x17.3"@it ;
-    rico:scopeAndContent "Interno della Chiesa parrocchiale del quartiere San Luigi. Sul primo piano la cripta della chiesa e la vela absidale. Si vedono i due pilastri a fungo in cemento armato a faccia vista che sostengono il soffitto della cripta o il pavimento del presbiterio, una soletta semicircolare, che segue l'andamento della vela absidale ma da cui è staccata per meglio sottolineare la differenza tra struttura orizzontale (soletta del presbiterio) e quella verticale (vela absidale) entrambe accostate tra loro dal lato concavo. Contro la quinta della vela absidale che parte dalla volta di copertura per arrivare, senza soluzione di continuità, fino al piano di caplestio della cripta, si apoggia un piccolo altare per i rituali più raccolti. Sul lato convesso dellla vela absidale si intravede un deambulatorio circolare che collega la parte sinistra con quella di destra della cripta. "@it ;
+    rico:scopeAndContent "Interno della Chiesa parrocchiale del quartiere San Luigi. Sul primo piano la cripta della chiesa e la vela absidale. Si vedono i due pilastri a fungo in cemento armato a faccia vista che sostengono il soffitto della cripta o il pavimento del presbiterio, una soletta semicircolare, che segue l'andamento della vela absidale ma da cui è staccata per meglio sottolineare la differenza tra struttura orizzontale (soletta del presbiterio) e quella verticale (vela absidale), entrambe accostate tra loro lungo il lato concavo. Contro la quinta della vela absidale - che parte dalla volta di copertura ed arriva, senza soluzione di continuità, al piano di calpestio della cripta - si appoggia un piccolo altare per i rituali più raccolti. Sul lato convesso della vela absidale si intravede un deambulatorio circolare che collega la parte sinistra con quella di destra della cripta."@it ;
     rico:title "Cripta e piccolo altare della Chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:itdt201042 a itdt:DetailsPhotograph ;
@@ -4877,7 +4879,7 @@ dta:itdt201042 a itdt:DetailsPhotograph ;
     rico:isAssociatedWithDate dta:1962 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "23.4x17.3"@it ;
-    rico:scopeAndContent "Interno della Chiesa parrocchiale del quartiere San Luigi. Vista della zona semicircolare del presbiterio che ospita la mensa dell'altare, collegata, al piano terra della chiesa, da due scale laterali e delimitata nel suo perimetro da una ringhiera in ferro battuto con motivi semicircolari. Si osserva come la struttura verticale sia accostata ma rigorosamente separata da quella orizzontale. La vela absidale (struttura verticale), che collega il livello più alto - quello della copertura della prima volta centrale parabolica con quello più basso - quello della cripta, non sfiora il livello del presbiterio (struttura orizzontale) che è completatamente delimitato e protetto dalla ringhiera in ferro battuto sia dal lato dell'abside che verso l'affaccio della scalinata che conduce alla cripta. E' visibile la texture della vela costituita dai casseri in legno del cemento faccia a vista. Ai lati della vela due grandi aperture simmetriche a forma di un quarto di cerchio illuminano il corridoio retrostante la vela absidale, posto a livello della cripta."@it ;
+    rico:scopeAndContent "Interno della Chiesa parrocchiale del quartiere San Luigi. Vista della zona semicircolare del presbiterio che ospita la mensa dell'altare, collegata al piano terra della chiesa, da due scale laterali e delimitata nel suo perimetro da una ringhiera in ferro battuto con motivi semicircolari. Si osserva come la struttura verticale sia accostata ma rigorosamente separata da quella orizzontale. La vela absidale (struttura verticale) - che collega il livello più alto: quello della copertura della prima volta centrale parabolica, con quello più basso: quello della cripta - non entra in contatto con il livello del presbiterio (struttura orizzontale) completamente delimitato e protetto dalla ringhiera in ferro battuto sia verso il lato dell'abside che verso l'affaccio della scalinata, che conduce alla cripta. E' visibile la texture della vela costituita dai casseri in legno del cemento faccia a vista. Ai lati della vela due grandi aperture simmetriche, a forma di un quarto di cerchio, illuminano il corridoio, retrostante la vela absidale, posto a livello della cripta."@it ;
     rico:title "Presbiterio e altare della Chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:itdt201043 a itdt:ExteriorPhotograph ;
@@ -4895,8 +4897,9 @@ dta:itdt201043 a itdt:ExteriorPhotograph ;
     rico:isAssociatedWithDate dta:1959 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "17.3x23.4"@it ;
-    rico:scopeAndContent "Esterno della Chiesa parrocchiale del quartiere San Luigi. Vista del campanile e della chiesa da sinistra. In primo piano il giardino della chiesa, il campanile i cui lati rastremano verso l'interno, man mano si sale verso l'alto, fino ad unirsi in una struttura parabolica ad U che ne costituisce la copertura. Una struttura piena (il campanile) che si appoggia su una vuota (la casa canonica): un parallepipedo rettangolare scandito da quatro setti verticali - quatro vani finestre al primo piano e quatro porte al piano terra. Il lato sinistra della chiesa disegnato in alto dal sistema delle volte paraboliche ed in basso dai setti della parete laterali, staccati tra loro da piccole feritoie che corrono fino in alto per delimitare le stesse porzioni di copertura E' visibile il marcapiano che separa il tetto dalla parete laterale, che lega questo insieme di setti e di volte. Di scorcio la facciata principale che rivela la struttura a tre navate attraverso le particolare forma trilobata - la parte più alta è quella della navata centrale e le parti più basse sono quelle delle due navate laterali - che chiude le ultime tre volte paraboliche della copertura. Il fronte è servito da un'ampia scalinata organizzata in cinque rampe e tre pianerottoli. "@it ;
-    rico:title "Campanile e l'edificio principale della Chiesa parrocchiale del quartiere San Luigi"@it .
+    rico:scopeAndContent """Esterno della Chiesa parrocchiale del quartiere San Luigi. Vista del campanile e della chiesa da sinistra. In primo piano il giardino della chiesa, il campanile i cui lati si rastremano verso l'interno, salendo verso l'alto, fino ad unirsi in una struttura parabolica ad U che ne costituisce la copertura. Una struttura piena (il campanile) si appoggia su una vuota (la casa canonica): un parallelepipedo rettangolare scandito da quattro setti verticali - quattro vani finestra al primo piano e quattro porte al piano terra.  
+ Il lato sinistro della chiesa viene modellato in alto dal sistema delle volte paraboliche ed in basso dai setti della parete laterali, staccati tra loro da piccole feritoie che corrono fino in alto per delimitare le corrispondenti porzioni di copertura. E' visibile il marcapiano, che separa il tetto dalla parete laterale, che lega questo insieme di setti e di volte. Di scorcio la facciata principale che rivela la struttura a tre navate attraverso le particolare forma trilobata - la parte più alta è quella della navata centrale e le parti più basse sono quelle delle due navate laterali - che chiude e conclude le ultime tre volte paraboliche della copertura. Il fronte è servito da un'ampia scalinata organizzata in cinque rampe e tre pianerottoli."""@it ;
+    rico:title "Campanile e Chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:itdt201044 a itdt:DetailsPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -4916,8 +4919,8 @@ dta:itdt201044 a itdt:DetailsPhotograph ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:isRecordResourceAssociatedWithRecordResource dta:itdt201041 ;
     rico:recordResourceExtent "17.3x23.4"@it ;
-    rico:scopeAndContent "Interno della Chiesa parrocchiale del quartiere San Luigi. Vista della navata laterale sinistra ripresa in direzione dell'ingresso. In primo piano particolare della ringhiera in ferro battuto del presbiterio. Sulla sinistra particolare delle arcate - la cui forma corrisponde alla metà di un'arcata a tutto tondo (un quarto di cerchio). Su ciascuna arcata aderisce un setto della volta parabolica che si rastrema verso il basso. E' visibile loro la texture creata dai casseri del cemento armato lasciato sulle superfici. Sullo sfondo la copertura a volte paraboliche lievemente coniche che pur inserendosi le une nelle altre, creano una serie di finestra-feritoia a forma di arco che ne seguono il profilo e si intervallano ad esse, creando un contrappunto di fasce piene e scure (le volte) ad altre chiare e trasparenti (le finestre-feritoia). Superata la cesura orrizzontale che corrisponde al marcapiano esterno, le feritoie proseguono anche lungo la parete laterale sx, staccando anche qui i pieni (i setti) dai vuoti (le feritoie)."@it ;
-    rico:title "Navata laterale sinistra e la ringhiera del presbiterio della Chiesa parrocchiale del quartiere San Luigi."@it .
+    rico:scopeAndContent "Interno della Chiesa parrocchiale del quartiere San Luigi. Vista della navata laterale sinistra ripresa in direzione dell'ingresso. In primo piano particolare della ringhiera in ferro battuto del presbiterio. Sulla sinistra particolare delle arcate - la cui forma corrisponde alla metà di un'arcata a tutto tondo (un quarto di cerchio). Su ciascuna arcata si innesta un setto della volta parabolica che si rastrema verso il basso. E' visibile la loro texture creata dai casseri di cemento armato fatto aderire sulle superfici. Sullo sfondo la copertura costituita da volte paraboliche lievemente coniche e da una serie di finestra-feritoia a forma di arco che seguono il profilo delle volte e si intervallano ad esse, creando un contrappunto di fasce piene e scure (le volte) e di fasce vuote, chiare e trasparenti (le finestre-feritoia). Superata la cesura orizzontale che corrisponde al marcapiano esterno, le feritoie proseguono anche lungo la parete laterale sx, creando uno stacco tra pieni (i setti) e vuoti (le feritoie)."@it ;
+    rico:title "Navata laterale sinistra e particolare della ringhiera del presbiterio della Chiesa parrocchiale del quartiere San Luigi."@it .
 
 dta:itdt201045 a itdt:ExteriorPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -4935,7 +4938,7 @@ dta:itdt201045 a itdt:ExteriorPhotograph ;
     rico:isAssociatedWithDate dta:1959 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "23.2x15.7"@it ;
-    rico:scopeAndContent "Scorcio della facciata principale e dell'ingresso laterale destra. La facciata rivela la struttura a tre navate attraverso la tipica forma trilobata della parte superiore - una facciata a salienti, rivista in chiave del gotico veneziano, quasi un omaggio alla chiesa romanico-gotica di Muggia - con un elemento centrale più alto e due laterali più bassi che concludono lo sviluppo della copertura a volte paraboliche. La facciata è disadorna, un'unica superficie continua interrotta solo dal grande portone centrale e da un ampio cornicione che sottolinea l'andamento curvilineo della copertura. Il fronte è servito da un'ampia scalinata organizzata in cinque momenti e tre pianerottoli. Attraverso una seconda scalinata sulla destra si accede all'ingresso laterale. "@it ;
+    rico:scopeAndContent "Scorcio della facciata principale e dell'ingresso laterale destro. La facciata rivela la struttura a tre navate attraverso la tipica forma trilobata della parte superiore: una facciata a salienti, rivista in chiave del gotico veneziano, quasi un omaggio alla chiesa romanico-gotica di Muggia. La struttura trilobata è costituita da un elemento centrale più alto e due laterali più bassi che concludono lo sviluppo della copertura a volte paraboliche. La facciata è disadorna, un'unica superficie continua interrotta solo dal grande portone centrale e da un ampio cornicione che sottolinea l'andamento curvilineo della copertura. Il fronte è servito da un'ampia scalinata organizzata in cinque rampe e tre pianerottoli. Attraverso una seconda scalinata sulla destra si accede all'ingresso laterale."@it ;
     rico:title "Vista principale della Chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:itdt201046 a itdt:DetailsPhotograph ;
@@ -4954,7 +4957,7 @@ dta:itdt201046 a itdt:DetailsPhotograph ;
     rico:isAssociatedWithDate dta:1959 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "23.4x17.3"@it ;
-    rico:scopeAndContent "In primo piano le arcate ed i pilastri a sinistra della navata centrale, punto di raccordo e di sostegno tra la copertura a volta della navata centrale e quella laterale sinistra. Sullo sfondo il presbiterio lievemente sopraelevato rispetto al piano di calpestio e l'accesso alla cripta, sottostante, servita da un'ampia scalinata non visibile nella foto. Sull'estrema sinistra s'intravede una cappella. Gli accessi ai diversi livelli della chiesa sono delimitati da una ringhiera in ferro battuto con motivi curvilinei. E' visibile la texture delle volte creato dai casseri in legno del cemento armato faccia a vista."@it ;
+    rico:scopeAndContent "In primo piano le arcate ed i pilastri a sinistra della navata centrale, punto di raccordo e di sostegno tra la copertura a volta della navata centrale e quella laterale sinistra. Sullo sfondo il presbiterio lievemente sopraelevato rispetto al piano di calpestio e l'accesso alla cripta, sottostante, servita da un'ampia scalinata non visibile nella foto. Sull'estremo sinistra s'intravede una cappella. Gli accessi ai diversi livelli della chiesa sono delimitati da una ringhiera in ferro battuto con motivi curvilinei. E' visibile la texture delle volte creato dai casseri in legno del cemento armato faccia a vista."@it ;
     rico:title "Arcate della Chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:itdt201047 a itdt:InteriorPhotograph ;
@@ -4994,8 +4997,8 @@ dta:itdt201048 a itdt:DetailsPhotograph ;
     rico:isAssociatedWithDate dta:1962 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "17.3x23.4"@it ;
-    rico:scopeAndContent "Gli ultimi scalini della scala che collega la cripta al piano terra ed il particolare della ringhiera in ferro battuto della scala che conduce al presbiterio. Sullo sfondo il gioco di luce creato dalle finestre-feritorie ottenute dallo scarto delle volte paraboliche e lievemente coniche che si innestano le une nelle altre sia nella copertura della navata principale che in quella laterale destra. Le arcate - intermezzo tra la navata centrale e quella laterale destra - interrompono e ritmano in modo ancora più serrato il gioco di luce delle feritoie. "@it ;
-    rico:title "Scala tra la cripta e il presbiterio sul piano terra della Chiesa parrocchiale del quartiere San Luigi."@it .
+    rico:scopeAndContent "Gli ultimi scalini della scala che collega la cripta al piano terra ed il particolare della ringhiera in ferro battuto della scala che conduce al presbiterio. Sullo sfondo il gioco di luce creato dalle finestre - feritorie ottenute dallo scarto delle volte paraboliche, lievemente coniche, che si innestano le une nelle altre. Le arcate - intermezzo tra la navata centrale e quella laterale destra - interrompono e ritmano in modo ancora più serrato il gioco di luce delle feritoie."@it ;
+    rico:title "Scala tra la cripta e il presbiterio – vista dal piano terra della Chiesa parrocchiale del quartiere San Luigi."@it .
 
 dta:itdt201049 a itdt:DetailsPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -5012,8 +5015,8 @@ dta:itdt201049 a itdt:DetailsPhotograph ;
     rico:isAssociatedWithDate dta:1959 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "17.3x23.4"@it ;
-    rico:scopeAndContent "Particolare della copertura della navata centrale ripresa verso l'ingresso. La luce policromatica delle feritoie si riflette sulla texture del cemento a vista delle volte paraboliche lievemente coniche che si innestano una nell'altra, come le vertebre della colonna spinale. Sullo sfondo la feritoia più piccola a puntini, sottolinea la forma trilobata della facciata. "@it ;
-    rico:title "La copertura della navata centrale della Chiesa parrocchiale del quartiere San Luigi vista dall'interno"@it .
+    rico:scopeAndContent "Particolare della copertura della navata centrale ripresa verso l'ingresso. La luce policromatica delle feritoie si riflette sulla texture del cemento a vista delle volte paraboliche lievemente coniche che si innestano le une nelle altre.. Sullo sfondo la feritoia più piccola a puntini, sottolinea la forma trilobata della facciata."@it ;
+    rico:title "La copertura della navata centrale della Chiesa parrocchiale del quartiere San Luigi - vista dall'interno"@it .
 
 dta:itdt201050 a itdt:DetailsPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -5032,7 +5035,7 @@ dta:itdt201050 a itdt:DetailsPhotograph ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "17.3x23.4"@it ;
     rico:scopeAndContent "La navata centrale vista da oltre la ringhiera del presbiterio in direzione dell'ingresso, che si staglia sullo sfondo. Ai lati le particolari arcate, corrispondenti ad un quarto di cerchio, in alto il gioco di luce proveniente dalle feritoie - interstizi creati dall'innesto delle volte paraboliche, livemente coniche che si innestano le une nelle altre - gioco che si riflette sulla texture dei casseri di legno dove era stato fatto colare il cemento grezzo."@it ;
-    rico:title "Arcata della Chiesa parrocchiale del quartiere San Luigi vista dal presbiterio verso l'ingresso"@it .
+    rico:title "Arcata della Chiesa parrocchiale del quartiere San Luigi - vista dal presbiterio verso l'ingresso"@it .
 
 dta:itdt201054 a itdt:ConceptualDrawing ;
     dc:language "zxx"^^xsd:language ;
@@ -5048,7 +5051,7 @@ dta:itdt201054 a itdt:ConceptualDrawing ;
     rico:isAssociatedWithDate dta:1955 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "23.4x17.3"@it ;
-    rico:scopeAndContent "Fotografia del rendering dell'interno della chiesa. Vista della navata centrale con le particolari arcate ad un quarto di cerchio e del presbiterio lievemente sopraelevato che ospita l'altare. Sul fondo l'abside centrale, nel primo progetto (qui presentato) decorata da una serie di piccole arcatelle i stile neoromanico, successivamente sostituita da un'unica vela absidale con due aperture laterali simmetriche a forma di quarto di cerchio."@it ;
+    rico:scopeAndContent "Fotografia del rendering dell'interno della chiesa. Vista della navata centrale con le particolari arcate ad un quarto di cerchio e del presbiterio lievemente sopraelevato che ospita l'altare. Sul fondo l'abside centrale. Nel primo progetto (qui presentato) l’abside è decorata da una serie di piccole arcatelle in stile neoromanico, successivamente sostituite da un'unica vela absidale con due aperture laterali simmetriche a forma di quarto di cerchio."@it ;
     rico:title "Navata centrale della Chiesa San Luigi, rendering"@it .
 
 dta:itdt201060 a rico:Instantiation ;
@@ -5071,7 +5074,7 @@ dta:itdt201061 a itdt:Rendering ;
     rico:identifier.1 "61-284/4"@it ;
     rico:isAssociatedWithDate dta:1961 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Fotomontaggio per la presentazione del progetto Hotel Europa. Plastico grezzo e una fotografia idella costiera vicino alla località Le Ginestre  con vista verso Ovest."@it ;
+    rico:scopeAndContent "Fotomontaggio per la presentazione del progetto Hotel Europa. Plastico grezzo e una fotografia della costiera vicino alla località Le Ginestre con vista verso Ovest."@it ;
     rico:title "Fotomontaggio per la presentazione del progetto Hotel Europa"@it .
 
 dta:itdt201062 a itdt:ResearchPhoto ;
@@ -5085,7 +5088,7 @@ dta:itdt201062 a itdt:ResearchPhoto ;
     rico:identifier.1 "62-126/1"@it ;
     rico:isAssociatedWithDate dta:1962 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Foto del fotomontaggio - fotografia dell'incollaggio del plastico di studio su una foto della costiera prima della costruzione dell'Hotel Europa."@it .
+    rico:scopeAndContent "Foto del fotomontaggio - fotografia del plastico di studio, incollata, a sua volta, su una foto della costiera prima della costruzione dell'Hotel Europa."@it .
 
 dta:itdt201063 a itdt:ContextPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -5098,8 +5101,8 @@ dta:itdt201063 a itdt:ContextPhotograph ;
     rico:identifier.1 "61-284/5"@it ;
     rico:isAssociatedWithDate dta:1961 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Il luogo di costruzione dell'Hotel Europa, vistra verso l'Est"@it ;
-    rico:title "Località Le Ginestre, il luogo per il futuro Hotel Europa"@it .
+    rico:scopeAndContent "Il luogo di costruzione dell'Hotel Europa, vista verso Est."@it ;
+    rico:title "Località “Le Ginestre”, il luogo del futuro Hotel Europa"@it .
 
 dta:itdt201071 a itdt:ProcessPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -5112,7 +5115,7 @@ dta:itdt201071 a itdt:ProcessPhotograph ;
     rico:isAssociatedWithDate dta:1964-10-09 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "18x24"@it ;
-    rico:scopeAndContent "Il sito di costruzione dell'Hotel Europa, la spiaggia della località \"Le Ginestre\" con i primi plinti di fondazione probabilmente e i tavolacci ancora in legno per i casseri del cemento armato. Campo lunghissimo"@it ;
+    rico:scopeAndContent "Il sito di costruzione dell'Hotel Europa, la spiaggia della località \"Le Ginestre\" con i primi plinti di fondazione e i tavolacci ancora in legno dei casseri di cemento armato. Campo lunghissimo."@it ;
     rico:title "Lavori di costruzione dell'Hotel Europa, vista della costiera"@it .
 
 dta:itdt201079 a itdt:ProcessPhotograph ;
@@ -5125,7 +5128,7 @@ dta:itdt201079 a itdt:ProcessPhotograph ;
     rico:identifier "ITDT201079"@it ;
     rico:isAssociatedWithDate dta:1966 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Cantiere dell'Hotel Europa. Il pendio molto scosceso del terreno di costruzione dell'albergo. In primo piano il sotto della soletta del ponte. In evidenza le texture dei tavolacci dei casseri. In secondo piano uno scorcio della passerella di servizio che collega l'albergo alla scuola alberghiera. "@it ;
+    rico:scopeAndContent "Cantiere dell'Hotel Europa. Il pendio molto scosceso del terreno di costruzione dell'albergo. In primo piano la soletta del ponte, vista da sotto. In evidenza le texture dei tavolacci dei casseri. In secondo piano uno scorcio della passerella di servizio che collega l'albergo alla scuola alberghiera."@it ;
     rico:title "Il ponte dell'Hotel Europa"@it .
 
 dta:itdt201080 a itdt:DetailsPhotograph ;
@@ -5137,9 +5140,9 @@ dta:itdt201080 a itdt:DetailsPhotograph ;
         dta:tiff217 ;
     rico:identifier "ITDT201080"@it ;
     rico:isAssociatedWithDate dta:1999 ;
-    rico:isOrWasIncludedIn dta:itdt205 ;
+    rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "19x12.6"@it ;
-    rico:scopeAndContent "Hotel Europa nel 1999, realizzata durante il sopralluogo"@it ;
+    rico:scopeAndContent "Hotel Europa nel 1999, realizzata durante il sopralluogo."@it ;
     rico:title "Particolari dell'Hotel Europa"@it .
 
 dta:itdt201081 a itdt:DetailsPhotograph ;
@@ -5151,9 +5154,9 @@ dta:itdt201081 a itdt:DetailsPhotograph ;
         dta:tiff219 ;
     rico:identifier "ITDT201081"@it ;
     rico:isAssociatedWithDate dta:1999 ;
-    rico:isOrWasIncludedIn dta:itdt205 ;
+    rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "10x15"@it ;
-    rico:scopeAndContent "Hotel Europa nel 1999. Particolari delle finestre e gli infissi in legno"@it ;
+    rico:scopeAndContent "Hotel Europa nel 1999. Particolari delle finestre e gli infissi in legno."@it ;
     rico:title "Le finestre dell'Hotel Europa"@it .
 
 dta:itdt201086 a itdt:DetailsPhotograph ;
@@ -5166,7 +5169,7 @@ dta:itdt201086 a itdt:DetailsPhotograph ;
     rico:identifier "ITDT201086"@it ;
     rico:isAssociatedWithDate dta:1967-02-04 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Lato sinistro dell'Aerostazione di Ronchi dei Legionari. Cancello scorrevole in metallo, il particolare del grande cornicione, lievemente aggettante e 2 serie di quadrifore in alluminio. "@it ;
+    rico:scopeAndContent "Lato sinistro dell'Aerostazione di Ronchi dei Legionari. Cancello scorrevole in metallo, il particolare del grande cornicione, lievemente aggettante e 2 serie di quadrifore in alluminio."@it ;
     rico:title "Aerostazione di Ronchi, cancello e lato sinistro"@it .
 
 dta:itdt201087 a itdt:ExteriorPhotograph ;
@@ -5179,7 +5182,7 @@ dta:itdt201087 a itdt:ExteriorPhotograph ;
     rico:identifier "ITDT201087"@it ;
     rico:isAssociatedWithDate dta:1967-02-04 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "La facciata e l'ingresso principale dell'Areostazione di Ronchi. La facciata principale, riconoscibile dalle due scalinate simmetriche, interrotte solo da un corpo centrale, che sfondano la sua continuità e creano due spazi coperti d'ingresso. "@it ;
+    rico:scopeAndContent "La facciata e l'ingresso principale dell'Areostazione di Ronchi. La facciata principale, riconoscibile dalle due scalinate simmetriche, interrotte solo da un corpo centrale, che sfondano la sua continuità e creano due spazi coperti d'ingresso."@it ;
     rico:title "Aerostazione di Ronchi, gli ingressi"@it .
 
 dta:itdt201088 a itdt:ExteriorPhotograph ;
@@ -5192,7 +5195,7 @@ dta:itdt201088 a itdt:ExteriorPhotograph ;
     rico:identifier "ITDT201088"@it ;
     rico:isAssociatedWithDate dta:1967-02-04 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Areostazione di Ronchi. Il gioco del prospetto suddiviso in cinque parti, alternativamente costituite da pieni e vuoti. Il pieno della parte mediana, i due vuoti delle scalinate d'accesso e i due pieni delle due ali laterali, arretrate tanto quanto l'estensione delle due rampe, rispetto al corpo centrale."@it ;
+    rico:scopeAndContent "L’Areostazione di Ronchi. Il gioco del prospetto suddiviso in cinque parti, alternativamente costituite da pieni e vuoti. Il pieno della parte mediana, i due vuoti delle scalinate d'accesso e i due pieni delle due ali laterali, arretrate tanto quanto l'estensione delle due rampe, rispetto al corpo centrale."@it ;
     rico:title "Il prospetto dell'Aerostazione di Ronchi"@it .
 
 dta:itdt201093 a itdt:InteriorPhotograph ;
@@ -5218,7 +5221,7 @@ dta:itdt201095 a itdt:InteriorPhotograph ;
     rico:identifier "ITDT201095"@it ;
     rico:isAssociatedWithDate dta:1967-08-05 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "Uffici interni del Lloyd Triestino"@it ;
+    rico:scopeAndContent "Uffici interni del Lloyd Triestino."@it ;
     rico:title "Lloyd Triestino, interni"@it .
 
 dta:itdt201099 a itdt:ExteriorPhotograph ;
@@ -5232,7 +5235,7 @@ dta:itdt201099 a itdt:ExteriorPhotograph ;
     rico:identifier.1 "64-186/13"@it ;
     rico:isAssociatedWithDate dta:1964 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
-    rico:scopeAndContent "L'ingresso della filiale n° 6 della Cassa di Risparmio di Trieste in via Valmaura 10. Particolare dellla tettoia dell'ingresso."@it ;
+    rico:scopeAndContent "L'ingresso della filiale n° 6 della Cassa di Risparmio di Trieste in via Valmaura 10. Particolare della tettoia dell'ingresso."@it ;
     rico:title "Ingresso della filiale 6 della Cassa di Risparmio di Trieste"@it .
 
 dta:itdt201100 a itdt:InteriorPhotograph ;
@@ -5304,7 +5307,7 @@ dta:itdt205009 a itdt:Rendering ;
     rico:identifier.1 "63-76/16"@it ;
     rico:isAssociatedWithDate dta:1963 ;
     rico:isOrWasIncludedIn dta:itdt205 ;
-    rico:scopeAndContent "Fotomontaggio con il plastico dell'hotel Europa preparato per la presentazione del progetto"@it ;
+    rico:scopeAndContent "Fotomontaggio utilizzando il plastico dell'hotel Europa preparato per la presentazione del progetto."@it ;
     rico:title "Fotomontaggio per la presentazione del progetto dell'Hotel Europa, corpo dell'albergo"@it .
 
 dta:itdt205010 a itdt:Rendering ;
@@ -5320,7 +5323,7 @@ dta:itdt205010 a itdt:Rendering ;
     rico:identifier.1 "63-76/14"@it ;
     rico:isAssociatedWithDate dta:1963 ;
     rico:isOrWasIncludedIn dta:itdt205 ;
-    rico:scopeAndContent "Fotomontaggio con il plastico dell'hotel Europa preparato per la presentazione del progetto"@it ;
+    rico:scopeAndContent "Fotomontaggio utilizzando il plastico dell'hotel Europa preparato per la presentazione del progetto."@it ;
     rico:title "Fotomontaggio per la presentazione del progetto dell'hotel Europa, il ponte"@it .
 
 dta:itdt206013 a itdt:Elevation ;
@@ -5335,8 +5338,8 @@ dta:itdt206013 a itdt:Elevation ;
     rico:isAssociatedWithDate dta:1912unct,
         dta:1986 ;
     rico:isOrWasIncludedIn dta:itdt206 ;
-    rico:scopeAndContent "Una copia fotografica composta dei disegni aquarellati in seppia del particolare delle facciate della Casa Cassab, quella di via dell'Aquedotto (via XX Settembre) e quella di via Stadion (via Battisti). Il disegno riporta il timbro di architetto e perito edile giudiziale di Trieste Giovanni Widmer e la data del 10 maggio 1912"@it ;
-    rico:title "Disegno aquarellato delle facciate della Casa Cassab, 1912"@it .
+    rico:scopeAndContent "Una copia fotografica composta da disegni acquarellati in seppia del particolare delle facciate della Casa Cassab, quella di via dell'Aquedotto (via XX Settembre) e quella di via Stadion (ora via Battisti). Il disegno riporta il timbro di architetto e perito edile giudiziale di Trieste: Giovanni Widmer e la data del 10 maggio 1912."@it ;
+    rico:title "Disegno acquarellato delle facciate della Casa Cassab, 1912"@it .
 
 dta:itdt206014 a itdt:DetailsPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -5351,8 +5354,8 @@ dta:itdt206014 a itdt:DetailsPhotograph ;
     rico:isAssociatedWithDate dta:1986 ;
     rico:isOrWasIncludedIn dta:itdt206 ;
     rico:recordResourceExtent "23x17"@it ;
-    rico:scopeAndContent "Particolare dei motivi floreali del quinto piano della Casa Cassab prima del restauro. Questi occupano lo spazio tra le arcate delle finestre. Una superficie trapezioidale, contenente una ghirlanda bianca con rifiniture di nastri su fondo scuro, si alterna a dei piccoli tondi, che come una chiave di volta segnano l'apice dell'arcata delle finestre. In questi tondi compare sempre un piccolo motivo floreale bianco. Le decorazioni sono attribuibili all'architetto Gino Zaninovich. Primo piano, prospettiva frontale, vista in asse."@it ;
-    rico:title "Decorazioni della Casa Cassab prima del restauro del 1988-1990"@it .
+    rico:scopeAndContent "Particolare dei motivi floreali del quinto piano della Casa Cassab, prima del restauro. Questi motivi occupano lo spazio tra le arcate delle finestre. Una superficie trapezioidale, contenente una ghirlanda bianca con rifiniture di nastri, su fondo scuro, si alterna a dei piccoli tondi, che come una chiave di volta segnano l'apice dell'arcata delle finestre. In questi tondi compare sempre un piccolo motivo floreale bianco. Le decorazioni sono attribuibili all'architetto Gino Zaninovich. Primo piano, prospettiva frontale, vista in asse."@it ;
+    rico:title "Decorazioni della Casa Cassab prima del restauro del 1988 -1990"@it .
 
 dta:itdt206015 a itdt:DetailsPhotograph ;
     dc:language "zxx"^^xsd:language ;
@@ -5431,7 +5434,7 @@ dta:itdt5002 a itdt:PhysicalModel ;
     rico:identifier "ITDT5002"@it ;
     rico:isAssociatedWithDate dta:1953 ;
     rico:isOrWasIncludedIn dta:itdt5 ;
-    rico:scopeAndContent "Plastico (variante iniziale) delle strutture all'ingresso della spiaggia di Grado con piscina a forma di z, progettate da Dino Tamburini, circa 1953. Il plastico non esiste più e le foto del 1953 sono uniche testimonianze."@it ;
+    rico:scopeAndContent "Plastico (variante iniziale) delle strutture all'ingresso della spiaggia di Grado con piscina a forma di Z, progettate da Dino Tamburini, circa 1953. Il plastico non esiste più e le foto del 1953 sono le uniche testimonianze."@it ;
     rico:title "Plastico preliminare dell'ingresso, gli uffici e il ristorante della spiaggia principale del Grado, 1953"@it .
 
 dta:mosaics a rico:Concept ;
@@ -5573,7 +5576,7 @@ Inoltre contiene immagini di rendering stampati, una pianta con stato di fatto, 
 
 dta:itdt201015 a rico:Instantiation ;
     rico:descriptiveNote "Pensilina trapezoidale sovrapposta a due corpi di fabbrica destinati agli uffici e alla biglietteria."@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff015_1,tiff16_1> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff015_1,tiff16_1> ;
     rico:identifier "1302/54"@it ;
     rico:isAssociatedWithDate dta:1954 ;
     rico:isInstatiationOf dta:itdt5001 ;
@@ -5581,7 +5584,7 @@ dta:itdt201015 a rico:Instantiation ;
 
 dta:itdt201016 a rico:Instantiation ;
     rico:descriptiveNote "Studio della distribuzione d'uso dei due corpi di fabbrica distinti senza pensilina trapezoidale visibile nella foto precedente"@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff015_2,tiff16_2> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff015_2,tiff16_2> ;
     rico:identifier "1306/54"@it ;
     rico:isAssociatedWithDate dta:1954 ;
     rico:isInstatiationOf dta:itdt5001 ;
@@ -5589,7 +5592,7 @@ dta:itdt201016 a rico:Instantiation ;
 
 dta:itdt201017 a rico:Instantiation ;
     rico:descriptiveNote "Visione d'insieme delle coperture e della distribuzione d'uso. Pensilina rettangolare trasparente sopvrapposta al sistema di padiglioni destinato ad uso uffici ed alla biglietteria."@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff015_3,tiff16_3> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff015_3,tiff16_3> ;
     rico:identifier "1303/54"@it ;
     rico:isAssociatedWithDate dta:1954 ;
     rico:isInstatiationOf dta:itdt5001 ;
@@ -5597,7 +5600,7 @@ dta:itdt201017 a rico:Instantiation ;
 
 dta:itdt201018 a rico:Instantiation ;
     rico:descriptiveNote "Ripresa dall'alto con la piscina a forma di zeta in evidenza"@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff017_3,tiff18_3> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff017_3,tiff18_3> ;
     rico:identifier "1148/53"@it ;
     rico:isAssociatedWithDate dta:1953 ;
     rico:isInstatiationOf dta:itdt5002 ;
@@ -5605,7 +5608,7 @@ dta:itdt201018 a rico:Instantiation ;
 
 dta:itdt201019 a rico:Instantiation ;
     rico:descriptiveNote "Due corpi di fabbrica degli uffici e bigletteria, vista dal lato spiaggia"@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff017_2,tiff18_2> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff017_2,tiff18_2> ;
     rico:identifier "1307/54"@it ;
     rico:isAssociatedWithDate dta:1954 ;
     rico:isInstatiationOf dta:itdt5001 ;
@@ -5613,7 +5616,7 @@ dta:itdt201019 a rico:Instantiation ;
 
 dta:itdt201020 a rico:Instantiation ;
     rico:descriptiveNote "Vista dalla spiaggia, in evidenza i posti per i bagnanti sul tetto degli uffici"@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff017_1,tiff18_1> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff017_1,tiff18_1> ;
     rico:identifier "1150/53"@it ;
     rico:isAssociatedWithDate dta:1953 ;
     rico:isInstatiationOf dta:itdt5002 ;
@@ -5621,7 +5624,7 @@ dta:itdt201020 a rico:Instantiation ;
 
 dta:itdt201021 a rico:Instantiation ;
     rico:descriptiveNote "Visione d'insieme delle coperture e della distribuzione d'uso con una pensilina rettangolare trasparente, vista dall'alto ingrandita"@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff019,tiff020> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff019,tiff020> ;
     rico:identifier "1309/54"@it ;
     rico:isAssociatedWithDate dta:1954 ;
     rico:isInstatiationOf dta:itdt5001 ;
@@ -5644,12 +5647,12 @@ dta:itdt201041 a itdt:DetailsPhotograph ;
     rico:isAssociatedWithDate dta:1959 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "17.3x23.4"@it ;
-    rico:scopeAndContent "Interno della Chiesa parrocchiale del quartiere San Luigi. Vista della navata laterale sinistra dal presbiterio verso la facciata e l'ingresso principale. In primo piano particolare della ringhiera in ferro battuto con motivi curvilinei. Sullo sfondo la copertura a volte paraboliche lievemente coniche che pur inserendosi le une nelle altre, creano una serie di finestra-feritoia a forma di arco che ne seguono il profilo e si intervallano ad esse, creando un contrappunto di fasce piene e scure (le volte) ad altre chiare e trasparenti (le finestre-feritoia). Superata la cesura orrizzontale che corrisponde al marcapiano esterno, le feritoie proseguono anche lungo le pareti laterali, staccando anche qui i pieni (i setti) dai vuoti (le feritoie)."@it ;
-    rico:title "Navata sinistra dal presbiterio all'ingresso principale della Chiesa parrocchiale del quartiere San Luigi"@it .
+    rico:scopeAndContent "Interno della Chiesa parrocchiale del quartiere San Luigi. Vista della navata laterale sinistra dal presbiterio verso la facciata e l'ingresso principale. In primo piano particolare della ringhiera in ferro battuto con motivi curvilinei del presbiterio. Sullo sfondo la copertura a volte paraboliche lievemente coniche, che pur inserendosi le une nelle altre, creano una serie di finestra-feritoia a forma di arco che ne seguono il profilo e si intervallano ad esse; un contrappunto di fasce piene e scure (le volte) ad altre chiare e trasparenti (le finestre-feritoia). Superata la cesura orizzontale che corrisponde al marcapiano esterno, le feritoie proseguono anche lungo le pareti laterali, determinando uno stacco tra i pieni (i setti) e i vuoti (le feritoie)."@it ;
+    rico:title "Navata sinistra dal presbiterio – vista verso l'ingresso principale della Chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:itdt201051 a rico:Instantiation ;
     rico:descriptiveNote "Vista frontale, in primo piano sulla destra una palazzina per uffici a forma esagonale mai realizzata, sullo sfondo, sempre sul lato destra della chiesa il campanile, che in fase di progetto è stato spostato sul lato sinistra. In questa versione del progetto il motivo preponderante è un marcapiano orrizzontale che lega e segna tutti e quattro i corpi costituitivi del progetto: il battistero a pianta centrale sulla sinistra, la chiesa nel centro, un portico laterale sulla destra che funge da cerniera tra chiesa, palazzina per uffici a forma esagonale sul fronte, con grande sala consigliare inclusa, il campanile e la casa canonica sul retro."@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff070,tiff071> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff070,tiff071> ;
     rico:identifier "880/55"@it ;
     rico:isAssociatedWithDate dta:1955 ;
     rico:isInstatiationOf dta:itdt5003 ;
@@ -5657,7 +5660,7 @@ dta:itdt201051 a rico:Instantiation ;
 
 dta:itdt201052 a rico:Instantiation ;
     rico:descriptiveNote "Inquatratura dall'alto verso il basso (angolo sinistro): in primo piano due corpi aggettanti del battistero sulla sinistra e di una palazzina per uffici a forma esagonale sulla destra rispetto al fronte della chiesa. In secondo piano la particolare copertura a volte paraboliche della chiesa sul cui lato destro si affaccia un porticato a forma rettangolare che collega piu edifici tra loro: la stessa chiesa, una palazzina per uffici a forma esagonale e sul retro: il campanile e la casa canonica."@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff072,tiff073> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff072,tiff073> ;
     rico:identifier "979/55"@it ;
     rico:isAssociatedWithDate dta:1955 ;
     rico:isInstatiationOf dta:itdt5003 ;
@@ -5665,7 +5668,7 @@ dta:itdt201052 a rico:Instantiation ;
 
 dta:itdt201053 a rico:Instantiation ;
     rico:descriptiveNote "Inquatratura dall'alto verso il basso dal lato opposto all'entrata. In primo piano vista dell'abside centrale e di quella laterale sinistra, il fianco sinistro e verso il fronte della chiesa, il battistero a pianta centrale la cui copertura a volta è in pendant con quella più complessa della chiesa sempre a volte paraboliche. Oltre il profilo del campanile, si intravedono la casa canonica e verso il fronte strada e della chiesa, la palazzina per uffici a forma esagonale.   "@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff075,tiff076> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff075,tiff076> ;
     rico:identifier "878/55"@it ;
     rico:isAssociatedWithDate dta:1955 ;
     rico:isInstatiationOf dta:itdt5003 ;
@@ -5673,77 +5676,77 @@ dta:itdt201053 a rico:Instantiation ;
 
 dta:itdt201064 a rico:Instantiation ;
     rico:descriptiveNote "In primo piano il raccordo o corpo angolato e curvilineo che congiunge l'albergo alla scuola alberghiera. In questa versione, la scuola supera in altezza l'albergo di ben quattro piani. Le finestrature dei primi due piani sono a nastro."@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff193,tiff194> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff193,tiff194> ;
     rico:identifier "61-330/3"@it ;
     rico:isAssociatedWithDate dta:1961 ;
     rico:isOrWasIncludedIn dta:itdt201 .
 
 dta:itdt201065 a rico:Instantiation ;
     rico:descriptiveNote "Scorcio dal lato della strada costiera, che corre al di sopra, a mezza costa, da Nord-Est verso Sud-Ovest. In primo piano il blocco della scuola alberghiera, parallelo all'albergo costruito quasi a picco sul mare. Già in questa versione compare l'elemento del ponte sospeso."@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff197,tiff198> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff197,tiff198> ;
     rico:identifier "61-330/5"@it ;
     rico:isAssociatedWithDate dta:1961 ;
     rico:isOrWasIncludedIn dta:itdt201 .
 
 dta:itdt201066 a rico:Instantiation ;
     rico:descriptiveNote "Vista dall'alto, lato albergo"@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff199,tiff200> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff199,tiff200> ;
     rico:identifier "61-330/4"@it ;
     rico:isAssociatedWithDate dta:1961 ;
     rico:isOrWasIncludedIn dta:itdt201 .
 
 dta:itdt201067 a rico:Instantiation ;
     rico:descriptiveNote "Due corpi paralleli collegati tra loro da due passerelle di servizio. In primo piano l'angolo della scuola alberghiera a destra."@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff201,tiff202> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff201,tiff202> ;
     rico:identifier "61-330/7"@it ;
     rico:isAssociatedWithDate dta:1961 ;
     rico:isOrWasIncludedIn dta:itdt201 .
 
 dta:itdt201068 a rico:Instantiation ;
     rico:descriptiveNote "Si osserva l'ombra del corpo di fabbrica della scuola alberghiera rialzata di un piano e la parete dell'albergo, lato monte, che si affaccia sui due cortili degradanti verso il mare, interrotta solo dalla passerella centrale. Sulla sinistra si intravede il motivo delle finestrature a nastro del ponte sospeso, sulla destra in primo piano, la copertura del raccordo curvilineo che collega l'albergo alla scuola. "@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff203,tiff204> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff203,tiff204> ;
     rico:identifier "63-76/7"@it ;
     rico:isAssociatedWithDate dta:1963 ;
     rico:isOrWasIncludedIn dta:itdt201 .
 
 dta:itdt201069 a rico:Instantiation ;
     rico:descriptiveNote "In primo piano la vista delll'albergo lato mare. In evidenza il blocco alquanto articolato di destra ed il ponte organizzato su tre piani. In questa versione si osserva ancora la curvatura del blocco delle camere, rettificata in corso d'opera. "@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff205,tiff206> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff205,tiff206> ;
     rico:identifier "61-330/2"@it ;
     rico:isAssociatedWithDate dta:1961 ;
     rico:isOrWasIncludedIn dta:itdt201 .
 
 dta:itdt201070 a rico:Instantiation ;
     rico:descriptiveNote "Il particolare della strada di accesso immersa in un contesto roccioso. In questa versione il corpo dell'albergo sembra quasi avilupparsi ad anello intorno alla scuola. In evidenza il ponte sospeso tra due blocchi: quello di destra - alquanto articolato e quello di sinistra dalla forma convessa anche verso il lato mare - destinato alle camere."@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff207,tiff208> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff207,tiff208> ;
     rico:identifier "61-330/1"@it ;
     rico:isAssociatedWithDate dta:1961 ;
     rico:isOrWasIncludedIn dta:itdt201 .
 
 dta:itdt205001 a rico:Instantiation ;
     rico:descriptiveNote "I due corpi di base. In primo piano verso il mare si vede l'hotel con un andamento articolato. Il blocco delle camere sulla sinisrtra, la parte dei servizi sulla destra, collegati tra loro da un ponte panoramico, progettato per la sala ristorante. In secondo piano, addossato al monte e sotto il livello della strada costiera, la scuola alberghiera."@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff167,tiff168> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff167,tiff168> ;
     rico:identifier "63-76/111"@it ;
     rico:isAssociatedWithDate dta:1963 ;
     rico:isOrWasIncludedIn dta:itdt205 .
 
 dta:itdt205002 a rico:Instantiation ;
     rico:descriptiveNote "Ripresa da Sud-Est. In evidenza il corpo articicolato di destra, appoggiato alla nuda roccia ed adossato al primo dei due elementi verticali, lievemente aggettante, che contiene uno dei vani scala e la tromba dell'ascensore, il cui locale di servizio fa capolino sopra al lungo ponte sospeso."@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff169,tiff170> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff169,tiff170> ;
     rico:identifier "63-76/5"@it ;
     rico:isAssociatedWithDate dta:1963 ;
     rico:isOrWasIncludedIn dta:itdt205 .
 
 dta:itdt205004 a rico:Instantiation ;
     rico:descriptiveNote "Il raccordo curvilineo della stessa scuola con il blocco delle camere dei clienti, che costituisce corpo di sinistra, vista mare"@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff172,tiff173> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff172,tiff173> ;
     rico:identifier "63-76/2"@it ;
     rico:isAssociatedWithDate dta:1963 ;
     rico:isOrWasIncludedIn dta:itdt205 .
 
 dta:itdt205007 a rico:Instantiation ;
     rico:descriptiveNote "In primo piano il corpo della scuola alberghiera, sopraelevato di un piano rispetto all'albergo e alle passarelle di servizio che collegano i due corpi tra di loro. Questo insieme più basso sembra un E rovesciata."@it ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff177,tiff178> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff177,tiff178> ;
     rico:identifier "63-76/3"@it ;
     rico:isAssociatedWithDate dta:1963 ;
     rico:isOrWasIncludedIn dta:itdt205 .
@@ -5770,7 +5773,7 @@ dta:itdt5003 a itdt:PhysicalModel ;
     rico:identifier "ITDT5003"@it ;
     rico:isAssociatedWithDate dta:1955 ;
     rico:isOrWasIncludedIn dta:itdt5 ;
-    rico:scopeAndContent "Modello della chiesa, realizzato in gesso e presentato per il concorso. Il battistero a pianta centrale la cui copertura a volta è in pendant con quella più complessa della chiesa sempre a volte paraboliche. Il campanile, la casa canonica, la palazzina per uffici a forma esagonale.  "@it ;
+    rico:scopeAndContent "Modello della chiesa, realizzato in gesso e presentato per il concorso. Il complesso presenta anche il battistero a pianta centrale, che ha una copertura a volta che richiama quella più complessa della chiesa, a volte paraboliche, un campanile, la casa canonica ed una palazzina per uffici a forma esagonale."@it ;
     rico:title "Modello della Chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:lavoratoreConciseIdea a itdt:ConciseIdeaStage ;
@@ -5857,7 +5860,7 @@ dta:itdt205006 a itdt:ProcessPhotograph,
     rico:descriptiveNote "In evidenza le coperture dei due edifici che pur nella loro complessità mantengono la stessa quota in altezza. In primo piano la scuola alberghiera, lato monte. In primissimo piano il raccordo curvilineo di sinistra che unisce la scuola all'albergo e subito sotto due terrazzamenti che assorbono lo discesa a mare, quasi a strapiombo."@it ;
     rico:documents dta:ginestreConstruction ;
     rico:hasAuthor dta:alfonsoMottola ;
-    rico:hasDerivedInstantiation <https://dmikhaylova.github.io/dt_archive#tiff175,tiff176> ;
+    rico:hasDerivedInstantiation <https://dinotamburini.it#tiff175,tiff176> ;
     rico:hasDocumentaryFormType dta:photography ;
     rico:hasInstantiation dta:tiff179 ;
     rico:hasOrHadSubject dta:archPhotography ;
@@ -5866,7 +5869,7 @@ dta:itdt205006 a itdt:ProcessPhotograph,
     rico:isAssociatedWithDate dta:1963,
         dta:1966-10 ;
     rico:isOrWasIncludedIn dta:itdt205 ;
-    rico:scopeAndContent "Dino Tamburini al cantiere del complesso dell'Hotel Europa. Sullo sfondo si vede una selva di tubi innocenti. "@it ;
+    rico:scopeAndContent "Dino Tamburini al cantiere del complesso dell'Hotel Europa. Sullo sfondo si vede una selva di tubi innocenti."@it ;
     rico:title "Dino Tamburini nel cantiere dell'hotel Europa"@it .
 
 dta:tracingPaper a rico:Concept ;
@@ -5945,7 +5948,7 @@ dta:itdt5001 a itdt:PhysicalModel ;
     rico:identifier "ITDT5001"@it ;
     rico:isAssociatedWithDate dta:1954 ;
     rico:isOrWasIncludedIn dta:itdt5 ;
-    rico:scopeAndContent "Variante finale del modello delle strutture all'ingresso della spiaggia di Grado, progettate da Dino Tamburini, 1954. Il plastico non esiste più e le foto del 1954 sono uniche testimonianze."@it ;
+    rico:scopeAndContent "Variante finale del modello delle strutture all'ingresso della spiaggia di Grado, progettate da Dino Tamburini, 1954. Il plastico non esiste più e le foto del 1954 sono le uniche testimonianze."@it ;
     rico:title "Plastico dell'ingresso, gli uffici e il ristorante della spiaggia principale del Grado, 1954"@it .
 
 dta:publicGarden a rico:Concept ;
@@ -5997,7 +6000,7 @@ dta:itdt201057 a itdt:CompetitionNotice ;
     rico:isAssociatedWithDate dta:1955-04-08 ;
     rico:isOrWasIncludedIn dta:itdt201 ;
     rico:recordResourceExtent "29.7x42.0"@it ;
-    rico:scopeAndContent "Bando di concorso per la chiesa parrocchiale del quartiere San Luigi con la descrizione dei requisiti per la chiesa, la casa canonica, i locali ad uso di Ministero Pastorale, dei documenti richiesti e delle condizioni del lavoro. La planimetria generale del sito di costruzione in allegato."@it ;
+    rico:scopeAndContent "Bando di concorso per la chiesa parrocchiale del quartiere San Luigi con la descrizione dei requisiti per gli edifici della chiesa, della casa canonica, dei locali ad uso di Ministero Pastorale, dei documenti richiesti e delle condizioni del lavoro. La planimetria generale del sito di costruzione in allegato."@it ;
     rico:title "Bando di concorso per la chiesa parrocchiale del quartiere San Luigi"@it .
 
 dta:livioSchiozzi a rico:Person ;
@@ -6385,6 +6388,21 @@ dta:1996unct a rico:SingleDate ;
     rico:expressedDate "1996-01-01"^^xsd:date ;
     rico:isOrWasPartOf dta:1990s .
 
+dta:itdt205 a rico:RecordSet ;
+    rico:conditionsOfAccess "I documenti possono essere consultati liberamente. "@it ;
+    rico:hasBeginningDate dta:1961 ;
+    rico:hasEndDate dta:1968 ;
+    rico:hasProvenance dta:dinoTamburini ;
+    rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+    rico:history "La cartella con le fotografie è stata portata a Tamburini da Alfonso Mottola."@it ;
+    rico:identifier "ITDT205"@it ;
+    rico:isOrWasIncludedIn dta:itdt2 ;
+    rico:recordResourceExtent "39 fotografie, 1 articolo (ritaglio giornale); cartella verde di cartone, 47x45 cm"@it ;
+    rico:recordResourceStructure "Le fotografie all'interno della cartella non sono ordinate."@it ;
+    rico:scopeAndContent """Il fascicolo raccoglie le fotografie dell'Albergo Europa e annessa scuola alberghiera Le Ginestre, scattate da Alfonso Mottola.
+Inoltre contiene un foglio del Corriere della Sera con articolo "Un albergo per imparare" del 4 ottobre 1968."""@it ;
+    rico:title "Portfolio progetto \"Albergo \"Europa\" e annessa scuola alberghiera  \"Le Ginestre\""@it .
+
 dta:1950s a rico:DateRange ;
     rico:expressedDate "1950-01-01"^^xsd:date ;
     rico:hasBeginningDate dta:1950-01-01 ;
@@ -6440,21 +6458,6 @@ dta:itdt11504 a rico:RecordSet ;
     rico:isOrWasIncludedIn dta:itdt115 ;
     rico:scopeAndContent "Il sottofascicolo contiene le piante per lavagna luminosa con i disegni della pavimentazione del Teatro Verdi."@it ;
     rico:title "Teatro Verdi - piante per lavagna luminosa"@it .
-
-dta:itdt205 a rico:RecordSet ;
-    rico:conditionsOfAccess "I documenti possono essere consultati liberamente. "@it ;
-    rico:hasBeginningDate dta:1961 ;
-    rico:hasEndDate dta:1968 ;
-    rico:hasProvenance dta:dinoTamburini ;
-    rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
-    rico:history "La cartella con le fotografie è stata portata a Tamburini da Alfonso Mottola."@it ;
-    rico:identifier "ITDT205"@it ;
-    rico:isOrWasIncludedIn dta:itdt2 ;
-    rico:recordResourceExtent "39 fotografie, 1 articolo (ritaglio giornale); cartella verde di cartone, 47x45 cm"@it ;
-    rico:recordResourceStructure "Le fotografie all'interno della cartella non sono ordinate."@it ;
-    rico:scopeAndContent """Il fascicolo raccoglie le fotografie dell'Albergo Europa e annessa scuola alberghiera Le Ginestre, scattate da Alfonso Mottola.
-Inoltre contiene un foglio del Corriere della Sera con articolo "Un albergo per imparare" del 4 ottobre 1968."""@it ;
-    rico:title "Portfolio progetto \"Albergo \"Europa\" e annessa scuola alberghiera  \"Le Ginestre\""@it .
 
 dta:sanLuigiConstruction a itdt:ConstructionStage ;
     itdt:isOrWasProjectPhaseOf dta:SanLuigi .
