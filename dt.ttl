@@ -5,6 +5,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 dta:1900-01-01 a rico:SingleDate ;
     rico:certainty "certa"@it ;
@@ -282,40 +283,40 @@ dta:aeroclubMilano a rico:CorporateBody ;
 
 dta:alleanza a rico:CorporateBody ;
     rdfs:label "Alleanza Assicurazioni"@it ;
-    = <https://www.wikidata.org/wiki/Q499812> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q499812> ;
     foaf:name "Alleanza Assicurazioni"@it .
 
 dta:ambulatory a rico:Concept ;
     rdfs:label "deambulatorio"@it ;
-    = <http://vocab.getty.edu/aat/300075884> .
+    owl:sameAs <http://vocab.getty.edu/aat/300075884> .
 
 dta:archSculpture a rico:Concept ;
     rdfs:label "scultura architettonica"@it ;
-    = <http://vocab.getty.edu/aat/300379328> .
+    owl:sameAs <http://vocab.getty.edu/aat/300379328> .
 
 dta:architecture a rico:Concept ;
     rdfs:label "architettura"@it ;
-    = <http://vocab.getty.edu/aat/300054156> .
+    owl:sameAs <http://vocab.getty.edu/aat/300054156> .
 
 dta:attic a rico:Concept ;
     rdfs:label "attico"@it ;
-    = <http://vocab.getty.edu/aat/300004076> .
+    owl:sameAs <http://vocab.getty.edu/aat/300004076> .
 
 dta:baptistery a rico:Concept ;
     rdfs:label "battistero"@it ;
-    = <http://vocab.getty.edu/aat/300007444> .
+    owl:sameAs <http://vocab.getty.edu/aat/300007444> .
 
 dta:barrelRoof a rico:Concept ;
     rdfs:label "tetto a botte"@it ;
-    = <http://vocab.getty.edu/aat/300002108> .
+    owl:sameAs <http://vocab.getty.edu/aat/300002108> .
 
 dta:barrelVault a rico:Concept ;
     rdfs:label "volta a botte"@it ;
-    = <http://vocab.getty.edu/aat/300001363> .
+    owl:sameAs <http://vocab.getty.edu/aat/300001363> .
 
 dta:brutalist a rico:Concept ;
     rdfs:label "brutalismo"@it ;
-    = <http://vocab.getty.edu/aat/300112048> .
+    owl:sameAs <http://vocab.getty.edu/aat/300112048> .
 
 dta:cassabBid a itdt:BidStage ;
     itdt:isOrWasProjectPhaseOf dta:Cassab .
@@ -340,19 +341,19 @@ dta:cassabSetUp a itdt:SetupStage ;
 
 dta:cloister a rico:Concept ;
     rdfs:label "chiostro"@it ;
-    = <http://vocab.getty.edu/aat/300007423> .
+    owl:sameAs <http://vocab.getty.edu/aat/300007423> .
 
 dta:concrete a rico:Concept ;
     rdfs:label "calcestruzzo"@it ;
-    = <http://vocab.getty.edu/aat/300010737> .
+    owl:sameAs <http://vocab.getty.edu/aat/300010737> .
 
 dta:concreteSlabs a rico:Concept ;
     rdfs:label "lastre di cemento"@it ;
-    = <http://vocab.getty.edu/aat/300266342> .
+    owl:sameAs <http://vocab.getty.edu/aat/300266342> .
 
 dta:conoidalVault a rico:Concept ;
     rdfs:label "volta conoidale"@it ;
-    = <http://vocab.getty.edu/aat/300001385> .
+    owl:sameAs <http://vocab.getty.edu/aat/300001385> .
 
 dta:contiAnalysis a itdt:AnalysisPhase ;
     itdt:isOrWasProjectPhaseOf dta:Conti .
@@ -374,11 +375,11 @@ dta:contiSetUp a itdt:SetupStage ;
 
 dta:cuspedArk a rico:Concept ;
     rdfs:label "archi a cuspide"@it ;
-    = <http://vocab.getty.edu/aat/300001001> .
+    owl:sameAs <http://vocab.getty.edu/aat/300001001> .
 
 dta:domicalVault a rico:Concept ;
     rdfs:label "volta a padiglione"@it ;
-    = <http://vocab.getty.edu/aat/300061289> .
+    owl:sameAs <http://vocab.getty.edu/aat/300061289> .
 
 dta:eca a rico:CorporateBody ;
     rdfs:label "ECA"@it ;
@@ -390,27 +391,27 @@ dta:enalc a rico:CorporateBody ;
 
 dta:expandingVault a rico:Concept ;
     rdfs:label "volta conica"@it ;
-    = <http://vocab.getty.edu/aat/300001383> .
+    owl:sameAs <http://vocab.getty.edu/aat/300001383> .
 
 dta:facade a rico:Concept ;
     rdfs:label "facciata"@it ;
-    = <http://vocab.getty.edu/aat/300002526> .
+    owl:sameAs <http://vocab.getty.edu/aat/300002526> .
 
 dta:flyingButtress a rico:Concept ;
     rdfs:label "arca rampante"@it ;
-    = <http://vocab.getty.edu/aat/300000905> .
+    owl:sameAs <http://vocab.getty.edu/aat/300000905> .
 
 dta:formwork a rico:Concept ;
     rdfs:label "cassaforma"@it ;
-    = <http://vocab.getty.edu/aat/300380423> .
+    owl:sameAs <http://vocab.getty.edu/aat/300380423> .
 
 dta:framingConstruction a rico:Concept ;
     rdfs:label "inteleaiatura"@it ;
-    = <http://vocab.getty.edu/aat/300111619> .
+    owl:sameAs <http://vocab.getty.edu/aat/300111619> .
 
 dta:generali a rico:CorporateBody ;
     rdfs:label "Assicurazioni Generali"@it ;
-    = <https://www.wikidata.org/wiki/Q670482> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q670482> ;
     foaf:name "Assicurazioni Generali"@it .
 
 dta:ginestreBid a itdt:BidStage ;
@@ -449,7 +450,7 @@ dta:inaCasa a rico:CorporateBody ;
 
 dta:interiorArchitecture a rico:Concept ;
     rdfs:label "architettura interna"@it ;
-    = <http://vocab.getty.edu/aat/300391239> .
+    owl:sameAs <http://vocab.getty.edu/aat/300391239> .
 
 dta:itdt10102 a rico:RecordSet ;
     rico:conditionsOfAccess "I documenti possono essere consultati liberamente. "@it ;
@@ -1291,11 +1292,11 @@ dta:lavoratoreSetUp a itdt:SetupStage ;
 
 dta:lectureHall a rico:Concept ;
     rdfs:label "aula"@it ;
-    = <http://vocab.getty.edu/aat/300004409> .
+    owl:sameAs <http://vocab.getty.edu/aat/300004409> .
 
 dta:letterStencil a rico:Concept ;
     rdfs:label "normografo"@it ;
-    = <http://vocab.getty.edu/aat/300428157> .
+    owl:sameAs <http://vocab.getty.edu/aat/300428157> .
 
 dta:lloyd a rico:CorporateBody ;
     rdfs:label "Lloyd Triestino"@it ;
@@ -1327,11 +1328,11 @@ dta:lloydTriestinoSetUp a itdt:SetupStage ;
 
 dta:lobby a rico:Concept ;
     rdfs:label "foyer"@it ;
-    = <http://vocab.getty.edu/aat/300004264> .
+    owl:sameAs <http://vocab.getty.edu/aat/300004264> .
 
 dta:loophole a rico:Concept ;
     rdfs:label "feritoie"@it ;
-    = <http://vocab.getty.edu/aat/300003018> .
+    owl:sameAs <http://vocab.getty.edu/aat/300003018> .
 
 dta:marcelloRebetti a rico:Person ;
     rdfs:label "Marcello Rebetti"@it ;
@@ -1341,15 +1342,15 @@ dta:marcelloRebetti a rico:Person ;
 
 dta:modernist a rico:Concept ;
     rdfs:label "modernismo"@it ;
-    = <http://vocab.getty.edu/aat/300021474> .
+    owl:sameAs <http://vocab.getty.edu/aat/300021474> .
 
 dta:narthex a rico:Concept ;
     rdfs:label "nartece"@it ;
-    = <http://vocab.getty.edu/aat/300004624> .
+    owl:sameAs <http://vocab.getty.edu/aat/300004624> .
 
 dta:orchestraPit a rico:Concept ;
     rdfs:label "buca d'orchestra"@it ;
-    = <http://vocab.getty.edu/aat/300100113> .
+    owl:sameAs <http://vocab.getty.edu/aat/300100113> .
 
 dta:pietroValenzin a rico:Person ;
     rdfs:label "Pietro Valenzin"@it ;
@@ -1358,23 +1359,23 @@ dta:pietroValenzin a rico:Person ;
 
 dta:pit a rico:Concept ;
     rdfs:label "platea"@it ;
-    = <http://vocab.getty.edu/aat/300078146> .
+    owl:sameAs <http://vocab.getty.edu/aat/300078146> .
 
 dta:rationalism a rico:Concept ;
     rdfs:label "razionalismo"@it ;
-    = <http://vocab.getty.edu/aat/300069303> .
+    owl:sameAs <http://vocab.getty.edu/aat/300069303> .
 
 dta:rectory a rico:Concept ;
     rdfs:label "casa canonica"@it ;
-    = <http://vocab.getty.edu/aat/300005649> .
+    owl:sameAs <http://vocab.getty.edu/aat/300005649> .
 
 dta:refurbishment a rico:Concept ;
     rdfs:label "ristrutturazione"@it ;
-    = <http://vocab.getty.edu/aat/300389648> .
+    owl:sameAs <http://vocab.getty.edu/aat/300389648> .
 
 dta:restoration a rico:Concept ;
     rdfs:label "restauro "@it ;
-    = <http://vocab.getty.edu/aat/300053742> .
+    owl:sameAs <http://vocab.getty.edu/aat/300053742> .
 
 dta:ronchiAnalysis a itdt:AnalysisPhase ;
     itdt:isOrWasProjectPhaseOf dta:Ronchi .
@@ -1414,11 +1415,11 @@ dta:sanLuigiSetUp a itdt:SetupStage ;
 
 dta:semicircularArk a rico:Concept ;
     rdfs:label "arca semicircolare"@it ;
-    = <http://vocab.getty.edu/aat/300001062> .
+    owl:sameAs <http://vocab.getty.edu/aat/300001062> .
 
 dta:theater a rico:Concept ;
     rdfs:label "teatro"@it ;
-    = <http://vocab.getty.edu/aat/300007117> .
+    owl:sameAs <http://vocab.getty.edu/aat/300007117> .
 
 dta:tiff015_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
@@ -1478,27 +1479,27 @@ dta:tiff076 a rico:Instantiation ;
 
 dta:tiff144 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206004 .
+    rico:isInstantiationOf dta:itdt206004 .
 
 dta:tiff146 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206006 .
+    rico:isInstantiationOf dta:itdt206006 .
 
 dta:tiff147 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206007 .
+    rico:isInstantiationOf dta:itdt206007 .
 
 dta:tiff148 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206008 .
+    rico:isInstantiationOf dta:itdt206008 .
 
 dta:tiff151 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206011 .
+    rico:isInstantiationOf dta:itdt206011 .
 
 dta:tiff163 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206019 .
+    rico:isInstantiationOf dta:itdt206019 .
 
 dta:tiff167 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
@@ -2035,11 +2036,11 @@ dta:aacsg a rico:CorporateBody ;
 
 dta:archDocument a rico:Concept ;
     rdfs:label "documento architettonico"@it ;
-    = <http://vocab.getty.edu/aat/300343615> .
+    owl:sameAs <http://vocab.getty.edu/aat/300343615> .
 
 dta:archOrnament a rico:Concept ;
     rdfs:label "decorazione"@it ;
-    = <http://vocab.getty.edu/aat/300378995> .
+    owl:sameAs <http://vocab.getty.edu/aat/300378995> .
 
 dta:astraFotoCine a rico:CorporateBody ;
     rdfs:label "Astra Foto"@it ;
@@ -2047,7 +2048,7 @@ dta:astraFotoCine a rico:CorporateBody ;
 
 dta:competition a rico:Concept ;
     rdfs:label "concorso"@it ;
-    = <http://vocab.getty.edu/aat/300054760> .
+    owl:sameAs <http://vocab.getty.edu/aat/300054760> .
 
 dta:comuneTrieste a rico:CorporateBody ;
     rdfs:label "Comune di Trieste"@it ;
@@ -2055,7 +2056,7 @@ dta:comuneTrieste a rico:CorporateBody ;
 
 dta:crt a rico:CorporateBody ;
     rdfs:label "Cassa di Risparmio di Trieste"@it ;
-    = <https://www.wikidata.org/wiki/Q28668549> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q28668549> ;
     foaf:name "Cassa di Risparmio di Trieste"@it .
 
 dta:darioTorbianelli a rico:Person ;
@@ -2080,172 +2081,172 @@ dta:donatoRiccesi a rico:Person ;
 dta:fondiaria a rico:CorporateBody ;
     rdfs:label "Fondiaria Assicurazione di Firenze"@it,
         "La Fondiaria Assicurazioni"@it ;
-    = <https://www.wikidata.org/wiki/Q17635113> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q17635113> ;
     foaf:name "Fondiaria Assicurazione di Firenze"@it,
         "La Fondiaria Assicurazioni"@it .
 
 dta:foto01 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt10101001 .
+    rico:isInstantiationOf dta:itdt10101001 .
 
 dta:foto02 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt10101002 .
+    rico:isInstantiationOf dta:itdt10101002 .
 
 dta:foto03 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt10101003 .
+    rico:isInstantiationOf dta:itdt10101003 .
 
 dta:foto04 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt10101004 .
+    rico:isInstantiationOf dta:itdt10101004 .
 
 dta:foto05 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt10101005 .
+    rico:isInstantiationOf dta:itdt10101005 .
 
 dta:foto06 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt10101006 .
+    rico:isInstantiationOf dta:itdt10101006 .
 
 dta:foto07 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt10101007 .
+    rico:isInstantiationOf dta:itdt10101007 .
 
 dta:foto08 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt10101008 .
+    rico:isInstantiationOf dta:itdt10101008 .
 
 dta:foto09 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt10101009 .
+    rico:isInstantiationOf dta:itdt10101009 .
 
 dta:foto10 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201057 .
+    rico:isInstantiationOf dta:itdt201057 .
 
 dta:foto11 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201057 .
+    rico:isInstantiationOf dta:itdt201057 .
 
 dta:foto12 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201057 .
+    rico:isInstantiationOf dta:itdt201057 .
 
 dta:foto13 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201057 .
+    rico:isInstantiationOf dta:itdt201057 .
 
 dta:foto14 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201057 .
+    rico:isInstantiationOf dta:itdt201057 .
 
 dta:foto15 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201057 .
+    rico:isInstantiationOf dta:itdt201057 .
 
 dta:foto16 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201058 .
+    rico:isInstantiationOf dta:itdt201058 .
 
 dta:foto17 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201059 .
+    rico:isInstantiationOf dta:itdt201059 .
 
 dta:foto18 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201025 .
+    rico:isInstantiationOf dta:itdt201025 .
 
 dta:foto19 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201027 .
+    rico:isInstantiationOf dta:itdt201027 .
 
 dta:foto21 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11504001 .
+    rico:isInstantiationOf dta:itdt11504001 .
 
 dta:foto22 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11504002 .
+    rico:isInstantiationOf dta:itdt11504002 .
 
 dta:foto23 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11504003 .
+    rico:isInstantiationOf dta:itdt11504003 .
 
 dta:foto24 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11504004 .
+    rico:isInstantiationOf dta:itdt11504004 .
 
 dta:foto25 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11504005 .
+    rico:isInstantiationOf dta:itdt11504005 .
 
 dta:foto26 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11504006 .
+    rico:isInstantiationOf dta:itdt11504006 .
 
 dta:foto27 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11504007 .
+    rico:isInstantiationOf dta:itdt11504007 .
 
 dta:foto28 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11504008 .
+    rico:isInstantiationOf dta:itdt11504008 .
 
 dta:foto29 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11504009 .
+    rico:isInstantiationOf dta:itdt11504009 .
 
 dta:foto30 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11504010 .
+    rico:isInstantiationOf dta:itdt11504010 .
 
 dta:foto31 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11504011 .
+    rico:isInstantiationOf dta:itdt11504011 .
 
 dta:foto32 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11504012 .
+    rico:isInstantiationOf dta:itdt11504012 .
 
 dta:foto33 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11504013 .
+    rico:isInstantiationOf dta:itdt11504013 .
 
 dta:foto34 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11504014 .
+    rico:isInstantiationOf dta:itdt11504014 .
 
 dta:foto35 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11501001 .
+    rico:isInstantiationOf dta:itdt11501001 .
 
 dta:foto36 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11502001 .
+    rico:isInstantiationOf dta:itdt11502001 .
 
 dta:foto37 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11502001 .
+    rico:isInstantiationOf dta:itdt11502001 .
 
 dta:foto38 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11502002 .
+    rico:isInstantiationOf dta:itdt11502002 .
 
 dta:foto39 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11502003 .
+    rico:isInstantiationOf dta:itdt11502003 .
 
 dta:foto40 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206016 .
+    rico:isInstantiationOf dta:itdt206016 .
 
 dta:ginestreAnalysis a itdt:AnalysisPhase ;
     itdt:isOrWasProjectPhaseOf dta:Ginestre .
 
 dta:ginoPavan a rico:Person ;
     rdfs:label "Gino Pavan"@it ;
-    = <https://www.wikidata.org/wiki/Q97064806> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q97064806> ;
     foaf:familyName "Pavan"@it ;
     foaf:givenName "Gino"@it .
 
@@ -2256,7 +2257,7 @@ dta:giorgioGhersiach a rico:Person ;
 
 dta:giorgioPressburger a rico:Person ;
     rdfs:label "Giorgio Pressburger"@it ;
-    = <https://www.wikidata.org/wiki/Q1008988> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q1008988> ;
     foaf:familyName "Pressburger"@it ;
     foaf:givenName "Giorgio"@it .
 
@@ -2280,7 +2281,7 @@ dta:iacp a rico:CorporateBody ;
 
 dta:invitation a rico:Concept ;
     rdfs:label "Invito"@it ;
-    = <http://vocab.getty.edu/aat/300027083> .
+    owl:sameAs <http://vocab.getty.edu/aat/300027083> .
 
 dta:itdt a rico:RecordSet ;
     rico:hasBeginningDate dta:1924 ;
@@ -3476,7 +3477,7 @@ dta:itdt5004 a itdt:PhysicalModel ;
 
 dta:marchelloMascherini a rico:Person ;
     rdfs:label "Marcello Mascherini"@it ;
-    = <https://www.wikidata.org/wiki/Q1702444> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q1702444> ;
     foaf:familyName "Mascherini"@it ;
     foaf:givenName "Marcello"@it .
 
@@ -3486,7 +3487,7 @@ dta:parocchiaSLuigi a rico:CorporateBody ;
 
 dta:pew a rico:Concept ;
     rdfs:label "banchi di chiesa"@it ;
-    = <http://vocab.getty.edu/aat/300038521> .
+    owl:sameAs <http://vocab.getty.edu/aat/300038521> .
 
 dta:sanLuigiAnalysis a itdt:AnalysisPhase ;
     itdt:isOrWasProjectPhaseOf dta:SanLuigi .
@@ -3502,335 +3503,335 @@ dta:silvanoMaizzan a rico:Person ;
 
 dta:stage a rico:Concept ;
     rdfs:label "scena"@it ;
-    = <http://vocab.getty.edu/aat/300004751> .
+    owl:sameAs <http://vocab.getty.edu/aat/300004751> .
 
 dta:stairs a rico:Concept ;
     rdfs:label "scale"@it ;
-    = <http://vocab.getty.edu/aat/300003228> .
+    owl:sameAs <http://vocab.getty.edu/aat/300003228> .
 
 dta:swimmingPool a rico:Concept ;
     rdfs:label "piscina"@it ;
-    = <http://vocab.getty.edu/aat/300007376> .
+    owl:sameAs <http://vocab.getty.edu/aat/300007376> .
 
 dta:texture a rico:Concept ;
     rdfs:label "texture"@it ;
-    = <http://vocab.getty.edu/aat/300400862> .
+    owl:sameAs <http://vocab.getty.edu/aat/300400862> .
 
 dta:ticketOffice a rico:Concept ;
     rdfs:label "Biglietteria"@it ;
-    = <http://vocab.getty.edu/aat/300248250> .
+    owl:sameAs <http://vocab.getty.edu/aat/300248250> .
 
 dta:tiff002 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201001 .
+    rico:isInstantiationOf dta:itdt201001 .
 
 dta:tiff003 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201001 .
+    rico:isInstantiationOf dta:itdt201001 .
 
 dta:tiff004_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201002 .
+    rico:isInstantiationOf dta:itdt201002 .
 
 dta:tiff004_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201003 .
+    rico:isInstantiationOf dta:itdt201003 .
 
 dta:tiff004_3 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201004 .
+    rico:isInstantiationOf dta:itdt201004 .
 
 dta:tiff005_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201002 .
+    rico:isInstantiationOf dta:itdt201002 .
 
 dta:tiff005_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201003 .
+    rico:isInstantiationOf dta:itdt201003 .
 
 dta:tiff005_3 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201004 .
+    rico:isInstantiationOf dta:itdt201004 .
 
 dta:tiff006_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201005 .
+    rico:isInstantiationOf dta:itdt201005 .
 
 dta:tiff006_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201006 .
+    rico:isInstantiationOf dta:itdt201006 .
 
 dta:tiff006_3 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201007 .
+    rico:isInstantiationOf dta:itdt201007 .
 
 dta:tiff007_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201005 .
+    rico:isInstantiationOf dta:itdt201005 .
 
 dta:tiff007_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201006 .
+    rico:isInstantiationOf dta:itdt201006 .
 
 dta:tiff007_3 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201007 .
+    rico:isInstantiationOf dta:itdt201007 .
 
 dta:tiff008_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201008 .
+    rico:isInstantiationOf dta:itdt201008 .
 
 dta:tiff008_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201009 .
+    rico:isInstantiationOf dta:itdt201009 .
 
 dta:tiff009 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201010 .
+    rico:isInstantiationOf dta:itdt201010 .
 
 dta:tiff010 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201010 .
+    rico:isInstantiationOf dta:itdt201010 .
 
 dta:tiff011 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201011 .
+    rico:isInstantiationOf dta:itdt201011 .
 
 dta:tiff012 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201011 .
+    rico:isInstantiationOf dta:itdt201011 .
 
 dta:tiff013_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201012 .
+    rico:isInstantiationOf dta:itdt201012 .
 
 dta:tiff013_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201013 .
+    rico:isInstantiationOf dta:itdt201013 .
 
 dta:tiff013_3 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201014 .
+    rico:isInstantiationOf dta:itdt201014 .
 
 dta:tiff014_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201012 .
+    rico:isInstantiationOf dta:itdt201012 .
 
 dta:tiff014_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201013 .
+    rico:isInstantiationOf dta:itdt201013 .
 
 dta:tiff014_3 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201014 .
+    rico:isInstantiationOf dta:itdt201014 .
 
 dta:tiff023_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201023 .
+    rico:isInstantiationOf dta:itdt201023 .
 
 dta:tiff023_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201024 .
+    rico:isInstantiationOf dta:itdt201024 .
 
 dta:tiff024_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201023 .
+    rico:isInstantiationOf dta:itdt201023 .
 
 dta:tiff024_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201024 .
+    rico:isInstantiationOf dta:itdt201024 .
 
 dta:tiff025_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201026 .
+    rico:isInstantiationOf dta:itdt201026 .
 
 dta:tiff026 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201026 .
+    rico:isInstantiationOf dta:itdt201026 .
 
 dta:tiff033_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201028 .
+    rico:isInstantiationOf dta:itdt201028 .
 
 dta:tiff033_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201029 .
+    rico:isInstantiationOf dta:itdt201029 .
 
 dta:tiff033_3 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201030 .
+    rico:isInstantiationOf dta:itdt201030 .
 
 dta:tiff033_4 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201031 .
+    rico:isInstantiationOf dta:itdt201031 .
 
 dta:tiff033_5 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201032 .
+    rico:isInstantiationOf dta:itdt201032 .
 
 dta:tiff033_6 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201033 .
+    rico:isInstantiationOf dta:itdt201033 .
 
 dta:tiff033_7 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201034 .
+    rico:isInstantiationOf dta:itdt201034 .
 
 dta:tiff034_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201028 .
+    rico:isInstantiationOf dta:itdt201028 .
 
 dta:tiff034_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201029 .
+    rico:isInstantiationOf dta:itdt201029 .
 
 dta:tiff034_3 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201030 .
+    rico:isInstantiationOf dta:itdt201030 .
 
 dta:tiff034_4 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201031 .
+    rico:isInstantiationOf dta:itdt201031 .
 
 dta:tiff034_5 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201032 .
+    rico:isInstantiationOf dta:itdt201032 .
 
 dta:tiff034_6 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201033 .
+    rico:isInstantiationOf dta:itdt201033 .
 
 dta:tiff034_7 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201034 .
+    rico:isInstantiationOf dta:itdt201034 .
 
 dta:tiff035 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201035 .
+    rico:isInstantiationOf dta:itdt201035 .
 
 dta:tiff036 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201035 .
+    rico:isInstantiationOf dta:itdt201035 .
 
 dta:tiff037 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201036 .
+    rico:isInstantiationOf dta:itdt201036 .
 
 dta:tiff038 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201036 .
+    rico:isInstantiationOf dta:itdt201036 .
 
 dta:tiff039 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201037 .
+    rico:isInstantiationOf dta:itdt201037 .
 
 dta:tiff040 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201037 .
+    rico:isInstantiationOf dta:itdt201037 .
 
 dta:tiff041 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201038 .
+    rico:isInstantiationOf dta:itdt201038 .
 
 dta:tiff042 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201038 .
+    rico:isInstantiationOf dta:itdt201038 .
 
 dta:tiff043 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201039 .
+    rico:isInstantiationOf dta:itdt201039 .
 
 dta:tiff044 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201039 .
+    rico:isInstantiationOf dta:itdt201039 .
 
 dta:tiff045 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201040 .
+    rico:isInstantiationOf dta:itdt201040 .
 
 dta:tiff046 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201040 .
+    rico:isInstantiationOf dta:itdt201040 .
 
 dta:tiff047 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201041 .
+    rico:isInstantiationOf dta:itdt201041 .
 
 dta:tiff048 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201041 .
+    rico:isInstantiationOf dta:itdt201041 .
 
 dta:tiff049 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201042 .
+    rico:isInstantiationOf dta:itdt201042 .
 
 dta:tiff050 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201042 .
+    rico:isInstantiationOf dta:itdt201042 .
 
 dta:tiff051 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201043 .
+    rico:isInstantiationOf dta:itdt201043 .
 
 dta:tiff052 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201043 .
+    rico:isInstantiationOf dta:itdt201043 .
 
 dta:tiff053 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201044 .
+    rico:isInstantiationOf dta:itdt201044 .
 
 dta:tiff054 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201044 .
+    rico:isInstantiationOf dta:itdt201044 .
 
 dta:tiff056 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201045 .
+    rico:isInstantiationOf dta:itdt201045 .
 
 dta:tiff057 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201045 .
+    rico:isInstantiationOf dta:itdt201045 .
 
 dta:tiff058 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201046 .
+    rico:isInstantiationOf dta:itdt201046 .
 
 dta:tiff059 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201046 .
+    rico:isInstantiationOf dta:itdt201046 .
 
 dta:tiff060 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201047 .
+    rico:isInstantiationOf dta:itdt201047 .
 
 dta:tiff061 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201047 .
+    rico:isInstantiationOf dta:itdt201047 .
 
 dta:tiff062 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201048 .
+    rico:isInstantiationOf dta:itdt201048 .
 
 dta:tiff063 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201048 .
+    rico:isInstantiationOf dta:itdt201048 .
 
 dta:tiff066 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201049 .
+    rico:isInstantiationOf dta:itdt201049 .
 
 dta:tiff067 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201049 .
+    rico:isInstantiationOf dta:itdt201049 .
 
 dta:tiff068 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201050 .
+    rico:isInstantiationOf dta:itdt201050 .
 
 dta:tiff069 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201050 .
+    rico:isInstantiationOf dta:itdt201050 .
 
 dta:tiff074 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
@@ -3838,403 +3839,403 @@ dta:tiff074 a rico:Instantiation ;
 
 dta:tiff077 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201054 .
+    rico:isInstantiationOf dta:itdt201054 .
 
 dta:tiff078 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201054 .
+    rico:isInstantiationOf dta:itdt201054 .
 
 dta:tiff079 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201055 .
+    rico:isInstantiationOf dta:itdt201055 .
 
 dta:tiff080 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201056 .
+    rico:isInstantiationOf dta:itdt201056 .
 
 dta:tiff112_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201106 .
+    rico:isInstantiationOf dta:itdt201106 .
 
 dta:tiff112_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201107 .
+    rico:isInstantiationOf dta:itdt201107 .
 
 dta:tiff128 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11504015 .
+    rico:isInstantiationOf dta:itdt11504015 .
 
 dta:tiff129 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11504016 .
+    rico:isInstantiationOf dta:itdt11504016 .
 
 dta:tiff130 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11504017 .
+    rico:isInstantiationOf dta:itdt11504017 .
 
 dta:tiff131 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11504018 .
+    rico:isInstantiationOf dta:itdt11504018 .
 
 dta:tiff137 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11502004 .
+    rico:isInstantiationOf dta:itdt11502004 .
 
 dta:tiff138 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11502005 .
+    rico:isInstantiationOf dta:itdt11502005 .
 
 dta:tiff139 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11502006 .
+    rico:isInstantiationOf dta:itdt11502006 .
 
 dta:tiff140 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt11502007 .
+    rico:isInstantiationOf dta:itdt11502007 .
 
 dta:tiff141 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206001 .
+    rico:isInstantiationOf dta:itdt206001 .
 
 dta:tiff142 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206002 .
+    rico:isInstantiationOf dta:itdt206002 .
 
 dta:tiff143 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206003 .
+    rico:isInstantiationOf dta:itdt206003 .
 
 dta:tiff145 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206005 .
+    rico:isInstantiationOf dta:itdt206005 .
 
 dta:tiff149 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206009 .
+    rico:isInstantiationOf dta:itdt206009 .
 
 dta:tiff150 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206010 .
+    rico:isInstantiationOf dta:itdt206010 .
 
 dta:tiff152 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206012 .
+    rico:isInstantiationOf dta:itdt206012 .
 
 dta:tiff153 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206013 .
+    rico:isInstantiationOf dta:itdt206013 .
 
 dta:tiff154 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206013 .
+    rico:isInstantiationOf dta:itdt206013 .
 
 dta:tiff155 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206014 .
+    rico:isInstantiationOf dta:itdt206014 .
 
 dta:tiff156 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206014 .
+    rico:isInstantiationOf dta:itdt206014 .
 
 dta:tiff157 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206015 .
+    rico:isInstantiationOf dta:itdt206015 .
 
 dta:tiff158 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206015 .
+    rico:isInstantiationOf dta:itdt206015 .
 
 dta:tiff160 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206017 .
+    rico:isInstantiationOf dta:itdt206017 .
 
 dta:tiff161 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206017 .
+    rico:isInstantiationOf dta:itdt206017 .
 
 dta:tiff162 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206018 .
+    rico:isInstantiationOf dta:itdt206018 .
 
 dta:tiff164 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206020 .
+    rico:isInstantiationOf dta:itdt206020 .
 
 dta:tiff165 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206021 .
+    rico:isInstantiationOf dta:itdt206021 .
 
 dta:tiff166 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt206021 .
+    rico:isInstantiationOf dta:itdt206021 .
 
 dta:tiff171 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt205003 .
+    rico:isInstantiationOf dta:itdt205003 .
 
 dta:tiff174 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt205005 .
+    rico:isInstantiationOf dta:itdt205005 .
 
 dta:tiff179 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt205006 .
+    rico:isInstantiationOf dta:itdt205006 .
 
 dta:tiff180 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt205009 .
+    rico:isInstantiationOf dta:itdt205009 .
 
 dta:tiff181 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt205009 .
+    rico:isInstantiationOf dta:itdt205009 .
 
 dta:tiff182 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt205010 .
+    rico:isInstantiationOf dta:itdt205010 .
 
 dta:tiff183 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt205010 .
+    rico:isInstantiationOf dta:itdt205010 .
 
 dta:tiff184_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt205011 .
+    rico:isInstantiationOf dta:itdt205011 .
 
 dta:tiff184_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt205012 .
+    rico:isInstantiationOf dta:itdt205012 .
 
 dta:tiff184_3 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt205013 .
+    rico:isInstantiationOf dta:itdt205013 .
 
 dta:tiff184_4 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt205014 .
+    rico:isInstantiationOf dta:itdt205014 .
 
 dta:tiff184_5 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt205015 .
+    rico:isInstantiationOf dta:itdt205015 .
 
 dta:tiff185 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201061 .
+    rico:isInstantiationOf dta:itdt201061 .
 
 dta:tiff186 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201061 .
+    rico:isInstantiationOf dta:itdt201061 .
 
 dta:tiff187 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201062 .
+    rico:isInstantiationOf dta:itdt201062 .
 
 dta:tiff188 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201062 .
+    rico:isInstantiationOf dta:itdt201062 .
 
 dta:tiff189 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201063 .
+    rico:isInstantiationOf dta:itdt201063 .
 
 dta:tiff190 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201063 .
+    rico:isInstantiationOf dta:itdt201063 .
 
 dta:tiff209 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201071 .
+    rico:isInstantiationOf dta:itdt201071 .
 
 dta:tiff210 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201071 .
+    rico:isInstantiationOf dta:itdt201071 .
 
 dta:tiff211_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201072 .
+    rico:isInstantiationOf dta:itdt201072 .
 
 dta:tiff211_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201073 .
+    rico:isInstantiationOf dta:itdt201073 .
 
 dta:tiff211_3 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201074 .
+    rico:isInstantiationOf dta:itdt201074 .
 
 dta:tiff212_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201075 .
+    rico:isInstantiationOf dta:itdt201075 .
 
 dta:tiff212_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201076 .
+    rico:isInstantiationOf dta:itdt201076 .
 
 dta:tiff212_3 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201077 .
+    rico:isInstantiationOf dta:itdt201077 .
 
 dta:tiff213 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201078 .
+    rico:isInstantiationOf dta:itdt201078 .
 
 dta:tiff214 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201079 .
+    rico:isInstantiationOf dta:itdt201079 .
 
 dta:tiff215 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201079 .
+    rico:isInstantiationOf dta:itdt201079 .
 
 dta:tiff216 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201080 .
+    rico:isInstantiationOf dta:itdt201080 .
 
 dta:tiff217 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201080 .
+    rico:isInstantiationOf dta:itdt201080 .
 
 dta:tiff218 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201081 .
+    rico:isInstantiationOf dta:itdt201081 .
 
 dta:tiff219 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201081 .
+    rico:isInstantiationOf dta:itdt201081 .
 
 dta:tiff220_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201082 .
+    rico:isInstantiationOf dta:itdt201082 .
 
 dta:tiff220_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201083 .
+    rico:isInstantiationOf dta:itdt201083 .
 
 dta:tiff221 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201084 .
+    rico:isInstantiationOf dta:itdt201084 .
 
 dta:tiff222 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201085 .
+    rico:isInstantiationOf dta:itdt201085 .
 
 dta:tiff223_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201086 .
+    rico:isInstantiationOf dta:itdt201086 .
 
 dta:tiff223_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201087 .
+    rico:isInstantiationOf dta:itdt201087 .
 
 dta:tiff223_3 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201088 .
+    rico:isInstantiationOf dta:itdt201088 .
 
 dta:tiff224_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201086 .
+    rico:isInstantiationOf dta:itdt201086 .
 
 dta:tiff224_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201087 .
+    rico:isInstantiationOf dta:itdt201087 .
 
 dta:tiff224_3 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201088 .
+    rico:isInstantiationOf dta:itdt201088 .
 
 dta:tiff225 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201089 .
+    rico:isInstantiationOf dta:itdt201089 .
 
 dta:tiff226 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201090 .
+    rico:isInstantiationOf dta:itdt201090 .
 
 dta:tiff227_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201091 .
+    rico:isInstantiationOf dta:itdt201091 .
 
 dta:tiff227_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201092 .
+    rico:isInstantiationOf dta:itdt201092 .
 
 dta:tiff228 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201093 .
+    rico:isInstantiationOf dta:itdt201093 .
 
 dta:tiff229 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201093 .
+    rico:isInstantiationOf dta:itdt201093 .
 
 dta:tiff230 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201094 .
+    rico:isInstantiationOf dta:itdt201094 .
 
 dta:tiff231 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201095 .
+    rico:isInstantiationOf dta:itdt201095 .
 
 dta:tiff232 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201095 .
+    rico:isInstantiationOf dta:itdt201095 .
 
 dta:tiff233 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201096 .
+    rico:isInstantiationOf dta:itdt201096 .
 
 dta:tiff234_1 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201097 .
+    rico:isInstantiationOf dta:itdt201097 .
 
 dta:tiff234_2 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201098 .
+    rico:isInstantiationOf dta:itdt201098 .
 
 dta:tiff235 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201099 .
+    rico:isInstantiationOf dta:itdt201099 .
 
 dta:tiff236 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201099 .
+    rico:isInstantiationOf dta:itdt201099 .
 
 dta:tiff237 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201100 .
+    rico:isInstantiationOf dta:itdt201100 .
 
 dta:tiff238 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201100 .
+    rico:isInstantiationOf dta:itdt201100 .
 
 dta:tiff239 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201101 .
+    rico:isInstantiationOf dta:itdt201101 .
 
 dta:tiff240 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201102 .
+    rico:isInstantiationOf dta:itdt201102 .
 
 dta:tiff241 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201103 .
+    rico:isInstantiationOf dta:itdt201103 .
 
 dta:tiff242 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201103 .
+    rico:isInstantiationOf dta:itdt201103 .
 
 dta:tiff243 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201104 .
+    rico:isInstantiationOf dta:itdt201104 .
 
 dta:tiff244 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201104 .
+    rico:isInstantiationOf dta:itdt201104 .
 
 dta:tiff245 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201105 .
+    rico:isInstantiationOf dta:itdt201105 .
 
 dta:tiff246 a rico:Instantiation ;
     rico:isAssociatedWithDate dta:2019-08 ;
-    rico:isInstatiationOf dta:itdt201105 .
+    rico:isInstantiationOf dta:itdt201105 .
 
 dta:verdiAcceptance a itdt:AcceptancePhase ;
     itdt:isOrWasProjectPhaseOf dta:Verdi .
@@ -4298,15 +4299,15 @@ dta:CanovaAcceptance a itdt:AcceptancePhase ;
 
 dta:altar a rico:Concept ;
     rdfs:label "altare"@it ;
-    = <http://vocab.getty.edu/aat/300003725> .
+    owl:sameAs <http://vocab.getty.edu/aat/300003725> .
 
 dta:column a rico:Concept ;
     rdfs:label "colonne"@it ;
-    = <http://vocab.getty.edu/aat/300001571> .
+    owl:sameAs <http://vocab.getty.edu/aat/300001571> .
 
 dta:crypt a rico:Concept ;
     rdfs:label "cripta"@it ;
-    = <http://vocab.getty.edu/aat/300004618> .
+    owl:sameAs <http://vocab.getty.edu/aat/300004618> .
 
 dta:ginestreConciseIdea a itdt:ConciseIdeaStage ;
     itdt:isOrWasProjectPhaseOf dta:Ginestre .
@@ -5058,7 +5059,7 @@ dta:itdt201060 a rico:Instantiation ;
     rico:descriptiveNote "La facciata è divisa in due parti orizzontalmente da un grande marcapiano. La parte sottostante, alta tanto quanto il portone d'ingresso, è in bugnato rustico. La parte soprastante è liscia e riporta come motivo decorativo delle piccole feritoie e due grandi bassorilievi. Le feritoie, sia orizzontali che verticali, illuminano la parte superiore delle tre navate e sono collocate in ordine sparso. I due bassorilievi sono collocati in corrispondenza della navata centrale, in asse rispetto al portone d'ingresso, uno sopra l'altro. Quello superiore è un'Assunzione, mentre quella inferiore un'Annunciazione. Due grandi doccioni (o gargolle) - alla maniera delle chiese romaniche – vengono inseriti tra i due interstizi della facciata trilobata in corrispondenza dei punti di raccordo tra le tre navate."@it ;
     rico:hasDerivedInstantiation dta:tiff074 ;
     rico:isAssociatedWithDate dta:1955unct ;
-    rico:isInstatiationOf dta:itdt5004 ;
+    rico:isInstantiationOf dta:itdt5004 ;
     rico:isOrWasIncludedIn dta:itdt201 .
 
 dta:itdt201061 a itdt:Rendering ;
@@ -5439,30 +5440,30 @@ dta:itdt5002 a itdt:PhysicalModel ;
 
 dta:mosaics a rico:Concept ;
     rdfs:label "mosaico"@it ;
-    = <http://vocab.getty.edu/aat/300015342> .
+    owl:sameAs <http://vocab.getty.edu/aat/300015342> .
 
 dta:pilasterStrip a rico:Concept ;
     rdfs:label "lesene"@it ;
-    = <http://vocab.getty.edu/aat/300002744> .
+    owl:sameAs <http://vocab.getty.edu/aat/300002744> .
 
 dta:reinforcedConcrete a rico:Concept ;
     rdfs:label "cemento armato"@it ;
-    = <http://vocab.getty.edu/aat/300010775> .
+    owl:sameAs <http://vocab.getty.edu/aat/300010775> .
 
 dta:sanLuigiFollowUp a itdt:AcceptancePhase ;
     itdt:isOrWasProjectPhaseOf dta:SanLuigi .
 
 dta:sashWindow a rico:Concept ;
     rdfs:label "Finestra a ghigliottina, finestra americana"@it ;
-    = <http://vocab.getty.edu/aat/300266766> .
+    owl:sameAs <http://vocab.getty.edu/aat/300266766> .
 
 dta:scaffolds a rico:Concept ;
     rdfs:label "impalcatura"@it ;
-    = <http://vocab.getty.edu/aat/300022259> .
+    owl:sameAs <http://vocab.getty.edu/aat/300022259> .
 
 dta:stageFloor a rico:Concept ;
     rdfs:label "palcoscenico"@it ;
-    = <http://vocab.getty.edu/aat/300100057> .
+    owl:sameAs <http://vocab.getty.edu/aat/300100057> .
 
 dta:tullioVenturini a rico:Person ;
     rdfs:label "Tullio Venturini"@it ;
@@ -5495,15 +5496,15 @@ dta:2002 a rico:SingleDate ;
 
 dta:apse a rico:Concept ;
     rdfs:label "abside"@it ;
-    = <http://vocab.getty.edu/aat/300004607> .
+    owl:sameAs <http://vocab.getty.edu/aat/300004607> .
 
 dta:ark a rico:Concept ;
     rdfs:label "arca"@it ;
-    = <http://vocab.getty.edu/aat/300000994> .
+    owl:sameAs <http://vocab.getty.edu/aat/300000994> .
 
 dta:chancel a rico:Concept ;
     rdfs:label "presbiterio"@it ;
-    = <http://vocab.getty.edu/aat/300004565> .
+    owl:sameAs <http://vocab.getty.edu/aat/300004565> .
 
 dta:contiAcceptance a itdt:AcceptancePhase ;
     itdt:isOrWasProjectPhaseOf dta:Conti .
@@ -5579,7 +5580,7 @@ dta:itdt201015 a rico:Instantiation ;
     rico:hasDerivedInstantiation <https://dinotamburini.it#tiff015_1,tiff16_1> ;
     rico:identifier "1302/54"@it ;
     rico:isAssociatedWithDate dta:1954 ;
-    rico:isInstatiationOf dta:itdt5001 ;
+    rico:isInstantiationOf dta:itdt5001 ;
     rico:isOrWasIncludedIn dta:itdt201 .
 
 dta:itdt201016 a rico:Instantiation ;
@@ -5587,7 +5588,7 @@ dta:itdt201016 a rico:Instantiation ;
     rico:hasDerivedInstantiation <https://dinotamburini.it#tiff015_2,tiff16_2> ;
     rico:identifier "1306/54"@it ;
     rico:isAssociatedWithDate dta:1954 ;
-    rico:isInstatiationOf dta:itdt5001 ;
+    rico:isInstantiationOf dta:itdt5001 ;
     rico:isOrWasIncludedIn dta:itdt201 .
 
 dta:itdt201017 a rico:Instantiation ;
@@ -5595,7 +5596,7 @@ dta:itdt201017 a rico:Instantiation ;
     rico:hasDerivedInstantiation <https://dinotamburini.it#tiff015_3,tiff16_3> ;
     rico:identifier "1303/54"@it ;
     rico:isAssociatedWithDate dta:1954 ;
-    rico:isInstatiationOf dta:itdt5001 ;
+    rico:isInstantiationOf dta:itdt5001 ;
     rico:isOrWasIncludedIn dta:itdt201 .
 
 dta:itdt201018 a rico:Instantiation ;
@@ -5603,7 +5604,7 @@ dta:itdt201018 a rico:Instantiation ;
     rico:hasDerivedInstantiation <https://dinotamburini.it#tiff017_3,tiff18_3> ;
     rico:identifier "1148/53"@it ;
     rico:isAssociatedWithDate dta:1953 ;
-    rico:isInstatiationOf dta:itdt5002 ;
+    rico:isInstantiationOf dta:itdt5002 ;
     rico:isOrWasIncludedIn dta:itdt201 .
 
 dta:itdt201019 a rico:Instantiation ;
@@ -5611,7 +5612,7 @@ dta:itdt201019 a rico:Instantiation ;
     rico:hasDerivedInstantiation <https://dinotamburini.it#tiff017_2,tiff18_2> ;
     rico:identifier "1307/54"@it ;
     rico:isAssociatedWithDate dta:1954 ;
-    rico:isInstatiationOf dta:itdt5001 ;
+    rico:isInstantiationOf dta:itdt5001 ;
     rico:isOrWasIncludedIn dta:itdt201 .
 
 dta:itdt201020 a rico:Instantiation ;
@@ -5619,7 +5620,7 @@ dta:itdt201020 a rico:Instantiation ;
     rico:hasDerivedInstantiation <https://dinotamburini.it#tiff017_1,tiff18_1> ;
     rico:identifier "1150/53"@it ;
     rico:isAssociatedWithDate dta:1953 ;
-    rico:isInstatiationOf dta:itdt5002 ;
+    rico:isInstantiationOf dta:itdt5002 ;
     rico:isOrWasIncludedIn dta:itdt201 .
 
 dta:itdt201021 a rico:Instantiation ;
@@ -5627,7 +5628,7 @@ dta:itdt201021 a rico:Instantiation ;
     rico:hasDerivedInstantiation <https://dinotamburini.it#tiff019,tiff020> ;
     rico:identifier "1309/54"@it ;
     rico:isAssociatedWithDate dta:1954 ;
-    rico:isInstatiationOf dta:itdt5001 ;
+    rico:isInstantiationOf dta:itdt5001 ;
     rico:isOrWasIncludedIn dta:itdt201 .
 
 dta:itdt201041 a itdt:DetailsPhotograph ;
@@ -5655,7 +5656,7 @@ dta:itdt201051 a rico:Instantiation ;
     rico:hasDerivedInstantiation <https://dinotamburini.it#tiff070,tiff071> ;
     rico:identifier "880/55"@it ;
     rico:isAssociatedWithDate dta:1955 ;
-    rico:isInstatiationOf dta:itdt5003 ;
+    rico:isInstantiationOf dta:itdt5003 ;
     rico:isOrWasIncludedIn dta:itdt201 .
 
 dta:itdt201052 a rico:Instantiation ;
@@ -5663,7 +5664,7 @@ dta:itdt201052 a rico:Instantiation ;
     rico:hasDerivedInstantiation <https://dinotamburini.it#tiff072,tiff073> ;
     rico:identifier "979/55"@it ;
     rico:isAssociatedWithDate dta:1955 ;
-    rico:isInstatiationOf dta:itdt5003 ;
+    rico:isInstantiationOf dta:itdt5003 ;
     rico:isOrWasIncludedIn dta:itdt201 .
 
 dta:itdt201053 a rico:Instantiation ;
@@ -5671,7 +5672,7 @@ dta:itdt201053 a rico:Instantiation ;
     rico:hasDerivedInstantiation <https://dinotamburini.it#tiff075,tiff076> ;
     rico:identifier "878/55"@it ;
     rico:isAssociatedWithDate dta:1955 ;
-    rico:isInstatiationOf dta:itdt5003 ;
+    rico:isInstantiationOf dta:itdt5003 ;
     rico:isOrWasIncludedIn dta:itdt201 .
 
 dta:itdt201064 a rico:Instantiation ;
@@ -5781,7 +5782,7 @@ dta:lavoratoreConciseIdea a itdt:ConciseIdeaStage ;
 
 dta:ribbonWindow a rico:Concept ;
     rdfs:label "finestra a nastro"@it ;
-    = <http://vocab.getty.edu/aat/300069417> .
+    owl:sameAs <http://vocab.getty.edu/aat/300069417> .
 
 dta:robertoCosta a rico:Person ;
     rdfs:label "Roberto Costa"@it ;
@@ -5825,11 +5826,11 @@ dta:2006 a rico:SingleDate ;
 
 dta:article a rico:Concept ;
     rdfs:label "articolo"@it ;
-    = <http://vocab.getty.edu/aat/300048715> .
+    owl:sameAs <http://vocab.getty.edu/aat/300048715> .
 
 dta:bellTower a rico:Concept ;
     rdfs:label "campanile"@it ;
-    = <http://vocab.getty.edu/aat/300004848> .
+    owl:sameAs <http://vocab.getty.edu/aat/300004848> .
 
 dta:geriPozzar a rico:Person ;
     rdfs:label "Geri (Ruggero) Pozzar"@it ;
@@ -5874,7 +5875,7 @@ dta:itdt205006 a itdt:ProcessPhotograph,
 
 dta:tracingPaper a rico:Concept ;
     rdfs:label "Carta da lucido"@it ;
-    = <http://vocab.getty.edu/aat/300014161> .
+    owl:sameAs <http://vocab.getty.edu/aat/300014161> .
 
 dta:unknownDate a rico:SingleDate ;
     rico:certainty "incerta"@it ;
@@ -5953,7 +5954,7 @@ dta:itdt5001 a itdt:PhysicalModel ;
 
 dta:publicGarden a rico:Concept ;
     rdfs:label "giardino pubblico"@it ;
-    = <http://vocab.getty.edu/aat/300008155> .
+    owl:sameAs <http://vocab.getty.edu/aat/300008155> .
 
 dta:ruggeroPozzar a rico:Person ;
     rdfs:label "Ruggero Pozzar"@it ;
@@ -6005,14 +6006,14 @@ dta:itdt201057 a itdt:CompetitionNotice ;
 
 dta:livioSchiozzi a rico:Person ;
     rdfs:label "Livio Schiozzi"@it ;
-    = <https://www.wikidata.org/wiki/Q16573165> ;
+    owl:sameAs <https://www.wikidata.org/wiki/Q16573165> ;
     foaf:familyName "Schiozzi"@it ;
     foaf:givenName "Livio"@it ;
     foaf:name "Livio Schiozzi"@it .
 
 dta:renRevival a rico:Concept ;
     rdfs:label "Architettura neorinascimentale"@it ;
-    = <http://vocab.getty.edu/aat/300021464> .
+    owl:sameAs <http://vocab.getty.edu/aat/300021464> .
 
 dta:ronchiAcceptance a itdt:AcceptancePhase ;
     itdt:isOrWasProjectPhaseOf dta:Ronchi .
@@ -6025,11 +6026,11 @@ dta:1967-08-05 a rico:SingleDate ;
 
 dta:archModel a rico:Concept ;
     rdfs:label "plastico"@it ;
-    = <http://vocab.getty.edu/aat/300379809> .
+    owl:sameAs <http://vocab.getty.edu/aat/300379809> .
 
 dta:beach a rico:Concept ;
     rdfs:label "spiaggia"@it ;
-    = <http://vocab.getty.edu/aat/300008819> .
+    owl:sameAs <http://vocab.getty.edu/aat/300008819> .
 
 dta:itdt11502 a rico:RecordSet ;
     rico:conditionsOfAccess "I documenti possono essere consultati liberamente. "@it ;
@@ -6070,7 +6071,7 @@ dta:lloydTriestinoAcceptance a itdt:AcceptancePhase ;
 
 dta:railing a rico:Concept ;
     rdfs:label "ringhiera"@it ;
-    = <http://vocab.getty.edu/aat/300002018> .
+    owl:sameAs <http://vocab.getty.edu/aat/300002018> .
 
 dta:sanLuigiAcceptance a itdt:AcceptancePhase ;
     itdt:isOrWasProjectPhaseOf dta:SanLuigi .
@@ -6088,7 +6089,7 @@ dta:2000s a rico:DateRange ;
 
 dta:construction a rico:Concept ;
     rdfs:label "costruzione"@it ;
-    = <http://vocab.getty.edu/aat/300054608> .
+    owl:sameAs <http://vocab.getty.edu/aat/300054608> .
 
 dta:fotoOmnia a rico:CorporateBody ;
     rdfs:label "Foto Omnia"@it ;
@@ -6227,7 +6228,7 @@ Sottofascicolo ITDT11809 con i lucidi  degli elaborati grafici dello stato di fa
 
 dta:nave a rico:Concept ;
     rdfs:label "navata"@it ;
-    = <http://vocab.getty.edu/aat/300004627> .
+    owl:sameAs <http://vocab.getty.edu/aat/300004627> .
 
 dta:piccoloSilani a rico:Person ;
     rdfs:label "Piccolo Silani"@it ;
@@ -6236,7 +6237,7 @@ dta:piccoloSilani a rico:Person ;
 
 dta:publicHousing a rico:Concept ;
     rdfs:label "casa popolare"@it ;
-    = <http://vocab.getty.edu/aat/300000323> .
+    owl:sameAs <http://vocab.getty.edu/aat/300000323> .
 
 dta:1953 a rico:SingleDate ;
     rico:certainty "certa"@it ;
@@ -6343,7 +6344,7 @@ dta:Conti a itdt:ArchitecturalProject ;
 
 dta:vault a rico:Concept ;
     rdfs:label "volta"@it ;
-    = <http://vocab.getty.edu/aat/300001324> .
+    owl:sameAs <http://vocab.getty.edu/aat/300001324> .
 
 dta:verdiAnalysis a itdt:AnalysisPhase ;
     itdt:isOrWasProjectPhaseOf dta:Verdi .
@@ -6517,7 +6518,7 @@ dta:1955 a rico:SingleDate ;
 
 dta:operaHouse a rico:Concept ;
     rdfs:label "teatro lirico"@it ;
-    = <http://vocab.getty.edu/aat/300007104> .
+    owl:sameAs <http://vocab.getty.edu/aat/300007104> .
 
 dta:arduinoPozzar a rico:Person ;
     rdfs:label "Arduino Pozzar"@it ;
@@ -6526,15 +6527,15 @@ dta:arduinoPozzar a rico:Person ;
 
 dta:archDrawing a rico:Concept ;
     rdfs:label "disegno architettonico"@it ;
-    = <http://vocab.getty.edu/aat/300034787> .
+    owl:sameAs <http://vocab.getty.edu/aat/300034787> .
 
 dta:church a rico:Concept ;
     rdfs:label "chiesa"@it ;
-    = <http://vocab.getty.edu/aat/300007466> .
+    owl:sameAs <http://vocab.getty.edu/aat/300007466> .
 
 dta:archPhotography a rico:Concept ;
     rdfs:label "fotografia d'architettura"@it ;
-    = <http://vocab.getty.edu/aat/300435151> .
+    owl:sameAs <http://vocab.getty.edu/aat/300435151> .
 
 dta:itdt201 a rico:RecordSet ;
     rico:conditionsOfAccess "I documenti possono essere consultati liberamente. "@it ;
