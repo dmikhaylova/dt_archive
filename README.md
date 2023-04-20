@@ -5,3 +5,6 @@ the extension of it, [ITDT-Ontology](https://dmikhaylova.github.io/itdt_ontology
 
 # The digital archive
 The data in this graph is represented in [the digital archive](http://dinotamburini.it).
+
+# License
+The dataset is licensed under [Creative Commons CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (Attribution-ShareAlike).
